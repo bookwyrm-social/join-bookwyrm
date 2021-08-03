@@ -19,7 +19,7 @@
     <meta name="twitter:image:alt" content="BookWyrm Logo">
 </head>
 <body>
-<nav class="navbar container" aria-label="main navigation">
+<nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
             <img class="image logo" src="static/images/logo-small.png" alt="BookWyrm Logo">
@@ -44,39 +44,143 @@
     </div>
 </nav>
 
+<div class="container is-max-desktop">
+    <section class="section">
+        <header class="block has-text-centered">
+            <h1 class="title is-1">Welcome to BookWyrm</h1>
+            <p class="subtitle">Social Reading and Reviewing, Decentralized</p>
+        </header>
+        <p class="block">
+            BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma.
+        </p>
 
-<div class="section container">
-    <p>
-        BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma.
-    </p>
+        <div class="block pt-5">
+            <section class="level is-mobile">
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
+                        <p class="heading">Decentralized</p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
+                        <p class="heading">Friendly</p>
+                    </div>
+                </div>
+                <div class="level-item has-text-centered">
+                    <div>
+                        <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
+                        <p class="heading">Anti-Corporate</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 
-    <div class="section">
-        <section class="level is-mobile">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
-                    <p class="heading">Decentralized</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
-                    <p class="heading">Friendly</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
-                    <p class="heading">Anti-Corporate</p>
-                </div>
-            </div>
-        </section>
+    <div class="section p-4 has-text-centered">
+        <button class="button is-success is-rounded">Join BookWyrm</button>
     </div>
+
+    <section class="section">
+	<div class="tile is-ancestor">
+	    <div class="tile is-parent is-7">
+		<article class="tile is-child notification p-0">
+		    <figure class="image">
+			<img src="static/images/book-grid.png" alt="A grid of book covers">
+		    </figure>
+		</article>
+	    </div>
+	    <div class="tile is-parent">
+		<article class="tile is-child notification is-info">
+		    <div class="content">
+			<p class="title">Track your reading</p>
+			<p class="subtitle">Flexible ways to share your thoughts.</p>
+			<div class="content">
+			    BookWyrm lets users write reviews, and post comments and quotes as you go.
+			</div>
+		    </div>
+		</article>
+	    </div>
+	</div>
+
+	<div class="tile is-ancestor">
+	    <div class="tile is-parent">
+		<article class="tile is-child notification is-info">
+		    <div class="content">
+			<p class="title">Discover books</p>
+			<p class="subtitle">Flexible ways to share your thoughts.</p>
+			<div class="content">
+			    BookWyrm lets users write reviews, and post comments and quotes as you go.
+			</div>
+		    </div>
+		</article>
+	    </div>
+	    <div class="tile is-parent is-9">
+		<article class="tile is-child notification p-0 has-background-white">
+		    <figure class="image">
+			<img src="static/images/phone.png" alt="The preview for 'Ancillary Justice' by Ann Leckie on an iPhone screen.">
+		    </figure>
+		</article>
+	    </div>
+	</div>
+
+	<div class="tile is-ancestor">
+	    <div class="tile is-parent is-5">
+		<article class="tile is-child notification p-0">
+		    <figure class="image">
+			<img src="static/images/compose.png" alt="The compose status box">
+		    </figure>
+		</article>
+	    </div>
+	    <div class="tile is-parent">
+		<article class="tile is-child notification is-info">
+		    <div class="content">
+			<p class="title">Share your thoughts</p>
+			<p class="subtitle">Flexible ways to share your thoughts.</p>
+			<div class="content">
+			    BookWyrm lets users write reviews, and post comments and quotes as you go.
+			</div>
+		    </div>
+		</article>
+	    </div>
+	</div>
+    </section>
 </div>
 
-<footer class="footer">
-    <div class="container">
-        footer
+<footer id="contentinfo" class="footer">
+    <div class="container is-max-desktop">
+        <div class="columns">
+            <div class="column content">
+                <p>
+                    <strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href="https://www.mousereeve.com/">Mouse Reeve</a>.
+                </p>
+                <p>
+                    Support BookWyrm on <a href="https://www.patreon.com/bookwyrm" target="_blank">Patreon</a>.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="title is-6">Get Involved</h3>
+                <p>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm on GitHub</a>
+                </p>
+                <p>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribute to this page</a>
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="title is-6">Learn more</h3>
+                <p>
+                    <a href="https://docs.joinbookwyrm.com">Documentation</a>
+                </p>
+                <p>
+                    <a href="mailto:mousereeve@riseup.net">Contact maintainer</a>
+                </p>
+                <p>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">License</a>
+                </p>
+            </div>
+        </div>
     </div>
 </footer>
 
