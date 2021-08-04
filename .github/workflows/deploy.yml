@@ -26,4 +26,4 @@ jobs:
         options: ''
         ssh_options: ''
         src: 'site/'
-        dest: 'mouse@joinbookwyrm.com:/var/www/join-bookwyrm/html'
+        dest: 'mouse@docs.joinbookwyrm.com:/var/www/join-bookwyrm/html'
