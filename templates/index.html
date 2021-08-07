@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="section">
+    <header class="block has-text-centered">
+        <h1 class="title is-1">Welcome to BookWyrm</h1>
+        <p class="subtitle">Social Reading and Reviewing, Decentralized</p>
+    </header>
+    <p class="block">
+        BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma.
+    </p>
+
+    <div class="block pt-5">
+        <section class="level is-mobile">
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
+                    <p class="heading">Decentralized</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
+                    <p class="heading">Friendly</p>
+                </div>
+            </div>
+            <div class="level-item has-text-centered">
+                <div>
+                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
+                    <p class="heading">Anti-Corporate</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<div class="section p-4 has-text-centered">
+    <a href="/instances" class="button is-success is-rounded">Join BookWyrm</a>
+</div>
+
+<section class="section">
+    <div class="tile is-ancestor pb-5">
+        <div class="tile is-parent is-7">
+            <article class="tile is-child notification p-0">
+                <figure class="image">
+                    <img src="/static/images/book-grid.png" alt="A grid of book covers">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+                <div class="content">
+                    <p class="title">Track your reading</p>
+                    <p class="subtitle">And what your friends are reading</p>
+                    <div class="content">
+                        Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal.
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="tile is-ancestor pb-5">
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+                <div class="content">
+                    <p class="title">Discover books</p>
+                    <p class="subtitle">Recommendations from people, not algorithms</p>
+                    <div class="content">
+                        See what your friends are reading, and get opinions from your community.
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="tile is-parent is-8">
+            <article class="tile is-child notification p-0 has-background-white">
+                <figure class="image">
+                    <img src="/static/images/phone.png" alt="The preview for 'Ancillary Justice' by Ann Leckie on an iPhone screen.">
+                </figure>
+            </article>
+        </div>
+    </div>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-5">
+            <article class="tile is-child notification p-0">
+                <figure class="image">
+                    <img src="/static/images/compose.png" alt="The compose status box">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+                <div class="content">
+                    <p class="title">Share your thoughts</p>
+                    <p class="subtitle">The way you want to</p>
+                    <div class="content">
+                        Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings.
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+{% endblock %}
