@@ -18,121 +18,40 @@
     </div>
 
     <div class="block columns is-multiline">
+        {% for instance in instances %}
         <div class="column is-4">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                    <a href="https://bookwyrm.social/">bookWyrm.social</a>
+                  <a href="{{ instance.path }}">{{ instance.name }}</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
                   <div class="columns is-mobile content">
                       <div class="column is-5">
-                          <img src="https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png" alt="Instance logo">
+                          <img src="{{ instance.logo }}" alt="Instance logo">
                       </div>
                       <div class="column is-flex is-flex-direction-column">
-                          <p class="is-flex-grow-1">Flagship instance, general purpose</p>
+                          <p class="is-flex-grow-1">{{ instance.description }}</p>
                           <div>
-                              <a href="https://bookwyrm.social/" class="button is-success is-rounded">Join</a>
+                              {% if instance.open_registration %}
+                                  <a href="{{ instance.path }}" class="button is-success is-rounded">Join</a>
+                              {% else %}
+                                  <a href="{{ instance.path }}" class="button is-link is-rounded">Request Invite</a>
+                              {% endif %}
                           </div>
                       </div>
                   </div>
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">661 users</span>
-                    <span class="card-footer-item">Open registration</span>
-                    <a href="https://www.bookwyrm.social/about" class="card-footer-item">Learn More</a>
+                    <span class="card-footer-item">{{ instance.users }} users</span>
+                    <span class="card-footer-item">{% if instance.open_registration %}Open registration{% else %}Registration by request{% endif %}</span>
+                    <a href="{{ instance.path }}about" class="card-footer-item">Learn More</a>
                 </footer>
             </div>
         </div>
-
-        <div class="column is-4">
-            <div class="card is-stretchable">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a href="https://wyrms.de/">wyrms.de</a>
-                  </p>
-                </header>
-                <div class="card-content is-flex-grow-1 is-flex">
-                  <div class="columns is-mobile content">
-                      <div class="column is-5">
-                          <img src="https://wyrms.de/images/logos/wyrm_bright_300.png" alt="Instance logo">
-                      </div>
-                      <div class="column is-flex is-flex-direction-column">
-                          <p class="is-flex-grow-1">The Dispossessed (Le Guin) and everything else</p>
-                          <div>
-                              <a href="https://wyrms.de/" class="button is-link is-rounded">Request Invite</a>
-                          </div>
-                      </div>
-                  </div>
-
-                </div>
-                <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">17 users</span>
-                    <span class="card-footer-item">Registration by request</span>
-                    <a href="https://wyrms.de/about" class="card-footer-item">Learn More</a>
-                </footer>
-            </div>
-        </div>
-
-        <div class="column is-4">
-            <div class="card is-stretchable">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a href="https://cutebook.club/">cutebook.club</a>
-                  </p>
-                </header>
-                <div class="card-content is-flex-grow-1 is-flex">
-                  <div class="columns is-mobile content">
-                      <div class="column is-5">
-                          <img src="https://cutebook.club/images/logos/logo.png" alt="Instance logo">
-                      </div>
-                      <div class="column is-flex is-flex-direction-column">
-                          <p class="is-flex-grow-1">General purpose</p>
-                          <div>
-                              <a href="https://cutebook.club/" class="button is-success is-rounded">Join</a>
-                          </div>
-                      </div>
-                  </div>
-
-                </div>
-                <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">9 users</span>
-                    <span class="card-footer-item">Open registration</span>
-                    <a href="https://cutebook.club/about" class="card-footer-item">Learn More</a>
-                </footer>
-            </div>
-        </div>
-
-        <div class="column is-4">
-            <div class="card is-stretchable">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <a href="https://book.dansmonorage.blue/">在我书目/Dans Mon Catalogue</a>
-                  </p>
-                </header>
-                <div class="card-content is-flex-grow-1 is-flex">
-                  <div class="columns is-mobile content">
-                      <div class="column is-5">
-                          <img src="https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg" alt="Instance logo">
-                      </div>
-                      <div class="column is-flex is-flex-direction-column">
-                          <p class="is-flex-grow-1">General purpose</p>
-                          <div>
-                              <a href="https://book.dansmonorage.blue/" class="button is-success is-rounded">Join</a>
-                          </div>
-                      </div>
-                  </div>
-
-                </div>
-                <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">4 users</span>
-                    <span class="card-footer-item">Open registration</span>
-                    <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Learn More</a>
-                </footer>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
 {% endblock %}
