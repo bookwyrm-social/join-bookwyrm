@@ -10,6 +10,7 @@ env = Environment(
     loader=FileSystemLoader("templates/")
 )
 for path in paths:
+    print("Generating", path)
     template_string = open(f"templates/{path}", 'r').read()
     template = env.from_string(template_string)
 
