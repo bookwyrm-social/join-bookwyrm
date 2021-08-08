@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-08 22:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/index.html:5
+msgid "Welcome to BookWyrm"
+msgstr "Bienvenue sur BookWyrm"
+
+#: templates/index.html:6
+msgid "Social Reading and Reviewing, Decentralized"
+msgstr "Lecture et critique de livres, de manière sociale et décentralisée"
+
+#: templates/instances/index.html:5 templates/index.html:38
+msgid "Join BookWyrm"
+msgstr "Rejoins BookWyrm"
+
+#: templates/instances/index.html:6
+msgid "A Network of Small, Self-Directed Communities"
+msgstr "Un réseau de petites communautés auto-dirigées"
+
+#: templates/instances/index.html:13
+msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
+msgstr "Au lieu d’un seul énorme site BookWyrm, il y a plein d’instances de BookWyrm qui peuvent interagir les unes avec les autres. Profitez des bénéfices d’une petite communauté qui a ta confiance, tout en interagissant avec un réseau large de nouvelles personnes intéressantes (selon vos envies)."
+
+#: templates/instances/index.html:16
+msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
+msgstr "Ça veut dire qu’il n’y a pas juste un endroit pour s’inscrire&nbsp;! Vous pouvez sélectionner une instance qui a l’air de correspondre à vos intérêts, ou juste essayer au hasard — elles sont toutes très sympa."
+
+#: templates/instances/index.html:38
+msgid "Join instance"
+msgstr "Rejoindre l’instance"
+
+#: templates/instances/index.html:40
+msgid "Request Invite"
+msgstr "Demander une invitation"
+
+#: templates/instances/index.html:48
+msgid "users"
+msgstr "membres"
+
+#: templates/instances/index.html:49
+msgid "Open registration"
+msgstr "Inscriptions ouvertes"
+
+#: templates/instances/index.html:49
+msgid "Registration by request"
+msgstr "Inscription par invitation"
+
+#: templates/instances/index.html:50
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: templates/index.html:10
+msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma."
+msgstr "BookWyrm est un réseau social pour garder la trace de vos lectures, parler de livres, écrire des critiques et découvrir quoi lire ensuite. La fédération permet aux lecteurs et aux lectrices de rejoindre des petites communautés de confiance, interconnectées, et avec d’autres services ActivityPub comme Mastodon ou Pleroma."
+
+#: templates/index.html:18
+msgid "Decentralized"
+msgstr "Décentralisé"
+
+#: templates/index.html:24
+msgid "Friendly"
+msgstr "Sympa"
+
+#: templates/index.html:30
+msgid "Anti-Corporate"
+msgstr "Anti-commercial"
+
+#: templates/index.html:53
+msgid "Track your reading"
+msgstr "Gardez la trace de vos lectures"
+
+#: templates/index.html:54
+msgid "And what your friends are reading"
+msgstr "et de celles d’autres lecteurs et lectrices"
+
+#: templates/index.html:56
+msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
+msgstr "Mettez à jour votre statut de lecture quand vous commencez et terminez des livres, publiez des mises à jour au fur et à mesure, et définissez un but annuel de livres lus."
+
+#: templates/index.html:74
+msgid "Discover books"
+msgstr "Découvre des livres"
+
+#: templates/index.html:75
+msgid "Recommendations from people, not algorithms"
+msgstr "Les recommandations viennent des gens, et non des algorithmes"
+
+#: templates/index.html:77
+msgid "See what your friends are reading, and get opinions from your community."
+msgstr "Restez au courant de ce que vos ami·es lisent, et lisez les opinions de votre communauté."
+
+#: templates/index.html:95
+msgid "Share your thoughts"
+msgstr "Partagez votre avis"
+
+#: templates/index.html:96
+msgid "The way you want to"
+msgstr "comme vous le voulez"
+
+#: templates/index.html:98
+msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
+msgstr "Écrivez des critiques ou publiez des commentaires en passant, et contrôlez qui a accès à vos publications grâce à des réglages avancé."
+
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr "BookWyrm : Lecture et critique de livres, de manière sociale et décentralisée"
+
+#: templates/layout.html:35
+msgid "Join"
+msgstr "Rejoindre"
+
+#: templates/layout.html:38
+msgid "Support"
+msgstr "Assistance"
+
+#: templates/layout.html:41
+msgid "Code"
+msgstr "Code"
+
+#: templates/layout.html:44 templates/layout.html:77 templates/layout.html:94
+msgid "Documentation"
+msgstr "Documentation"
+
+#: templates/layout.html:59 templates/layout.html:76
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> est un logiciel collaboratif, anti-commercial maintenu par <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+
+#: templates/layout.html:62 templates/layout.html:79
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr "Soutenir BookWyrm sur <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+
+#: templates/layout.html:66 templates/layout.html:83
+msgid "Get Involved"
+msgstr "Participer"
+
+#: templates/layout.html:68 templates/layout.html:85
+msgid "BookWyrm on GitHub"
+msgstr "BookWyrm sur GitHub"
+
+#: templates/layout.html:71 templates/layout.html:88
+msgid "Contribute to this page"
+msgstr "Contribuer à cette page"
+
+#: templates/layout.html:75 templates/layout.html:92
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: templates/layout.html:80 templates/layout.html:97
+msgid "Contact maintainer"
+msgstr "Contact"
+
+#: templates/layout.html:83 templates/layout.html:100
+msgid "License"
+msgstr "License"
