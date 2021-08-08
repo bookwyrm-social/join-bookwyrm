@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# exit on errors
+set -e
+
+CMD=$1
+if [ -n "$CMD" ]; then
+    shift
+fi
+
+# show commands as they're executed
+set -x
+
+case "$CMD" in
+    site:compile)
+        python3 generate.py
+        ;;
+    messages:generate)
+        mkdir -p locale/$@/LC_MESSAGES && touch locale/$@/LC_MESSAGES/messages.po
+        xgettext --no-wrap --join-existing --from-code=UTF-8 --keyword=_ --output=locale/$@/LC_MESSAGES/messages.po `find templates -name "*.html"`
+        sed -i "" "s/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g" locale/$@/LC_MESSAGES/messages.po
+        ;;
+    messages:compile)
+        msgfmt locale/$@/LC_MESSAGES/messages.po -o locale/$@/LC_MESSAGES/messages.mo
+        ;;
+    *)
+        set +x # No need to echo echo
+        echo "Unrecognised command. Try:"
+        echo "    site:compile"
+        echo "    messages:generate [locale]"
+        echo "    messages:compile [locale]"
+
+        ;;
+esac
