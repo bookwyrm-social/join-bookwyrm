@@ -99,5 +99,26 @@
     </div>
 </footer>
 
+<script type="text/javascript">
+    (function() {
+        var languageSelector = document.getElementById("language_selection");
+        languageSelector.onchange = function(event) {
+            var current_locale = "{{ locale['slug']|safe }}";
+            var current_location = window.location.pathname;
+
+            var locale_index = current_location.indexOf(current_locale);
+            var new_location = "/" + event.target.value;
+
+            if (locale_index) {
+                new_location +=  current_location.slice(locale_index + 3);
+            } else {
+                new_location +=  current_location.slice(1);
+            }
+
+            window.location = new_location;
+        }
+    })()
+</script>
+
 </body>
 </html>
