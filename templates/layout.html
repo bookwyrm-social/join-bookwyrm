@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ locale['code'][:2]|default('en') }}">
 <head>
-    <title>BookWyrm: Social Reading and Reviewing</title>
+    <title>{{ _("BookWyrm: Social Reading and Reviewing") }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -10,10 +10,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="">
-    <meta name="og:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="og:description" content="">
+    <meta name="twitter:title" content="{{ _("Join Bookwyrm!") }}">
+    <meta name="og:title" content="{{ _("Join Bookwyrm!") }}">
+    <meta name="twitter:description" content="{{ _("BookWyrm is a decentralized social network for tracking your reading, talking about books, writing reviews, and discovering what to read next.") }}">
+    <meta name="og:description" content="{{ _("BookWyrm is a ecentralized ssocial network for tracking your reading, talking about books, writing reviews, and discovering what to read next.") }}">
 
     <meta name="twitter:image" content="">
     <meta name="og:image" content="">
@@ -24,25 +24,37 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-            <img class="image logo" src="/static/images/logo-small.png" alt="BookWyrm Logo">
+        <a class="navbar-item" href="/{{ locale["slug"] }}">
+            <img class="image logo" src="/static/images/logo-small.png" alt="{{ _("Go back to the homepage") }}">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/instances" class="navbar-item">
-                <span class="button is-success">Join</span>
+            <a href="/{{ locale["slug"] }}instances" class="navbar-item">
+                <span class="button is-success">{{ _("Join") }}</span>
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Support
+                {{ _("Support") }}
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Code
+                {{ _("Code") }}
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Documentation
+                {{ _("Documentation") }}
             </a>
+        </div>
+    </div>
+    <div class="navbar-end">
+        <div class="navbar-item">
+
+            <div class="select">
+                <select aria-label="{{ _("Select a language") }}" id="language_selection">
+                    {% for option in locales_metadata %}
+                    <option value="{{ option['slug'] }}" {% if option['slug'] == locale['slug'] %}selected{% endif %}>{{ option['name'] }}</option>
+                    {% endfor %}
+              </select>
+            </div>
         </div>
     </div>
 </nav>
@@ -56,31 +68,31 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href="https://www.mousereeve.com/">Mouse Reeve</a>.
+                    {{ _("<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.") }}
                 </p>
                 <p>
-                    Support BookWyrm on <a href="https://www.patreon.com/bookwyrm" target="_blank">Patreon</a>.
-                </p>
-            </div>
-            <div class="column">
-                <h3 class="title is-6">Get Involved</h3>
-                <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm on GitHub</a>
-                </p>
-                <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribute to this page</a>
+                    {{ _("Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.") }}
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Learn more</h3>
+                <h3 class="title is-6">{{ _("Get Involved") }}</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Documentation</a>
+                    <a href="https://github.com/bookwyrm-social">{{ _("BookWyrm on GitHub") }}</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Contact maintainer</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">{{ _("Contribute to this page") }}</a>
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="title is-6">{{ _("Learn more") }}</h3>
+                <p>
+                    <a href="https://docs.joinbookwyrm.com">{{ _("Documentation") }}</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">License</a>
+                    <a href="mailto:mousereeve@riseup.net">{{ _("Contact maintainer") }}</a>
+                </p>
+                <p>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">{{ _("License") }}</a>
                 </p>
             </div>
         </div>

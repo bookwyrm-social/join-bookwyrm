@@ -1,10 +1,15 @@
 """ generate html files """
-from jinja2 import Environment, FileSystemLoader
+import os
+import i18n
 import requests
+from jinja2 import Environment, FileSystemLoader
 
 env = Environment(
-    loader=FileSystemLoader("templates/")
+    loader=FileSystemLoader("templates/"),
+    extensions=['jinja2.ext.i18n']
 )
+
+env.install_gettext_translations(i18n)
 
 def load_instances():
     """update the list of instances"""
@@ -65,12 +70,30 @@ paths = [
 
 
 if __name__ == "__main__":
-
     instance_data = load_instances()
-    for (path, data_loader) in paths:
-        print("Generating", path)
-        template_string = open(f"templates/{path}", 'r').read()
-        template = env.from_string(template_string)
 
-        with open(f"site/{path}", "w") as render_file:
-            render_file.write(template.render(**data_loader()))
+    for locale in i18n.locales_metadata:
+        i18n.setLocale(locale['code'])
+
+        localized_site_path = "site/"
+        if not locale['code'] == "en_US":
+            localized_site_path = "site/%s" % locale['slug']
+
+        for (path, data_loader) in paths:
+            print("Generating", "%s%s" % (localized_site_path, path))
+            template_string = open(f"templates/{path}", "r").read()
+            template = env.from_string(template_string)
+
+            localized_dirs = ("%s%s" % (localized_site_path, path))
+            localized_dirs = localized_dirs[:localized_dirs.rfind("/")]
+            if not os.path.exists(localized_dirs):
+                os.makedirs(localized_dirs)
+
+            with open(f"{localized_site_path}{path}", "w+") as render_file:
+                render_file.write(
+                    template.render(
+                        locale = locale,
+                        locales_metadata = i18n.locales_metadata,
+                        **data_loader(),
+                    )
+                )
