@@ -3,3 +3,10 @@
     flex-direction: column;
     height: 100%;
 }
+
+.button.is-multiline {
+  min-height: 2.25em;
+  white-space: unset;
+  height: auto;
+  flex-direction: column;
+}
