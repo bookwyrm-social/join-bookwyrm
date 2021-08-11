@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-08 22:00+0200\n"
+"POT-Creation-Date: 2021-08-11 10:06-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,8 +66,8 @@ msgid "Learn More"
 msgstr "En savoir plus"
 
 #: templates/index.html:10
-msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma."
-msgstr "BookWyrm est un réseau social pour garder la trace de vos lectures, parler de livres, écrire des critiques et découvrir quoi lire ensuite. La fédération permet aux lecteurs et aux lectrices de rejoindre des petites communautés de confiance, interconnectées, et avec d’autres services ActivityPub comme Mastodon ou Pleroma."
+msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "BookWyrm est un réseau social pour garder la trace de vos lectures, parler de livres, écrire des critiques et découvrir quoi lire ensuite. La fédération permet aux lecteurs et aux lectrices de rejoindre des petites communautés de confiance, interconnectées, et avec d’autres services <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> comme <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> ou <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -134,37 +134,38 @@ msgid "Code"
 msgstr "Code"
 
 #: templates/layout.html:44 templates/layout.html:77 templates/layout.html:94
+#: templates/layout.html:89
 msgid "Documentation"
 msgstr "Documentation"
 
-#: templates/layout.html:59 templates/layout.html:76
+#: templates/layout.html:59 templates/layout.html:76 templates/layout.html:71
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 msgstr "<strong>BookWyrm</strong> est un logiciel collaboratif, anti-commercial maintenu par <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
-#: templates/layout.html:62 templates/layout.html:79
+#: templates/layout.html:62 templates/layout.html:79 templates/layout.html:74
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 msgstr "Soutenir BookWyrm sur <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 
-#: templates/layout.html:66 templates/layout.html:83
+#: templates/layout.html:66 templates/layout.html:83 templates/layout.html:78
 msgid "Get Involved"
 msgstr "Participer"
 
-#: templates/layout.html:68 templates/layout.html:85
+#: templates/layout.html:68 templates/layout.html:85 templates/layout.html:80
 msgid "BookWyrm on GitHub"
 msgstr "BookWyrm sur GitHub"
 
-#: templates/layout.html:71 templates/layout.html:88
+#: templates/layout.html:71 templates/layout.html:88 templates/layout.html:83
 msgid "Contribute to this page"
 msgstr "Contribuer à cette page"
 
-#: templates/layout.html:75 templates/layout.html:92
+#: templates/layout.html:75 templates/layout.html:92 templates/layout.html:87
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: templates/layout.html:80 templates/layout.html:97
+#: templates/layout.html:80 templates/layout.html:97 templates/layout.html:92
 msgid "Contact maintainer"
 msgstr "Contact"
 
-#: templates/layout.html:83 templates/layout.html:100
+#: templates/layout.html:83 templates/layout.html:100 templates/layout.html:95
 msgid "License"
 msgstr "License"
