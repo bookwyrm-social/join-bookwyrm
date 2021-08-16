@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-15 17:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/index.html:5
+msgid "Welcome to BookWyrm"
+msgstr "欢迎使用 BookWyrm"
+
+#: templates/index.html:6
+msgid "Social Reading and Reviewing, Decentralized"
+msgstr "社交的去中心化的阅读与书评"
+
+#: templates/index.html:10
+msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "通过 BookWyrm 社交网络，你可以记录阅读、谈论书籍、撰写书评并发现供阅读的下一本书。BookWyrm 用户们可以进入小而可靠的社区，而互联功能让这些社区之间可以互相连结，可以与其它 <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> 服务连结，如 <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> 和 <a href='http://pleroma.social/' target='_blank'>Pleroma</a>。"
+
+#: templates/index.html:18
+msgid "Decentralized"
+msgstr "去中心化"
+
+#: templates/index.html:24
+msgid "Friendly"
+msgstr "友好"
+
+#: templates/index.html:30
+msgid "Anti-Corporate"
+msgstr "反企业"
+
+#: templates/index.html:38 templates/instances/index.html:5
+msgid "Join BookWyrm"
+msgstr "加入 BookWyrm"
+
+#: templates/index.html:53
+msgid "Track your reading"
+msgstr "记录你的阅读"
+
+#: templates/index.html:54
+msgid "And what your friends are reading"
+msgstr "以及你的友人们阅读的"
+
+#: templates/index.html:56
+msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
+msgstr "在开始阅读、结束阅读时更新你的阅读状态，在继续阅读时发布状态，并设定本年阅读目标。"
+
+#: templates/index.html:74
+msgid "Discover books"
+msgstr "发现书籍"
+
+#: templates/index.html:75
+msgid "Recommendations from people, not algorithms"
+msgstr "来自人们的推荐，而非来自算法的"
+
+#: templates/index.html:77
+msgid "See what your friends are reading, and get opinions from your community."
+msgstr "看看朋友们在读什么，了解社区的各种看法。"
+
+#: templates/index.html:95
+msgid "Share your thoughts"
+msgstr "分享你的想法"
+
+#: templates/index.html:96
+msgid "The way you want to"
+msgstr "用你所想的方式"
+
+#: templates/index.html:98
+msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
+msgstr "在阅读中撰写书评，抑或是发布随心的评论，并使用细致的隐私设定控制能看到发布的人的范围。"
+
+#: templates/instances/index.html:6
+msgid "A Network of Small, Self-Directed Communities"
+msgstr "小而自主的社区网络"
+
+#: templates/instances/index.html:13
+msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
+msgstr "我们不是只有一个大的 BookWrym 网站，而是有着许多可以无缝彼此互动的 BookWyrm 实例。你既可以受益于你信任的小社区，同时（当你想要的时候）又依然可以与庞大网络中的有趣的新的人们互动。"
+
+#: templates/instances/index.html:16
+msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
+msgstr "这意味着可以注册的站点并不仅一处！你可以选择听起来与你的兴趣很合得来的实例，或者也可以直接随便尝试一个实例&mdash;&mdash;它们都非常不错。"
+
+#: templates/instances/index.html:38
+msgid "Join instance"
+msgstr "加入实例"
+
+#: templates/instances/index.html:40
+msgid "Request Invite"
+msgstr "申请邀请"
+
+#: templates/instances/index.html:48
+msgid "users"
+msgstr "用户"
+
+#: templates/instances/index.html:49
+msgid "Open registration"
+msgstr "开放注册"
+
+#: templates/instances/index.html:49
+msgid "Registration by request"
+msgstr "邀请注册"
+
+#: templates/instances/index.html:50
+msgid "Learn More"
+msgstr "了解更多"
+
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr "BookWyrm：社交的阅读与书评"
+
+#: templates/layout.html:35
+msgid "Join"
+msgstr "加入"
+
+#: templates/layout.html:38
+msgid "Support"
+msgstr "支持"
+
+#: templates/layout.html:41
+msgid "Code"
+msgstr "代码"
+
+#: templates/layout.html:44 templates/layout.html:89
+msgid "Documentation"
+msgstr "文档"
+
+#: templates/layout.html:71
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> 是协力完成的、反企业的软件，由 <a href='https://www.mousereeve.com/'>Mouse Reeve</a> 维护。"
+
+#: templates/layout.html:74
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr "在 <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a> 上支持 BookWyrm 。"
+
+#: templates/layout.html:78
+msgid "Get Involved"
+msgstr "参与"
+
+#: templates/layout.html:80
+msgid "BookWyrm on GitHub"
+msgstr "GitHub 上的 BookWyrm"
+
+#: templates/layout.html:83
+msgid "Contribute to this page"
+msgstr "改善此页面"
+
+#: templates/layout.html:87
+msgid "Learn more"
+msgstr "了解更多"
+
+#: templates/layout.html:92
+msgid "Contact maintainer"
+msgstr "联系维护者"
+
+#: templates/layout.html:95
+msgid "License"
+msgstr "许可证"
