@@ -17,7 +17,7 @@ case "$CMD" in
         ;;
     messages:generate)
         mkdir -p locale/$@/LC_MESSAGES && touch locale/$@/LC_MESSAGES/messages.po
-        xgettext --no-wrap --join-existing --from-code=UTF-8 --keyword=_ --output=locale/$@/LC_MESSAGES/messages.po `find templates -name "*.html"`
+        xgettext --no-wrap --join-existing --language=C --from-code=UTF-8 --keyword=_ --output=locale/$@/LC_MESSAGES/messages.po `find templates -name "*.html"`
         sed -i -e "s/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g" locale/$@/LC_MESSAGES/messages.po
         ;;
     messages:compile)
