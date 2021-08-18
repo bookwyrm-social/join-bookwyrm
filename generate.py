@@ -48,21 +48,29 @@ def load_instances():
             "description": "General purpose",
         },
     ]
+    print("  Fetching instance statistics:")
     for instance in instances:
-        response = requests.get("{:s}nodeinfo/2.0".format(instance["path"]))
-        data = response.json()
-        instance["users"] = data["usage"]["users"]["activeMonth"]
-        instance["open_registration"] = data["openRegistrations"]
-    return {"instances": instances}
-
-paths = [
-    ["index.html", lambda: {}],
-    ["instances/index.html", load_instances],
-]
-
+        print("  - Fetching: %s" % instance["name"])
+        try:
+            response = requests.get("{:s}nodeinfo/2.0".format(instance["path"]),
+                                    timeout=15)
+            data = response.json()
+            instance["users"] = data["usage"]["users"]["activeMonth"]
+            instance["open_registration"] = data["openRegistrations"]
+        except Exception as e:
+            print("    ! %s" % str(e))
+            print("    - Site could possibly be down. Please check it manually:")
+            print("    - Site url: %s" % instance["path"])
+            instance["users"] = "NaN"
+            instance["open_registration"] = False
+    return instances
 
 if __name__ == "__main__":
-    instance_data = load_instances()
+    instances = load_instances()
+    paths = [
+        ["index.html", lambda: {}],
+        ["instances/index.html", lambda: {"instances": instances}],
+    ]
 
     for locale in i18n.locales_metadata:
         i18n.setLocale(locale['code'])
@@ -72,7 +80,7 @@ if __name__ == "__main__":
             localized_site_path = "site/%s" % locale['slug']
 
         for (path, data_loader) in paths:
-            print("Generating", "%s%s" % (localized_site_path, path))
+            print("  Generating", "%s%s" % (localized_site_path, path))
             template_string = open(f"templates/{path}", "r").read()
             template = env.from_string(template_string)
 
