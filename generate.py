@@ -47,14 +47,6 @@ def load_instances():
             "contact_link": "https://mstd.dansmonorage.blue/@faketaoist",
             "description": "General purpose",
         },
-        {
-            "name": "bookclub.techstartups.space",
-            "path": "http://bookclub.techstartups.space/",
-            "logo": "http://bookclub.techstartups.space/images/logos/Webp.net-resizeimage.png",
-            "contact_name": "@advait@techstartups.space",
-            "contact_link": "https://techstartups.space/@advait",
-            "description": "Non-fiction",
-        },
     ]
     for instance in instances:
         response = requests.get("{:s}nodeinfo/2.0".format(instance["path"]))
