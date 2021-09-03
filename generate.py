@@ -47,6 +47,22 @@ def load_instances():
             "contact_link": "https://mstd.dansmonorage.blue/@faketaoist",
             "description": "General purpose",
         },
+        {
+            "name": "在我书目/Dans Mon Catalogue",
+            "path": "https://book.dansmonorage.blue/",
+            "logo": "https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg",
+            "contact_name": "@faketaoist@mstd.dansmonorage.blue",
+            "contact_link": "https://mstd.dansmonorage.blue/@faketaoist",
+            "description": "General purpose",
+        },
+        {
+            "name": "Y Not Read",
+            "path": "https://yyyyy.club/",
+            "logo": "https://mastomedia.fra1.digitaloceanspaces.com/static/images/logo.png",
+            "contact_name": "yyyyyadmin@protonmail.com",
+            "contact_link": "mailto:yyyyyadmin@protonmail.com",
+            "description": "General purpose",
+        }
     ]
     print("  Fetching instance statistics:")
     for instance in instances:
