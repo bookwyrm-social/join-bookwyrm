@@ -27,15 +27,12 @@
 
 .icon-patreon:before {
   content: "\e900";
-  color: #f96854;
 }
 .icon-twitter:before {
   content: "\e901";
-  color: #1da1f2;
 }
 .icon-mastodon:before {
   content: "\e902";
-  color: #3088d4;
 }
 .icon-github:before {
   content: "\e903";
