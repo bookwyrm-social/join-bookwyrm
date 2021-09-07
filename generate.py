@@ -14,6 +14,7 @@ env.install_gettext_translations(i18n)
 def load_instances():
     """update the list of instances"""
     # TODO: get this properly
+    # pylint: disable=line-too-long
     instance_data = [
         {
             "name": "bookwyrm.social",
@@ -71,7 +72,7 @@ def load_instances():
             print("    - Site url: %s" % instance["path"])
             instance["users"] = "NaN"
             instance["open_registration"] = False
-    return instances
+    return instance_data
 
 if __name__ == "__main__":
     instances = load_instances()
