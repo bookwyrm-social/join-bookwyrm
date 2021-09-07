@@ -1,8 +1,8 @@
 """ generate html files """
 import os
-import i18n
 import requests
 from jinja2 import Environment, FileSystemLoader
+import i18n
 
 env = Environment(
     loader=FileSystemLoader("templates/"),
@@ -14,7 +14,7 @@ env.install_gettext_translations(i18n)
 def load_instances():
     """update the list of instances"""
     # TODO: get this properly
-    instances = [
+    instance_data = [
         {
             "name": "bookwyrm.social",
             "path": "https://bookwyrm.social/",
@@ -57,7 +57,7 @@ def load_instances():
         }
     ]
     print("  Fetching instance statistics:")
-    for instance in instances:
+    for instance in instance_data:
         print("  - Fetching: %s" % instance["name"])
         try:
             response = requests.get("{:s}nodeinfo/2.0".format(instance["path"]),
@@ -65,7 +65,7 @@ def load_instances():
             data = response.json()
             instance["users"] = data["usage"]["users"]["activeMonth"]
             instance["open_registration"] = data["openRegistrations"]
-        except Exception as e:
+        except Exception as e: # pylint: disable=broad-except
             print("    ! %s" % str(e))
             print("    - Site could possibly be down. Please check it manually:")
             print("    - Site url: %s" % instance["path"])
@@ -100,8 +100,8 @@ if __name__ == "__main__":
             with open(f"{localized_site_path}{path}", "w+") as render_file:
                 render_file.write(
                     template.render(
-                        locale = locale,
-                        locales_metadata = i18n.locales_metadata,
+                        locale=locale,
+                        locales_metadata=i18n.locales_metadata,
                         **data_loader(),
                     )
                 )
