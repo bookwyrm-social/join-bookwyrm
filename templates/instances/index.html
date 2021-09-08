@@ -19,6 +19,7 @@
 
     <div class="block columns is-multiline">
         {% for instance in instances %}
+        {% if not instance.skip %}
         <div class="column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
@@ -51,6 +52,7 @@
                 </footer>
             </div>
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 </section>

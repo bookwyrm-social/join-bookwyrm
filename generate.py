@@ -70,8 +70,7 @@ def load_instances():
             print("    ! %s" % str(e))
             print("    - Site could possibly be down. Please check it manually:")
             print("    - Site url: %s" % instance["path"])
-            instance["users"] = "NaN"
-            instance["open_registration"] = False
+            instance["skip"] = True
     return instance_data
 
 if __name__ == "__main__":
