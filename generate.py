@@ -61,7 +61,7 @@ def load_instances():
                 timeout=15
             )
             data = response.json()
-            instance["users"] = data["stats"]["user_count"]
+            instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["open_registration"] = data["registrations"] and not data["approval_required"]
             instance["description"] = data["short_description"] or instance["description"]
             # right now there's a bug in how instances are serving logos on the api
