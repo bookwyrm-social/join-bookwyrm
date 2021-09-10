@@ -18,7 +18,6 @@ def load_instances():
     instance_data = [
         {
             "path": "https://bookwyrm.social/",
-            "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
             "description": "Flagship instance, general purpose",
         },
         {
@@ -56,7 +55,7 @@ def load_instances():
             instance["description"] = data["short_description"] or instance["description"]
             # right now there's a bug in how instances are serving logos on the api
             # page, so it's still hard-coded here
-            instance["logo"] = instance["logo"] or data["thumbnail"]
+            instance["logo"] = instance.get("logo", data["thumbnail"])
             instance["name"] = data["title"]
         except Exception as e: # pylint: disable=broad-except
             print("    ! %s" % str(e))
