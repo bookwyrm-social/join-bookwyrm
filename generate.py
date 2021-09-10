@@ -19,36 +19,26 @@ def load_instances():
         {
             "path": "https://bookwyrm.social/",
             "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
-            "contact_name": "@tripofmice@friend.camp",
-            "contact_link": "https://friend.camp/@tripofmice",
             "description": "Flagship instance, general purpose",
         },
         {
             "path": "https://wyrms.de/",
             "logo": "https://wyrms.de/images/logos/wyrm_bright_300.png",
-            "contact_name": "@tofuwabohu@subversive.zone",
-            "contact_link": "https://subversive.zone/@tofuwabohu",
             "description": "The Dispossessed (Le Guin) and everything else",
         },
         {
             "path": "https://cutebook.club/",
             "logo": "https://cutebook.club/images/logos/logo.png",
-            "contact_name": "@allie@tech.lgbt",
-            "contact_link": "https://tech.lgbt/@allie",
             "description": "General purpose",
         },
         {
             "path": "https://book.dansmonorage.blue/",
             "logo": "https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg",
-            "contact_name": "@faketaoist@mstd.dansmonorage.blue",
-            "contact_link": "https://mstd.dansmonorage.blue/@faketaoist",
             "description": "General purpose",
         },
         {
             "path": "https://yyyyy.club/",
             "logo": "https://mastomedia.fra1.digitaloceanspaces.com/static/images/logo.png",
-            "contact_name": "yyyyyadmin@protonmail.com",
-            "contact_link": "mailto:yyyyyadmin@protonmail.com",
             "description": "General purpose",
         }
     ]
