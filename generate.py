@@ -17,55 +17,46 @@ def load_instances():
     # pylint: disable=line-too-long
     instance_data = [
         {
-            "name": "bookwyrm.social",
             "path": "https://bookwyrm.social/",
             "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
-            "contact_name": "@tripofmice@friend.camp",
-            "contact_link": "https://friend.camp/@tripofmice",
-            "description": "Flagship instance, general purpose",
         },
         {
-            "name": "wyrms.de",
             "path": "https://wyrms.de/",
             "logo": "https://wyrms.de/images/logos/wyrm_bright_300.png",
-            "contact_name": "@tofuwabohu@subversive.zone",
-            "contact_link": "https://subversive.zone/@tofuwabohu",
             "description": "The Dispossessed (Le Guin) and everything else",
         },
         {
-            "name": "cutebook.club",
             "path": "https://cutebook.club/",
             "logo": "https://cutebook.club/images/logos/logo.png",
-            "contact_name": "@allie@tech.lgbt",
-            "contact_link": "https://tech.lgbt/@allie",
             "description": "General purpose",
         },
         {
-            "name": "在我书目/Dans Mon Catalogue",
             "path": "https://book.dansmonorage.blue/",
             "logo": "https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg",
-            "contact_name": "@faketaoist@mstd.dansmonorage.blue",
-            "contact_link": "https://mstd.dansmonorage.blue/@faketaoist",
             "description": "General purpose",
         },
         {
-            "name": "Y Not Read",
             "path": "https://yyyyy.club/",
             "logo": "https://mastomedia.fra1.digitaloceanspaces.com/static/images/logo.png",
-            "contact_name": "yyyyyadmin@protonmail.com",
-            "contact_link": "mailto:yyyyyadmin@protonmail.com",
             "description": "General purpose",
         }
     ]
     print("  Fetching instance statistics:")
     for instance in instance_data:
-        print("  - Fetching: %s" % instance["name"])
+        print("  - Fetching: %s" % instance["path"])
         try:
-            response = requests.get("{:s}nodeinfo/2.0".format(instance["path"]),
-                                    timeout=15)
+            response = requests.get(
+                "{:s}api/v1/instance".format(instance["path"]),
+                timeout=15
+            )
             data = response.json()
-            instance["users"] = data["usage"]["users"]["activeMonth"]
-            instance["open_registration"] = data["openRegistrations"]
+            instance["users"] = "{:,}".format(data["stats"]["user_count"])
+            instance["open_registration"] = data["registrations"] and not data["approval_required"]
+            instance["description"] = data["short_description"] or instance.get("description")
+            # right now there's a bug in how instances are serving logos on the api
+            # page, so it's still hard-coded here
+            instance["logo"] = instance.get("logo", data["thumbnail"])
+            instance["name"] = data["title"]
         except Exception as e: # pylint: disable=broad-except
             print("    ! %s" % str(e))
             print("    - Site could possibly be down. Please check it manually:")
