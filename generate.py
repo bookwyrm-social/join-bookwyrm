@@ -18,7 +18,7 @@ def load_instances():
     instance_data = [
         {
             "path": "https://bookwyrm.social/",
-            "description": "Flagship instance, general purpose",
+            "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
         },
         {
             "path": "https://wyrms.de/",
@@ -52,7 +52,7 @@ def load_instances():
             data = response.json()
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["open_registration"] = data["registrations"] and not data["approval_required"]
-            instance["description"] = data["short_description"] or instance["description"]
+            instance["description"] = data["short_description"] or instance.get("description")
             # right now there's a bug in how instances are serving logos on the api
             # page, so it's still hard-coded here
             instance["logo"] = instance.get("logo", data["thumbnail"])
