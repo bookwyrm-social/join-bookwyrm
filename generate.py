@@ -54,12 +54,13 @@ def load_instances():
             data = response.json()
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["open_registration"] = data["registrations"] and not data["approval_required"]
-            description = data["description"]
-            description_text = ''
-            for p in str(html.fromstring(description).text_content()).split("\n"):
-                description_text += f"<p>{p}</p>" if p else ''
-                if len(description_text) > 80:
-                    break
+            description_text = data["short_description"] or ''
+            if not description_text:
+                description = data["description"]
+                for p in str(html.fromstring(description).text_content()).split("\n"):
+                    description_text += f"<p>{p}</p>" if p else ''
+                    if len(description_text) > 80:
+                        break
             instance["description"] = description_text
             # right now there's a bug in how instances are serving logos on the api
             # page, so it's still hard-coded here
