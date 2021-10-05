@@ -1,7 +1,8 @@
 """ generate html files """
 import os
-import requests
 from jinja2 import Environment, FileSystemLoader
+from lxml import html
+import requests
 import i18n
 
 env = Environment(
@@ -23,24 +24,25 @@ def load_instances():
         {
             "path": "https://wyrms.de/",
             "logo": "https://wyrms.de/images/logos/wyrm_bright_300.png",
-            "description": "The Dispossessed (Le Guin) and everything else",
         },
         {
             "path": "https://cutebook.club/",
             "logo": "https://cutebook.club/images/logos/logo.png",
-            "description": "General purpose",
         },
         {
             "path": "https://book.dansmonorage.blue/",
             "logo": "https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg",
-            "description": "General purpose",
         },
         {
             "path": "https://yyyyy.club/",
             "logo": "https://mastomedia.fra1.digitaloceanspaces.com/static/images/logo.png",
-            "description": "General purpose",
-        }
+        },
+        {
+            "path": "https://books.mxhdr.net/",
+            "logo": "https://books.mxhdr.net/images/logos/180815-disenchantment-1.jpg",
+        },
     ]
+
     print("  Fetching instance statistics:")
     for instance in instance_data:
         print("  - Fetching: %s" % instance["path"])
@@ -52,7 +54,13 @@ def load_instances():
             data = response.json()
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["open_registration"] = data["registrations"] and not data["approval_required"]
-            instance["description"] = data["short_description"] or instance.get("description")
+            description = data["description"]
+            description_text = ''
+            for p in str(html.fromstring(description).text_content()).split("\n"):
+                description_text += f"<p>{p}</p>" if p else ''
+                if len(description_text) > 80:
+                    break
+            instance["description"] = description_text
             # right now there's a bug in how instances are serving logos on the api
             # page, so it's still hard-coded here
             instance["logo"] = instance.get("logo", data["thumbnail"])
@@ -63,6 +71,7 @@ def load_instances():
             print("    - Site url: %s" % instance["path"])
             instance["skip"] = True
     return instance_data
+
 
 if __name__ == "__main__":
     instances = load_instances()
@@ -80,7 +89,8 @@ if __name__ == "__main__":
 
         for (path, data_loader) in paths:
             print("  Generating", "%s%s" % (localized_site_path, path))
-            template_string = open(f"templates/{path}", "r").read()
+            with open(f"templates/{path}", "r", encoding="utf-8") as template_file:
+                template_string = template_file.read()
             template = env.from_string(template_string)
 
             localized_dirs = ("%s%s" % (localized_site_path, path))
@@ -88,7 +98,8 @@ if __name__ == "__main__":
             if not os.path.exists(localized_dirs):
                 os.makedirs(localized_dirs)
 
-            with open(f"{localized_site_path}{path}", "w+") as render_file:
+            with open(f"{localized_site_path}{path}", "w+", encoding="utf-8") \
+                    as render_file:
                 render_file.write(
                     template.render(
                         locale=locale,

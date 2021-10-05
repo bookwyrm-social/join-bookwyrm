@@ -30,10 +30,12 @@
                 <div class="card-content is-flex-grow-1 is-flex">
                   <div class="columns is-mobile content">
                       <div class="column is-5">
-                          <img src="{{ instance.logo }}" alt="">
+                          <a href="{{ instance.path }}" target="_blank">
+                              <img src="{{ instance.logo }}" alt="">
+                          </a>
                       </div>
                       <div class="column is-flex is-flex-direction-column">
-                          <p class="is-flex-grow-1">{{ instance.description }}</p>
+                          <div class="is-flex-grow-1">{{ instance.description }}</div>
                           <div>
                               {% if instance.open_registration %}
                                   <a href="{{ instance.path }}" class="button is-success is-rounded is-multiline">{{ _("Join instance") }}</a>
