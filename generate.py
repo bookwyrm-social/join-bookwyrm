@@ -5,12 +5,10 @@ from lxml import html
 import requests
 import i18n
 
-env = Environment(
-    loader=FileSystemLoader("templates/"),
-    extensions=['jinja2.ext.i18n']
-)
+env = Environment(loader=FileSystemLoader("templates/"), extensions=["jinja2.ext.i18n"])
 
 env.install_gettext_translations(i18n)
+
 
 def load_instances():
     """update the list of instances"""
@@ -48,17 +46,18 @@ def load_instances():
         print("  - Fetching: %s" % instance["path"])
         try:
             response = requests.get(
-                "{:s}api/v1/instance".format(instance["path"]),
-                timeout=15
+                "{:s}api/v1/instance".format(instance["path"]), timeout=15
             )
             data = response.json()
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
-            instance["open_registration"] = data["registrations"] and not data["approval_required"]
-            description_text = data["short_description"] or ''
+            instance["open_registration"] = (
+                data["registrations"] and not data["approval_required"]
+            )
+            description_text = data["short_description"] or ""
             if not description_text:
                 description = data["description"]
                 for p in str(html.fromstring(description).text_content()).split("\n"):
-                    description_text += f"<p>{p}</p>" if p else ''
+                    description_text += f"<p>{p}</p>" if p else ""
                     if len(description_text) > 80:
                         break
             instance["description"] = description_text
@@ -66,7 +65,7 @@ def load_instances():
             # page, so it's still hard-coded here
             instance["logo"] = instance.get("logo", data["thumbnail"])
             instance["name"] = data["title"]
-        except Exception as e: # pylint: disable=broad-except
+        except Exception as e:  # pylint: disable=broad-except
             print("    ! %s" % str(e))
             print("    - Site could possibly be down. Please check it manually:")
             print("    - Site url: %s" % instance["path"])
@@ -82,11 +81,11 @@ if __name__ == "__main__":
     ]
 
     for locale in i18n.locales_metadata:
-        i18n.setLocale(locale['code'])
+        i18n.setLocale(locale["code"])
 
         localized_site_path = "site/"
-        if not locale['code'] == "en_US":
-            localized_site_path = "site/%s" % locale['slug']
+        if not locale["code"] == "en_US":
+            localized_site_path = "site/%s" % locale["slug"]
 
         for (path, data_loader) in paths:
             print("  Generating", "%s%s" % (localized_site_path, path))
@@ -94,13 +93,14 @@ if __name__ == "__main__":
                 template_string = template_file.read()
             template = env.from_string(template_string)
 
-            localized_dirs = ("%s%s" % (localized_site_path, path))
-            localized_dirs = localized_dirs[:localized_dirs.rfind("/")]
+            localized_dirs = "%s%s" % (localized_site_path, path)
+            localized_dirs = localized_dirs[: localized_dirs.rfind("/")]
             if not os.path.exists(localized_dirs):
                 os.makedirs(localized_dirs)
 
-            with open(f"{localized_site_path}{path}", "w+", encoding="utf-8") \
-                    as render_file:
+            with open(
+                f"{localized_site_path}{path}", "w+", encoding="utf-8"
+            ) as render_file:
                 render_file.write(
                     template.render(
                         locale=locale,

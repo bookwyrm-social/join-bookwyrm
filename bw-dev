@@ -23,6 +23,9 @@ case "$CMD" in
     messages:compile)
         msgfmt locale/$@/LC_MESSAGES/messages.po -o locale/$@/LC_MESSAGES/messages.mo
         ;;
+    black)
+        black .
+        ;;
     *)
         set +x # No need to echo echo
         echo "Unrecognised command. Try:"
