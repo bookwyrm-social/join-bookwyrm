@@ -25,4 +25,4 @@ jobs:
             --rule 'no_autofocus: true' \
             --rule 'tabindex_no_positive: true' \
             --exclude '_modal.html|create_status/layout.html|reading_modals/layout.html' \
-            bookwyrm/templates
+            templates
