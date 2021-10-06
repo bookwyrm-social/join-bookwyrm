@@ -39,7 +39,7 @@ def load_instances():
         },
         {
             "path": "https://books.mxhdr.net/",
-            "logo": "https://books.mxhdr.net/images/logos/180815-disenchantment-1.jpg",
+            "logo": "https://books.mxhdr.net/images/logos/owl-g6a1cbbee3_1280.png",
         },
     ]
 
