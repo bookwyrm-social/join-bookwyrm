@@ -1,3 +1,3 @@
 files:
-  - source: /templates
-    translation: /locale/%locale_with_underscore%
+  - source: /locale/en_US/LC_MESSAGES/messages.po
+    translation: /locale/%locale_with_underscore%/LC_MESSAGES/messages.po
