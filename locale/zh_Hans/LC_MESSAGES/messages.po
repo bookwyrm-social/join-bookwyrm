@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-10-08 18:11\n"
+"PO-Revision-Date: 2021-10-08 19:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -67,110 +67,110 @@ msgstr "了解更多"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "通过 BookWyrm 社交网络，你可以记录阅读、谈论书籍、撰写书评并发现供阅读的下一本书。BookWyrm 用户们可以进入小而可靠的社区，而互联功能让这些社区之间可以互相连结，可以与其它 <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> 服务连结，如 <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> 和 <a href='http://pleroma.social/' target='_blank'>Pleroma</a>。"
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "去中心化"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "友好"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "反企业"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "记录你的阅读"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "以及你的友人们阅读的"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "在开始阅读、结束阅读时更新你的阅读状态，在继续阅读时发布状态，并设定本年阅读目标。"
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "发现书籍"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "来自人们的推荐，而非来自算法的"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr ""
+msgstr "看看朋友们在读什么，了解社区的各种看法。"
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "分享你的想法"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "用你所想的方式"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr ""
+msgstr "在阅读中撰写书评，抑或是发布随心的评论，并使用细致的隐私设定控制能看到发布的人的范围。"
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm：社交的阅读与书评"
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "加入"
 
 #: templates/layout.html:38
 msgid "Support"
-msgstr ""
+msgstr "支持"
 
 #: templates/layout.html:41
 msgid "Code"
-msgstr ""
+msgstr "代码"
 
 #: templates/layout.html:44 templates/layout.html:99
 msgid "Documentation"
-msgstr ""
+msgstr "文档"
 
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> 是协力完成的、反企业的软件，由 <a href='https://www.mousereeve.com/'>Mouse Reeve</a> 维护。"
 
 #: templates/layout.html:73
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr ""
+msgstr "在 <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a> 上支持 BookWyrm 。"
 
 #: templates/layout.html:77
 msgid "Get Involved"
-msgstr ""
+msgstr "参与"
 
 #: templates/layout.html:79
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "GitHub 上的 BookWyrm"
 
 #: templates/layout.html:82
 msgid "Contribute to this page"
-msgstr ""
+msgstr "改善此页面"
 
 #: templates/layout.html:97
 msgid "Learn more"
-msgstr ""
+msgstr "了解更多"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
-msgstr ""
+msgstr "联系维护者"
 
 #: templates/layout.html:105
 msgid "License"
-msgstr ""
+msgstr "许可证"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s 用户"
 
