@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <title>BookWyrm: Social Reading and Reviewing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,14 +24,14 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="/de/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/instances" class="navbar-item">
+            <a href="/de/instances" class="navbar-item">
                 <span class="button is-success">Join</span>
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
@@ -50,9 +50,9 @@
             <div class="select">
                 <select aria-label="Select a language" id="language_selection">
                     
-                    <option value="" selected>English (US)</option>
+                    <option value="" >English (US)</option>
                     
-                    <option value="de/" >Deutsch</option>
+                    <option value="de/" selected>Deutsch</option>
                     
                     <option value="fr/" >Français</option>
                     
@@ -68,8 +68,8 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Welcome to BookWyrm</h1>
-        <p class="subtitle">Social Reading and Reviewing, Decentralized</p>
+        <h1 class="title is-1">Willkommen bei BookWyrm</h1>
+        <p class="subtitle">Soziales Lesen und Rezensieren, dezentralisiert</p>
     </header>
 
     <p class="block">
@@ -101,7 +101,7 @@
 </section>
 
 <div class="section p-4 has-text-centered">
-    <a href="/instances" class="button is-success is-rounded">Join BookWyrm</a>
+    <a href="/de/instances" class="button is-success is-rounded">BookWyrm beitreten</a>
 </div>
 
 <section class="section">
@@ -222,7 +222,7 @@
     (function() {
         var languageSelector = document.getElementById("language_selection");
         languageSelector.onchange = function(event) {
-            var current_locale = "";
+            var current_locale = "de/";
             var current_location = window.location.pathname;
 
             var locale_index = current_location.indexOf(current_locale);
