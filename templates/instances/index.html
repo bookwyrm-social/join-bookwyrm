@@ -48,7 +48,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">{{ instance.users }} {{ _("users") }}</span>
+                    <span class="card-footer-item">{{ _("%s users" % instance.users) }}</span>
                     <span class="card-footer-item">{% if instance.open_registration %}{{ _("Open registration") }}{% else %}{{ _("Registration by request")}}{% endif %}</span>
                     <a href="{{ instance.path }}about" class="card-footer-item">{{ _("Learn More")}}</a>
                 </footer>
