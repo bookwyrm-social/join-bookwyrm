@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bookwyrm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-08 19:36+0200\n"
+"PO-Revision-Date: 2021-10-08 01:42\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: bookwyrm\n"
+"X-Crowdin-Project-ID: 479239\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /[bookwyrm-social.join-bookwyrm] main/locale/en_US/LC_MESSAGES/messages.po\n"
+"X-Crowdin-File-ID: 1581\n"
+
+#: templates/index.html:5
+msgid "Welcome to BookWyrm"
+msgstr ""
+
+#: templates/index.html:6
+msgid "Social Reading and Reviewing, Decentralized"
+msgstr ""
+
+#: templates/instances/index.html:5
+msgid "Join BookWyrm"
+msgstr ""
+
+#: templates/instances/index.html:6
+msgid "A Network of Small, Self-Directed Communities"
+msgstr ""
+
+#: templates/instances/index.html:13
+msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
+msgstr ""
+
+#: templates/instances/index.html:16
+msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
+msgstr ""
+
+#: templates/instances/index.html:38
+msgid "Join instance"
+msgstr ""
+
+#: templates/instances/index.html:40
+msgid "Request Invite"
+msgstr ""
+
+#: templates/instances/index.html:48
+msgid "users"
+msgstr ""
+
+#: templates/instances/index.html:49
+msgid "Open registration"
+msgstr ""
+
+#: templates/instances/index.html:49
+msgid "Registration by request"
+msgstr ""
+
+#: templates/instances/index.html:50
+msgid "Learn More"
+msgstr ""
+
