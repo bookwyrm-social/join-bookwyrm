@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-08 19:36+0200\n"
-"PO-Revision-Date: 2021-10-08 07:01\n"
+"PO-Revision-Date: 2021-10-08 12:17\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -47,21 +47,21 @@ msgstr "Instanz beitreten"
 
 #: templates/instances/index.html:40
 msgid "Request Invite"
-msgstr ""
+msgstr "Einladung anfragen"
 
 #: templates/instances/index.html:48
 msgid "users"
-msgstr ""
+msgstr "Accounts"
 
 #: templates/instances/index.html:49
 msgid "Open registration"
-msgstr ""
+msgstr "Registrierung offen"
 
 #: templates/instances/index.html:49
 msgid "Registration by request"
-msgstr ""
+msgstr "Registrierung auf Anfrage"
 
 #: templates/instances/index.html:50
 msgid "Learn More"
-msgstr ""
+msgstr "Erfahre mehr"
 
