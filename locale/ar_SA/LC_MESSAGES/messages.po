@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-08 19:36+0200\n"
-"PO-Revision-Date: 2021-10-08 14:23\n"
+"PO-Revision-Date: 2021-10-08 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -31,7 +31,7 @@ msgstr "انضم إلى BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "شبكة المجتمعات الصغيرة ذات الإدارة الذاتية"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
@@ -47,7 +47,7 @@ msgstr ""
 
 #: templates/instances/index.html:40
 msgid "Request Invite"
-msgstr ""
+msgstr "اطلب دعوة"
 
 #: templates/instances/index.html:48
 msgid "users"
@@ -55,11 +55,11 @@ msgstr ""
 
 #: templates/instances/index.html:49
 msgid "Open registration"
-msgstr ""
+msgstr "التسجيل مفتوح"
 
 #: templates/instances/index.html:49
 msgid "Registration by request"
-msgstr ""
+msgstr "التسجيل حسب دعوة"
 
 #: templates/instances/index.html:50
 msgid "Learn More"
