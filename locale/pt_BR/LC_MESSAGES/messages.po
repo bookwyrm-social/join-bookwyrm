@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-10-10 22:18\n"
+"PO-Revision-Date: 2021-10-11 19:01\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -91,7 +91,7 @@ msgstr "E o que seus amigos estão lendo"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr "Atualize seu status de leitura quando começar ou terminar de ler um livro, publique atualizações enquanto lê e defina uma meta de leitura anual."
+msgstr "Atualize seu status de leitura quando começar ou terminar de ler um livro, faça publicações enquanto lê e defina uma meta de leitura anual."
 
 #: templates/index.html:74
 msgid "Discover books"
