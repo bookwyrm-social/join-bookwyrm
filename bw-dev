@@ -15,6 +15,10 @@ case "$CMD" in
     site:compile)
         python3 generate.py
         ;;
+    site:serve)
+        cd site
+        python3 -m http.server 5000
+        ;;
     messages:generate)
         mkdir -p locale/$@/LC_MESSAGES && touch locale/$@/LC_MESSAGES/messages.po
         xgettext --no-wrap --join-existing --language=C --from-code=UTF-8 --keyword=_ --output=locale/$@/LC_MESSAGES/messages.po `find templates -name "*.html"`
