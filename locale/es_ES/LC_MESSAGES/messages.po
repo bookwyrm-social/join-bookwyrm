@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-10-21 21:00\n"
+"PO-Revision-Date: 2021-10-22 15:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -107,7 +107,7 @@ msgstr "Vea lo que están leyendo sus amigos y obtenga opiniones de su comunidad
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr "Comparte tus pensamientos"
+msgstr "Comparte tus opiniones"
 
 #: templates/index.html:96
 msgid "The way you want to"
