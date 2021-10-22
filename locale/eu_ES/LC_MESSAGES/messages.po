@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-10-21 22:43\n"
+"PO-Revision-Date: 2021-10-22 15:59\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -19,19 +19,19 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Ongi etorri BookWyrm-era"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Irakurketa eta iritzi soziala, deszentralizatua"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Sartu BookWyrm-era"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Norberak zuzendutako komunitate txikien sarea"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
@@ -43,63 +43,63 @@ msgstr ""
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "Sartu instantzian"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
-msgstr ""
+msgstr "Eskatu gonbidapena"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "erabiltzaileak"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr ""
+msgstr "Izen-emate irekia"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr ""
+msgstr "Izen ematea eskaera bidez"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 msgid "Learn More"
-msgstr ""
+msgstr "Argibide gehiago"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "Federazioak BookWyrm-eko erabiltzaileei elkarren artean konektatzeko konfiantzazko komunitate txikietan sartzeko aukera ematen die, eta <a href='http://activitypub.rocks/' target='_blank'>Mastodon</a> eta <a href='http://pleroma.social/' target='_blank'>Pleroma</a> bezalako beste <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> zerbitzu batzuekin."
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Deszentralizatua"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Lagungarria"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Korporazioen-aurkakoa"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Jarraitu zure irakurketa"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "Eta zure lagunek irakurtzen dutena"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "Eguneratu irakurketa egoera liburuak hasi eta amaitzean, argitaratu egoera eguneratzeak aurrera egin ahala eta ezarri urteko irakurketa helburua."
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Liburuak ezagutu"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "Jendearen gomendioak, ez algoritmoenak"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
@@ -107,70 +107,70 @@ msgstr ""
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "Zure iritziak partekatu"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "Nahi duzun eran"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr ""
+msgstr "Idatzi iritziak edo bidali iruzkinak zoazen heinean, eta kontrolatu nork ikusi ditzakeen zure mezuak pribatutasun ezarpen granularrekin."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: Irakurketa eta iritzi soziala"
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Batu"
 
 #: templates/layout.html:38
 msgid "Support"
-msgstr ""
+msgstr "Laguntza"
 
 #: templates/layout.html:41
 msgid "Code"
-msgstr ""
+msgstr "Kodea"
 
 #: templates/layout.html:44 templates/layout.html:99
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentazioa"
 
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> <a href='https://www.mousereeve.com/'>Mouse Reeve</a>-k mantentzen duen lankidetzako eta enpresen aurkako softwarea da."
 
 #: templates/layout.html:73
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr ""
+msgstr "Lagundu BookWyrm <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>-en."
 
 #: templates/layout.html:77
 msgid "Get Involved"
-msgstr ""
+msgstr "Parte hartu"
 
 #: templates/layout.html:79
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "BookWyrm GitHub-en"
 
 #: templates/layout.html:82
 msgid "Contribute to this page"
-msgstr ""
+msgstr "Lagundu orrialde honi"
 
 #: templates/layout.html:97
 msgid "Learn more"
-msgstr ""
+msgstr "Argibide gehiago"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Arduradunarekin harremanetan jarri"
 
 #: templates/layout.html:105
 msgid "License"
-msgstr ""
+msgstr "Lizentzia"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s erabiltzaileak"
 
