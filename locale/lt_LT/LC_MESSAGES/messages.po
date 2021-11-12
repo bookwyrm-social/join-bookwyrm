@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-11-12 17:16\n"
+"PO-Revision-Date: 2021-11-12 21:48\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -155,22 +155,22 @@ msgstr ""
 
 #: templates/layout.html:82
 msgid "Contribute to this page"
-msgstr ""
+msgstr "Prisidėti prie šio puslapio"
 
 #: templates/layout.html:97
 msgid "Learn more"
-msgstr ""
+msgstr "Sužinoti daugiau"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Susisiekti su stebėtoju"
 
 #: templates/layout.html:105
 msgid "License"
-msgstr ""
+msgstr "Licencija"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s naudotojai"
 
