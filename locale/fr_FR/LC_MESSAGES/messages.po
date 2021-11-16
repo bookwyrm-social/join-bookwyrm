@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-08 11:01-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2021-10-08 11:06-0700\n"
+"PO-Revision-Date: 2021-10-26 17:51\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: bookwyrm\n"
+"X-Crowdin-Project-ID: 479239\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[bookwyrm-social.join-bookwyrm] main/locale/en_US/LC_MESSAGES/messages.po\n"
+"X-Crowdin-File-ID: 1581\n"
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
@@ -133,47 +133,44 @@ msgstr "Assistance"
 msgid "Code"
 msgstr "Code"
 
-#: templates/layout.html:44 templates/layout.html:77 templates/layout.html:94
-#: templates/layout.html:89 templates/layout.html:99
+#: templates/layout.html:44 templates/layout.html:99
 msgid "Documentation"
 msgstr "Documentation"
 
-#: templates/layout.html:59 templates/layout.html:76 templates/layout.html:71
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 msgstr "<strong>BookWyrm</strong> est un logiciel collaboratif, anti-commercial maintenu par <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
-#: templates/layout.html:62 templates/layout.html:79 templates/layout.html:74
 #: templates/layout.html:73
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 msgstr "Soutenir BookWyrm sur <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 
-#: templates/layout.html:66 templates/layout.html:83 templates/layout.html:78
 #: templates/layout.html:77
 msgid "Get Involved"
 msgstr "Participer"
 
-#: templates/layout.html:68 templates/layout.html:85 templates/layout.html:80
 #: templates/layout.html:79
 msgid "BookWyrm on GitHub"
 msgstr "BookWyrm sur GitHub"
 
-#: templates/layout.html:71 templates/layout.html:88 templates/layout.html:83
 #: templates/layout.html:82
 msgid "Contribute to this page"
 msgstr "Contribuer à cette page"
 
-#: templates/layout.html:75 templates/layout.html:92 templates/layout.html:87
 #: templates/layout.html:97
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: templates/layout.html:80 templates/layout.html:97 templates/layout.html:92
 #: templates/layout.html:102
 msgid "Contact maintainer"
 msgstr "Contact"
 
-#: templates/layout.html:83 templates/layout.html:100 templates/layout.html:95
 #: templates/layout.html:105
 msgid "License"
-msgstr "License"
+msgstr "Licence"
+
+#: templates/instances/index.html:51
+#, c-format
+msgid "%s users"
+msgstr "%s membres"
+

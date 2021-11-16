@@ -27,6 +27,14 @@ case "$CMD" in
     messages:compile)
         msgfmt locale/$@/LC_MESSAGES/messages.po -o locale/$@/LC_MESSAGES/messages.mo
         ;;
+    messages:update)
+        git fetch origin l10n_main:l10n_main
+        locales=("de_DE" "fr_FR" "lt_LT" "pt_BR" "zh_Hans")
+        for locale in $locales; do
+            git checkout l10n_main locale/$locale
+            msgfmt locale/$locale/LC_MESSAGES/messages.po -o locale/$locale/LC_MESSAGES/messages.mo
+        done
+        ;;
     black)
         black .
         ;;
@@ -34,8 +42,11 @@ case "$CMD" in
         set +x # No need to echo echo
         echo "Unrecognised command. Try:"
         echo "    site:compile"
+        echo "    site:serve"
         echo "    messages:generate [locale]"
         echo "    messages:compile [locale]"
+        echo "    messages:update"
+        echo "    black"
 
         ;;
 esac

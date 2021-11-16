@@ -17,11 +17,9 @@ def load_instances():
     instance_data = [
         {
             "path": "https://bookwyrm.social/",
-            "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
         },
         {
             "path": "https://wyrms.de/",
-            "logo": "https://wyrms.de/images/logos/wyrm_bright_300.png",
         },
         {
             "path": "https://cutebook.club/",
@@ -29,11 +27,9 @@ def load_instances():
         },
         {
             "path": "https://book.dansmonorage.blue/",
-            "logo": "https://book.dansmonorage.blue/images/logos/BC12B463-A984-4E92-8A30-BC2E9280A331_1.jpg",
         },
         {
             "path": "https://yyyyy.club/",
-            "logo": "https://mastomedia.fra1.digitaloceanspaces.com/static/images/logo.png",
         },
         {
             "path": "https://books.mxhdr.net/",

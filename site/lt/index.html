@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="lt">
 <head>
-    <title>BookWyrm: ler e resenhar coletivamente</title>
+    <title>„BookWyrm“: bendruomenės skaitiniai ir apžvalgos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,24 +24,24 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/pt/">
+        <a class="navbar-item" href="/lt/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/pt/instances" class="navbar-item">
-                <span class="button is-success">Participe</span>
+            <a href="/lt/instances" class="navbar-item">
+                <span class="button is-success">Prisijungti</span>
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Apoie
+                Paremti
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Código
+                Kodas
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Documentação
+                Dokumentacija
             </a>
         </div>
     </div>
@@ -56,9 +56,9 @@
                     
                     <option value="fr/" >Français</option>
                     
-                    <option value="lt/" >lietuvių</option>
+                    <option value="lt/" selected>lietuvių</option>
                     
-                    <option value="pt/" selected>Português (Brasil)</option>
+                    <option value="pt/" >Português (Brasil)</option>
                     
                     <option value="zh/" >简体中文</option>
                     
@@ -72,12 +72,12 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Seja bem-vindo(a) à BookWyrm</h1>
-        <p class="subtitle">Leitura e crítica coletiva e descentralizada</p>
+        <h1 class="title is-1">Sveiki atvykę į „BookWyrm“</h1>
+        <p class="subtitle">Socialinis skaitymas, peržiūros, decentralizuota</p>
     </header>
 
     <p class="block">
-    A BookWyrm é uma rede para monitorar sua leitura, falar sobre livros, escrever resenhas e encontrar novas coisas para ler. A federação permite aos usuários da BookWyrm participar de comunidades pequenas e confiáveis que podem se conectar entre si, e também com outros serviços <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>, como o <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> e o <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
+    „BookWyrm“ yra socialinis skaitymo sekimo tinklas, kuriame kalbama apie knygas, rašomi atsiliepimai ir atrandama naujų skaitinių. Federacija leidžia „BookWyrm“ nariams prisijungti prie mažų, patikimų bendruomenių, galinčių jungtis viena prie kitos bei prie<a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> paslaugų, kaip <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> ir <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
     </p>
 
     <div class="block pt-5">
@@ -85,19 +85,19 @@
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
-                    <p class="heading">Descentralizada</p>
+                    <p class="heading">Decentralizuota</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
-                    <p class="heading">Amigável</p>
+                    <p class="heading">Draugiška</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
-                    <p class="heading">Anticorporativa</p>
+                    <p class="heading">Nekorporacinis</p>
                 </div>
             </div>
         </section>
@@ -105,7 +105,7 @@
 </section>
 
 <div class="section p-4 has-text-centered">
-    <a href="/pt/instances" class="button is-success is-rounded">Participe da BookWyrm</a>
+    <a href="/lt/instances" class="button is-success is-rounded">Prisijunkite prie „BookWyrm“</a>
 </div>
 
 <section class="section">
@@ -120,10 +120,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Monitore sua leitura</p>
-                    <p class="subtitle">E o que seus amigos estão lendo</p>
+                    <p class="title">Sekite savo skaitinius</p>
+                    <p class="subtitle">Ką skaito jūsų draugai</p>
                     <div class="content">
-                        Atualize seu status de leitura quando começar ou terminar de ler um livro, faça publicações enquanto lê e defina uma meta de leitura anual.
+                        Pradėję ar užbaigę knygą, atnaujinkite skaitymo būseną ir išsikelkite metinį skaitymo tikslą.
                     </div>
                 </div>
             </article>
@@ -141,10 +141,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Descubra livros</p>
-                    <p class="subtitle">Recomendações feitas por pessoas, não algoritmos</p>
+                    <p class="title">Atraskite knygas</p>
+                    <p class="subtitle">Rekomenduoja žmonės, o ne algoritmai</p>
                     <div class="content">
-                        Veja o que seus amigos estão lendo, e receba opiniões da sua comunidade.
+                        Sužinokite, ką skaito jūsų draugai ir gaukite atsiliepimų iš bendruomenės.
                     </div>
                 </div>
             </article>
@@ -162,10 +162,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Compartilhe suas opiniões</p>
-                    <p class="subtitle">Da forma que preferir</p>
+                    <p class="title">Pasidalinkite savo mintimis</p>
+                    <p class="subtitle">Kaip norite jūs</p>
                     <div class="content">
-                        Escreva resenhas ou faça comentários enquanto lê, e controle quem pode ver suas publicações com a configuração de privacidade granular.
+                        Rašykite atsiliepimus arba publikuokite savo komentarus bei nustatykite, kas gali matyti jūsų įrašus.
                     </div>
                 </div>
             </article>
@@ -180,19 +180,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> é um software colaborativo e anticorporativo mantido por <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
+                    <strong>„BookWyrm“</strong> yra bendruomeniška ir nekorporacinė programinė įranga, kurią prižiūri <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Apoie a BookWyrm no <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Paremkite „BookWyrm“ <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Participe</h3>
+                <h3 class="title is-6">Įsitraukite</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm no GitHub</a>
+                    <a href="https://github.com/bookwyrm-social">„BookWyrm“ „GitHub“ svetainėje</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribua para esta página</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Prisidėti prie šio puslapio</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -207,15 +207,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Saiba mais</h3>
+                <h3 class="title is-6">Sužinoti daugiau</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Documentação</a>
+                    <a href="https://docs.joinbookwyrm.com">Dokumentacija</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Falar com a administração</a>
+                    <a href="mailto:mousereeve@riseup.net">Susisiekti su stebėtoju</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licença</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licencija</a>
                 </p>
             </div>
         </div>
@@ -226,7 +226,7 @@
     (function() {
         var languageSelector = document.getElementById("language_selection");
         languageSelector.onchange = function(event) {
-            var current_locale = "pt/";
+            var current_locale = "lt/";
             var current_location = window.location.pathname;
 
             var locale_index = current_location.indexOf(current_locale);
