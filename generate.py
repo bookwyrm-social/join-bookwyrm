@@ -15,26 +15,19 @@ def load_instances():
     # TODO: get this properly
     # pylint: disable=line-too-long
     instance_data = [
-        {
-            "path": "https://bookwyrm.social/",
-        },
-        {
-            "path": "https://wyrms.de/",
-        },
+        {"path": "https://bookwyrm.social/"},
+        {"path": "https://wyrms.de/"},
         {
             "path": "https://cutebook.club/",
             "logo": "https://cutebook.club/images/logos/logo.png",
         },
-        {
-            "path": "https://book.dansmonorage.blue/",
-        },
-        {
-            "path": "https://yyyyy.club/",
-        },
+        {"path": "https://book.dansmonorage.blue/"},
+        {"path": "https://yyyyy.club/"},
         {
             "path": "https://books.mxhdr.net/",
             "logo": "https://books.mxhdr.net/images/logos/owl-g6a1cbbee3_1280.png",
         },
+        {"path": "https://ziurkes.group.lt/"},
     ]
 
     print("  Fetching instance statistics:")
@@ -46,9 +39,7 @@ def load_instances():
             )
             data = response.json()
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
-            instance["open_registration"] = (
-                data["registrations"] and not data["approval_required"]
-            )
+            instance["registration"] = "open" if data["registrations"] else "invite"
             description_text = data["short_description"] or ""
             if not description_text:
                 description = data["description"]

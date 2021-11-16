@@ -37,7 +37,7 @@
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1">{{ instance.description }}</div>
                           <div>
-                              {% if instance.open_registration %}
+                              {% if instance.registration == "open" %}
                                   <a href="{{ instance.path }}" class="button is-success is-rounded is-multiline">{{ _("Join instance") }}</a>
                               {% else %}
                                   <a href="{{ instance.path }}" class="button is-link is-rounded is-multiline">{{ _("Request Invite") }}</a>
