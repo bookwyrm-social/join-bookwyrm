@@ -17,7 +17,6 @@ def load_instances():
     instance_data = [
         {
             "path": "https://bookwyrm.social/",
-            "logo": "https://bookwyrm-social.sfo3.digitaloceanspaces.com/static/images/logo.png",
         },
         {
             "path": "https://wyrms.de/",

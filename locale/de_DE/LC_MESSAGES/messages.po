@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-10-20 17:38\n"
+"PO-Revision-Date: 2021-10-23 13:54\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -23,7 +23,7 @@ msgstr "Willkommen bei BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "Soziales Lesen und Rezensieren, dezentralisiert"
+msgstr "Soziales Lesen und Besprechen, dezentralisiert"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -31,7 +31,7 @@ msgstr "BookWyrm beitreten"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr "Ein Netzwerk kleiner, selbstgesteuerter Gemeinschaften"
+msgstr "Ein Netzwerk kleiner, selbstverwalteter Gemeinschaften"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
