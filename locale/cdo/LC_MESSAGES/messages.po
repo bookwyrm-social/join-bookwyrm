@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-11-15 22:57\n"
+"PO-Revision-Date: 2021-11-17 16:38\n"
 "Last-Translator: \n"
 "Language-Team: Eastern Min\n"
 "Language: cdo\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "歡迎來遘 BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "加裏 BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "加裏實例"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
@@ -55,15 +55,15 @@ msgstr ""
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr ""
+msgstr "會使直接註冊"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr ""
+msgstr "會使邀儂註冊"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 msgid "Learn More"
-msgstr ""
+msgstr "了解故価"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -71,11 +71,11 @@ msgstr ""
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "去中心化"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "友好其"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
@@ -123,19 +123,19 @@ msgstr ""
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "加裏"
 
 #: templates/layout.html:38
 msgid "Support"
-msgstr ""
+msgstr "支持"
 
 #: templates/layout.html:41
 msgid "Code"
-msgstr ""
+msgstr "碼"
 
 #: templates/layout.html:44 templates/layout.html:99
 msgid "Documentation"
-msgstr ""
+msgstr "文件"
 
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
@@ -147,19 +147,19 @@ msgstr ""
 
 #: templates/layout.html:77
 msgid "Get Involved"
-msgstr ""
+msgstr "參蜀骹"
 
 #: templates/layout.html:79
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "GitHub 懸頂其 BookWyrm"
 
 #: templates/layout.html:82
 msgid "Contribute to this page"
-msgstr ""
+msgstr "改蜀下這蜀頁"
 
 #: templates/layout.html:97
 msgid "Learn more"
-msgstr ""
+msgstr "了解故価"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
