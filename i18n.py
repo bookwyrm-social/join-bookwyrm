@@ -11,6 +11,8 @@ thread_local_data.locale = "en_US"
 locales_metadata = [
     {"code": "en_US", "name": "English (US)", "slug": ""},
     {"code": "de_DE", "name": "Deutsch", "slug": "de/"},
+    {"code": "es_ES", "name": "Español", "slug": "es/"},
+    {"code": "gl_ES", "name": "Galego", "slug": "gl/"},
     {"code": "fr_FR", "name": "Français", "slug": "fr/"},
     {"code": "lt_LT", "name": "lietuvių", "slug": "lt/"},
     {"code": "pt_BR", "name": "Português (Brasil)", "slug": "pt/"},
