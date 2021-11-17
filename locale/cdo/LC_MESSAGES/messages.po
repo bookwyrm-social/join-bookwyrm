@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-11-17 16:38\n"
+"PO-Revision-Date: 2021-11-17 17:40\n"
 "Last-Translator: \n"
 "Language-Team: Eastern Min\n"
 "Language: cdo\n"
@@ -67,7 +67,7 @@ msgstr "了解故価"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "着 BookWyrm 社交網站, 汝可以記蜀記自家讀其書, 故加𡅏共別儂講蜀講這価書, 寫蜀寫這価書其評論文章, 討蜀討接落来會使讀世乇書. BookWyrm 其儂都會使加裏嫩嫩其, 也盡可靠其社區; 互聯其功能讓這価社區會使互相之間連接, 也會使共 <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> 服務連接, 譬喻講 <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> 共 <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "記汝讀書其情況"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
