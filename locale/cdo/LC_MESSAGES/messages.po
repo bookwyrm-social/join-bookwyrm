@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2021-11-17 17:40\n"
+"PO-Revision-Date: 2021-11-21 20:24\n"
 "Last-Translator: \n"
 "Language-Team: Eastern Min\n"
 "Language: cdo\n"
@@ -23,7 +23,7 @@ msgstr "歡迎來遘 BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "讀書, 寫書評, 討朋友, 故是去中心化其"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -31,7 +31,7 @@ msgstr "加裏 BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "嫩嫩其, 但是大家儂會使自家做主其社區網絡"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
@@ -51,7 +51,7 @@ msgstr ""
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "使其儂"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
@@ -79,7 +79,7 @@ msgstr "友好其"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "反財團"
 
 #: templates/index.html:53
 msgid "Track your reading"
@@ -107,11 +107,11 @@ msgstr ""
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "分享汝想其乇"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "按汝想其方式"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
@@ -119,7 +119,7 @@ msgstr ""
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: 讀書, 寫書評, 也會使共儂交家"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -139,11 +139,11 @@ msgstr "文件"
 
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> 是大家儂齊齊出力做其, 反企業其軟體, 由 <a href='https://www.mousereeve.com/'>Mouse Reeve</a> 維護."
 
 #: templates/layout.html:73
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr ""
+msgstr "去 <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a> 支持 BookWyrm."
 
 #: templates/layout.html:77
 msgid "Get Involved"
@@ -163,14 +163,14 @@ msgstr "了解故価"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
-msgstr ""
+msgstr "聯繫維護其儂"
 
 #: templates/layout.html:105
 msgid "License"
-msgstr ""
+msgstr "許可證"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s 隻儂使"
 
