@@ -1,4 +1,4 @@
 black==21.9b0
 Jinja2==3.0.1
 requests==2.26.0
-lxml==4.6.3
+lxml==4.6.5
