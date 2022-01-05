@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-08 11:06-0700\n"
-"PO-Revision-Date: 2022-01-05 16:28\n"
+"PO-Revision-Date: 2022-01-05 17:38\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -31,7 +31,7 @@ msgstr "Gå med i BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Ett nätverk bestående av små, självstyrda gemenskaper"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
@@ -43,27 +43,27 @@ msgstr ""
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "Gå med i instans"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
-msgstr ""
+msgstr "Begär inbjudning"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "användare"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr ""
+msgstr "Öppen registrering"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr ""
+msgstr "Registrering genom förfrågning"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 msgid "Learn More"
-msgstr ""
+msgstr "Lär dig mer"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -71,23 +71,23 @@ msgstr ""
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Decentraliserat"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Vänlig"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Anti-företag"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Spåra din läsning"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "Och det som dina vänner läser"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
@@ -95,23 +95,23 @@ msgstr ""
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Upptäck böcker"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "Rekommendationer från personer, inte algoritmer"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr ""
+msgstr "Se det som dina vänner läser, och få åsikter från din gemenskap."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "Dela dina tankar"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "På sättet som du vill"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
@@ -123,19 +123,19 @@ msgstr ""
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Gå med"
 
 #: templates/layout.html:38
 msgid "Support"
-msgstr ""
+msgstr "Hjälp"
 
 #: templates/layout.html:41
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #: templates/layout.html:44 templates/layout.html:99
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: templates/layout.html:70
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
@@ -147,30 +147,30 @@ msgstr ""
 
 #: templates/layout.html:77
 msgid "Get Involved"
-msgstr ""
+msgstr "Bli engagerad"
 
 #: templates/layout.html:79
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "BookWyrm på GitHub"
 
 #: templates/layout.html:82
 msgid "Contribute to this page"
-msgstr ""
+msgstr "Bidra till den här sidan"
 
 #: templates/layout.html:97
 msgid "Learn more"
-msgstr ""
+msgstr "Lär dig mer"
 
 #: templates/layout.html:102
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Kontakta underhållare"
 
 #: templates/layout.html:105
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s användare"
 
