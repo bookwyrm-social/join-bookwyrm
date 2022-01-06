@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="section">
+    <header class="block has-text-centered">
+        <h1 class="title is-1">{{ _("Get Involved") }}</h1>
+        <p class="subtitle">{{ _("Human-scale software") }}</p>
+    </header>
+</section>
+
+<section class="section p-5">
+    <div class="block content">
+        <p>
+            {{ _("BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation.") }}
+        </p>
+    </div>
+
+    <div class="block">
+        <div class="notification has-background-white-bis">
+            <div class="columns">
+                <div class="column is-2">
+                    <figure class="image is-128x128 is-64x64-mobile">
+                        <img src="/static/images/maintainer-headshot.png" alt="{{ _('Headshot of the maintainer') }}">
+                    </figure>
+                </div>
+                <div class="column content">
+                    <h2 class="title is-5">
+                        Meet the maintainer
+                    </h2>
+                    <p>
+                    {{ _("BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software.") }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="notification has-background-success-light">
+            <h2 class="title is-5">
+                {{ _("Bugs and Feature Requests") }}
+            </h2>
+            <p>
+            {{ _("BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests.") }}
+            </p>
+        </div>
+
+        <div class="notification has-background-primary-light">
+            <h2 class="title is-5">
+                {{ _("Social Media") }}
+            </h2>
+            <p>
+            {{ _("You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.") }}
+            </p>
+        </div>
+
+        <div class="notification has-background-info-light">
+            <h2 class="title is-5">
+                {{ _("Developer Chat") }}
+            </h2>
+            <p>
+                {{ _("We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome.") }}
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}
