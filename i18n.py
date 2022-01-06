@@ -15,7 +15,8 @@ locales_metadata = [
     {"code": "gl_ES", "name": "Galego", "slug": "gl/"},
     {"code": "fr_FR", "name": "Français", "slug": "fr/"},
     {"code": "lt_LT", "name": "lietuvių", "slug": "lt/"},
-    {"code": "pt_BR", "name": "Português (Brasil)", "slug": "pt/"},
+    {"code": "pt_PT", "name": "Português Europeu", "slug": "pt/"},
+    {"code": "pt_BR", "name": "Português do Brasil", "slug": "pt/"},
     {"code": "zh_Hans", "name": "简体中文", "slug": "zh/"},
 ]
 default_locale = "en_US"
