@@ -65,6 +65,7 @@ if __name__ == "__main__":
     paths = [
         ["index.html", lambda: {}],
         ["instances/index.html", lambda: {"instances": instances}],
+        ["get-involved/index.html", lambda: {}],
     ]
 
     for locale in i18n.locales_metadata:
