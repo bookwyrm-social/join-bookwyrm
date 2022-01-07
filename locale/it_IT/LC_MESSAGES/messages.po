@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 08:34-0800\n"
-"PO-Revision-Date: 2022-01-07 17:43\n"
+"PO-Revision-Date: 2022-01-07 18:58\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -178,11 +178,11 @@ msgstr "%s utenti"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr ""
+msgstr "Software a misura d'uomo"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "BookWyrm è stato progettato per rimanere piccolo e personale; se avete richieste di funzionalità, segnalazioni di bug, o grandi sogni, ci piacerebbe che partecipaste alla conversazione."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
@@ -190,33 +190,33 @@ msgstr ""
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Segnalazione errori e richieste di funzionalità aggiuntive"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "Il bug tracker e il codice di BookWyrm sono ospitati su <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; è il posto migliore per segnalare bug e effettuare richieste di funzionalità."
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
-msgstr ""
+msgstr "Social Media"
 
 #: templates/get-involved/index.html:50
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "Puoi seguire BookWyrm su <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> e <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> per ricevere aggiornamenti sulle nuove funzionalità. Sentitevi liberi di etichettare l'account o inviare un messaggio diretto se volete entrare in contatto con noi."
 
 #: templates/get-involved/index.html:56
 msgid "Developer Chat"
-msgstr ""
+msgstr "Chat sviluppatori"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "Usiamo <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> per la chat di sviluppo di BookWyrm &mdash; è un ottimo posto per fare domande e ottenere aiuto. Si concentra sullo sviluppo del software BookWyrm e l'esecuzione di istanze di BookWyrm, ma tutti i tipi di discussione BookWyrm sono ben accette."
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Partecipa"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm è mantenuto da <a href='https://mousereeve.com/'>Mouse Reeve</a> - Guidano il progetto, gestiscono la comunità degli sviluppatori e cercano di correggere i bug più velocemente di quanto li introducano. Il loro obiettivo primario è quello di rendere BookWyrm un luogo gentile e accogliente."
 
