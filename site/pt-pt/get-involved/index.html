@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt">
 <head>
-    <title>BookWyrm: lectura y revisión social</title>
+    <title>BookWyrm: Leitura e Revisão Social</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,27 +24,27 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/es/">
+        <a class="navbar-item" href="/pt-pt/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/es/instances" class="navbar-item">
-                <span class="button is-success">Unirse</span>
+            <a href="/pt-pt/instances" class="navbar-item">
+                <span class="button is-success">Junta-te</span>
             </a>
-            <a href="/es/get-involved" class="navbar-item">
+            <a href="/pt-pt/get-involved" class="navbar-item">
                 Get involved
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Soporte
+                Apoia
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
                 Código
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Documentación
+                Documentação
             </a>
         </div>
     </div>
@@ -57,7 +57,7 @@
                     
                     <option value="de/" >Deutsch</option>
                     
-                    <option value="es/" selected>Español</option>
+                    <option value="es/" >Español</option>
                     
                     <option value="gl/" >Galego</option>
                     
@@ -65,7 +65,7 @@
                     
                     <option value="lt/" >lietuvių</option>
                     
-                    <option value="pt-pt/" >Português Europeu</option>
+                    <option value="pt-pt/" selected>Português Europeu</option>
                     
                     <option value="pt-br/" >Português do Brasil</option>
                     
@@ -81,7 +81,7 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Involúcrate</h1>
+        <h1 class="title is-1">Envolve-te</h1>
         <p class="subtitle">Human-scale software</p>
     </header>
 </section>
@@ -148,19 +148,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> es un software colaborativo y anti-corporativo mantenido por <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
+                    <strong>BookWyrm</strong> é um software colaborativo e anti-corporativo mantido por <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Apoya BookWyrm en <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Apoia o BookWyrm no <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Involúcrate</h3>
+                <h3 class="title is-6">Envolve-te</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm en GitHub</a>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm no GitHub</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribuir a esta página</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribuir para esta página</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -175,15 +175,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Más información</h3>
+                <h3 class="title is-6">Saiba mais</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Documentación</a>
+                    <a href="https://docs.joinbookwyrm.com">Documentação</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Contactar con el encargado</a>
+                    <a href="mailto:mousereeve@riseup.net">Contatar o responsável</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licencia</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licença</a>
                 </p>
             </div>
         </div>
@@ -194,7 +194,7 @@
     (function() {
         var languageSelector = document.getElementById("language_selection");
         languageSelector.onchange = function(event) {
-            var current_locale = "es/";
+            var current_locale = "pt-pt/";
             var current_location = window.location.pathname;
 
             var locale_index = current_location.indexOf(current_locale);

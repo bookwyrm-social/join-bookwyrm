@@ -65,9 +65,9 @@
                     
                     <option value="lt/" >lietuvių</option>
                     
-                    <option value="pt/" >Português Europeu</option>
+                    <option value="pt-pt/" >Português Europeu</option>
                     
-                    <option value="pt/" >Português do Brasil</option>
+                    <option value="pt-br/" >Português do Brasil</option>
                     
                     <option value="zh/" >简体中文</option>
                     
@@ -125,11 +125,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-<<<<<<< HEAD
-                    <span class="card-footer-item">2,134 users</span>
-=======
-                    <span class="card-footer-item">2,136 users</span>
->>>>>>> main
+                    <span class="card-footer-item">2,142 users</span>
                     <span class="card-footer-item">Selbstregistrierung möglich</span>
                     <a href="https://bookwyrm.social/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
@@ -377,9 +373,9 @@
             var new_location = "/" + event.target.value;
 
             if (locale_index) {
-                new_location +=  current_location.slice(locale_index + 3);
+                new_location += current_location.slice(locale_index + current_locale.length);
             } else {
-                new_location +=  current_location.slice(1);
+                new_location += current_location.slice(1);
             }
 
             window.location = new_location;
