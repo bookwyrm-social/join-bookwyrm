@@ -35,9 +35,7 @@ def load_instances():
         instance_path = instance["path"]
         print(f"  - Fetching: {instance_path}")
         try:
-            response = requests.get(
-                f"{instance_path}api/v1/instance", timeout=15
-            )
+            response = requests.get(f"{instance_path}api/v1/instance", timeout=15)
             data = response.json()
             # pylint: disable=consider-using-f-string
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
