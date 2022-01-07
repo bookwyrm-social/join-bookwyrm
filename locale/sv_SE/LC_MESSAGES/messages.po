@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 08:34-0800\n"
-"PO-Revision-Date: 2022-01-07 18:58\n"
+"PO-Revision-Date: 2022-01-07 19:57\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -214,7 +214,7 @@ msgstr ""
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Engagera dig"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
