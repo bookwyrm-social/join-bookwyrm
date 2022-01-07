@@ -12,7 +12,6 @@ env.install_gettext_translations(i18n)
 
 def load_instances():
     """update the list of instances"""
-    # TODO: get this properly
     # pylint: disable=line-too-long
     instance_data = [
         {"path": "https://bookwyrm.social/"},
@@ -28,16 +27,17 @@ def load_instances():
             "logo": "https://books.mxhdr.net/images/logos/owl-g6a1cbbee3_1280.png",
         },
         {"path": "https://ziurkes.group.lt/"},
+        {"path": "https://kirja.casa/"},
     ]
 
     print("  Fetching instance statistics:")
     for instance in instance_data:
-        print("  - Fetching: %s" % instance["path"])
+        instance_path = instance["path"]
+        print(f"  - Fetching: {instance_path}")
         try:
-            response = requests.get(
-                "{:s}api/v1/instance".format(instance["path"]), timeout=15
-            )
+            response = requests.get(f"{instance_path}api/v1/instance", timeout=15)
             data = response.json()
+            # pylint: disable=consider-using-f-string
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["registration"] = "open" if data["registrations"] else "invite"
             description_text = data["short_description"] or ""
@@ -53,9 +53,9 @@ def load_instances():
             instance["logo"] = instance.get("logo", data["thumbnail"])
             instance["name"] = data["title"]
         except Exception as e:  # pylint: disable=broad-except
-            print("    ! %s" % str(e))
+            print(f"    ! {e}")
             print("    - Site could possibly be down. Please check it manually:")
-            print("    - Site url: %s" % instance["path"])
+            print(f"    - Site url: {instance_path}")
             instance["skip"] = True
     return instance_data
 
@@ -73,15 +73,15 @@ if __name__ == "__main__":
 
         localized_site_path = "site/"
         if not locale["code"] == "en_US":
-            localized_site_path = "site/%s" % locale["slug"]
+            localized_site_path = f'site/{locale["slug"]}'
 
         for (path, data_loader) in paths:
-            print("  Generating", "%s%s" % (localized_site_path, path))
+            print("  Generating", f"{localized_site_path}{path}")
             with open(f"templates/{path}", "r", encoding="utf-8") as template_file:
                 template_string = template_file.read()
             template = env.from_string(template_string)
 
-            localized_dirs = "%s%s" % (localized_site_path, path)
+            localized_dirs = f"{localized_site_path}{path}"
             localized_dirs = localized_dirs[: localized_dirs.rfind("/")]
             if not os.path.exists(localized_dirs):
                 os.makedirs(localized_dirs)
