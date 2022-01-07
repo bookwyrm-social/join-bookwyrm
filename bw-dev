@@ -34,6 +34,8 @@ case "$CMD" in
             git checkout l10n_main locale/$locale
             msgfmt locale/$locale/LC_MESSAGES/messages.po -o locale/$locale/LC_MESSAGES/messages.mo
         done
+        xgettext --no-wrap --join-existing --language=C --from-code=UTF-8 --keyword=_ --output=locale/en_US/LC_MESSAGES/messages.po `find templates -name "*.html"`
+        sed -i -e "s/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g" locale/en_US/LC_MESSAGES/messages.po
         ;;
     black)
         black .
