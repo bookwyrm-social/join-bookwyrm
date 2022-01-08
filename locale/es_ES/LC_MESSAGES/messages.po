@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 16:37\n"
+"PO-Revision-Date: 2022-01-08 17:37\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -224,5 +224,5 @@ msgstr "BookWyrm está mantenido por <a href='https://mousereeve.com/'>Mouse Ree
 #: templates/instances/index.html:53
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Versión %s"
 
