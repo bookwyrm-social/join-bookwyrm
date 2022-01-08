@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 08:34-0800\n"
-"PO-Revision-Date: 2022-01-07 17:43\n"
+"POT-Creation-Date: 2022-01-07 13:45-0800\n"
+"PO-Revision-Date: 2022-01-08 16:37\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -62,6 +62,7 @@ msgid "Registration by request"
 msgstr "邀请注册"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
+#: templates/instances/index.html:54
 msgid "Learn More"
 msgstr "了解更多"
 
@@ -218,5 +219,10 @@ msgstr ""
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
+msgstr ""
+
+#: templates/instances/index.html:53
+#, c-format
+msgid "Version %s"
 msgstr ""
 
