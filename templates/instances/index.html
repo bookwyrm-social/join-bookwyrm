@@ -35,7 +35,7 @@
                           </a>
                       </div>
                       <div class="column is-flex is-flex-direction-column">
-                          <div class="is-flex-grow-1">{{ instance.description }}</div>
+                          <div class="is-flex-grow-1 pb-3">{{ instance.description }}</div>
                           <div>
                               {% if instance.registration == "open" %}
                                   <a href="{{ instance.path }}" class="button is-success is-rounded is-multiline">{{ _("Join instance") }}</a>
@@ -50,6 +50,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item">{{ _("%s users" % instance.users) }}</span>
                     <span class="card-footer-item">{% if instance.registration == "open" %}{{ _("Open registration") }}{% else %}{{ _("Registration by request")}}{% endif %}</span>
+                    <span class="card-footer-item">{{ _("Version %s" % instance.version)}}</span>
                     <a href="{{ instance.path }}about" class="card-footer-item">{{ _("Learn More")}}</a>
                 </footer>
             </div>

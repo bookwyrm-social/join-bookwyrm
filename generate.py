@@ -52,6 +52,7 @@ def load_instances():
             # page, so it's still hard-coded here
             instance["logo"] = instance.get("logo", data["thumbnail"])
             instance["name"] = data["title"]
+            instance["version"] = data["version"]
         except Exception as e:  # pylint: disable=broad-except
             print(f"    ! {e}")
             print("    - Site could possibly be down. Please check it manually:")
