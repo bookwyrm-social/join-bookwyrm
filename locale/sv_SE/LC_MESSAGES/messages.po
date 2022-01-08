@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 16:37\n"
+"PO-Revision-Date: 2022-01-08 17:37\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -23,7 +23,7 @@ msgstr "Välkommen till BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Social läsning och granskning, Decentraliserad"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -35,7 +35,7 @@ msgstr "Ett nätverk bestående av små, självstyrda gemenskaper"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "I stället för en enda stor BookWyrm-webbplats så finns det många instanser på BookWyrm som kan interagera sömlöst med varandra. Du kan ha fördelarna med en liten gemenskap som du litar på samtidigt som du interagerar med ett stort nätverk av nya intressanta människor (när du vill)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
@@ -187,7 +187,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "BookWyrm underhålls av <a href='https://mousereeve.com/'>Mouse Reeve</a> - de styr projektet, hanterar utvecklarcommunityn och försöker rätta buggar snabbare än de introducerar dem. Deras primära mål är att göra BookWyrm till en vänlig som en gemenskap och som en bit mjukvara."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:56
 msgid "Developer Chat"
-msgstr ""
+msgstr "Utvecklarchatt"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
@@ -219,10 +219,10 @@ msgstr "Engagera dig"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm underhålls av <a href='https://mousereeve.com/'>Mouse Reeve</a> - de styr projektet, hanterar utvecklarcommunityn och försöker rätta buggar snabbare än de introducerar dem. Deras primära mål är att göra BookWyrm till en vänlig och välkomnande plats."
 
 #: templates/instances/index.html:53
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Version %s"
 
