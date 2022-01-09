@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-09 19:40\n"
+"PO-Revision-Date: 2022-01-09 20:45\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -207,19 +207,19 @@ msgstr ""
 
 #: templates/get-involved/index.html:56
 msgid "Developer Chat"
-msgstr ""
+msgstr "Chat de Desenvolvedores"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "Usamos o <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> para o chat de desenvolvimento do BookWyrm &mdash; é um ótimo lugar para fazeres perguntas e obteres ajuda. É focado no desenvolvimento do software BookWyrm e em domínios de BookWyrm, mas são bem-vindos todos os tipos de discussão relacionados com BookWyrm."
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Participa"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm é mantido por <a href='https://mousereeve.com/'>Mouse Reeve</a> - ele dirige o projeto, gerencia a comunidade de desenvolvedores e tentar corrigir erros mais rápido do que eles aparecem. O seu objetivo principal é fazer de BookWyrm um lugar gentil e acolhedor."
 
 #: templates/instances/index.html:53
 #, c-format
