@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 16:37\n"
+"PO-Revision-Date: 2022-01-13 12:33\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -162,7 +162,7 @@ msgstr ""
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr ""
+msgstr "معرفة المزيد"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
-msgstr ""
+msgstr "الرخصة"
 
 #: templates/instances/index.html:51
 #, c-format
@@ -199,7 +199,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
-msgstr ""
+msgstr "شبكة اجتماعية"
 
 #: templates/get-involved/index.html:50
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
@@ -224,5 +224,5 @@ msgstr ""
 #: templates/instances/index.html:53
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "الاصدار %s"
 
