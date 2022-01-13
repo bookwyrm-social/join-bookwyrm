@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 08:34-0800\n"
-"PO-Revision-Date: 2022-01-08 09:31\n"
+"POT-Creation-Date: 2022-01-07 13:45-0800\n"
+"PO-Revision-Date: 2022-01-10 16:15\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -27,7 +27,7 @@ msgstr "Letture e recensioni social, decentralizzate"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr "Entra In BookWyrm"
+msgstr "Unisciti a Bookwyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
@@ -39,11 +39,11 @@ msgstr "Invece di un solo enorme sito di BookWyrm, ci sono molte istanze di Book
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr "Questo significa che non c'è un solo posto per registrarsi! Puoi selezionare un'istanza che ti sembra adatta per i tuoi interessi o semplicemente provarne una a caso &mdash; sono tutte molto belle."
+msgstr "Questo significa che non c'è un solo posto per registrarsi! Puoi selezionare un'istanza che ti sembra adatta ai tuoi interessi o semplicemente provarne una a caso &mdash; sono tutte molto interessanti."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr "Entra nell'istanza"
+msgstr "Unisciti all'istanza"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
@@ -55,15 +55,16 @@ msgstr "utenti"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr "Registrazione aperta"
+msgstr "Registrazioni aperte"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr "Registrazione a richiesta"
+msgstr "Registrazione tramite richiesta"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
+#: templates/instances/index.html:54
 msgid "Learn More"
-msgstr "Per saperne di più"
+msgstr "Scopri di più"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -79,7 +80,7 @@ msgstr "Amichevole"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr "Anti-commerciale"
+msgstr "Anti-Corporate"
 
 #: templates/index.html:53
 msgid "Track your reading"
@@ -115,11 +116,11 @@ msgstr "Come vuoi"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr "Scrivi delle recensioni o posta di passaggio dei commenti e controlla chi legge i tuoi post usando dettagliate impostazioni sulla privacy."
+msgstr "Scrivi delle recensioni o posta un commento al volo e controlla chi legge i tuoi post usando dettagliate impostazioni sulla privacy."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: letture e recensioni social"
+msgstr "BookWyrm: Social di lettura e recensioni"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -161,7 +162,7 @@ msgstr "Contribuisci a questa pagina"
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr "Per saperne di più"
+msgstr "Scopri di più"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
@@ -219,4 +220,9 @@ msgstr "Partecipa"
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
 msgstr "BookWyrm è mantenuto da <a href='https://mousereeve.com/'>Mouse Reeve</a> - Guidano il progetto, gestiscono la comunità degli sviluppatori e cercano di correggere i bug più velocemente di quanto li introducano. Il loro obiettivo primario è quello di rendere BookWyrm un luogo gentile e accogliente."
+
+#: templates/instances/index.html:53
+#, c-format
+msgid "Version %s"
+msgstr "Versione: %s"
 
