@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 08:34-0800\n"
-"PO-Revision-Date: 2022-01-07 17:42\n"
+"POT-Creation-Date: 2022-01-07 13:45-0800\n"
+"PO-Revision-Date: 2022-01-09 11:36\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -62,6 +62,7 @@ msgid "Registration by request"
 msgstr "Tilgang etter ønske"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
+#: templates/instances/index.html:54
 msgid "Learn More"
 msgstr "Les mer"
 
@@ -178,45 +179,50 @@ msgstr "%s medlemmer"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr ""
+msgstr "Programvare for mennesker"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "Bokwyrm er laget for å være liten og nør; hvis du har ønsker, feilrapoprter eller store vyer, vil vi gjerne ha tilbakemelding fra deg."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "BookWyrm vedlikeholdes av <a href='https://mousereeve.com/'>Mouse Reeve</a> - som styrer prosjektet, administrer utviklersamfunnet, og prøv å fikse feil raskere enn de lager dem. Deres hovedmål for BookWyrm er å gjøre det til et godt og vennlig som utviklersamfunn, og programmvareprosjekt."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Feil og funksjonsønsker"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "BokWyrms feilliste og kode er lagret på <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; det er stedet å rapportere feil og legge inn funksjonsforespørsler."
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
-msgstr ""
+msgstr "Sosiale medier"
 
 #: templates/get-involved/index.html:50
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "Du kan følge BookWyrm på <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> og <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> for å få oppdateringer om nye funksjoner. Send oss gjerne en åpen eller direkte melding om du ønsker å komme i kontakt."
 
 #: templates/get-involved/index.html:56
 msgid "Developer Chat"
-msgstr ""
+msgstr "Utviklerchat"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "Vi bruker <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> til BookWyrms utviklingschat &mdash; Det er et flott sted å stille spørsmål og få hjelp. Der fokuserer vi mest på utviklingen av BookWyrm-programvare og driften av BookWyrm instanser, men alle typer diskusjon om BookWyrm er velkommen."
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Bli med"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm vedlikeholdes av <a href='https://mousereeve.com/'>Mouse Reeve</a> - som styrer prosjektet, administrerer utviklersamfunnet, og prøv å fikse feil raskere enn de lager dem. Hovedmålet deres for BookWyrm er å gjøre det til et godt og vennlig sted."
+
+#: templates/instances/index.html:53
+#, c-format
+msgid "Version %s"
+msgstr "Versjon %s"
 
