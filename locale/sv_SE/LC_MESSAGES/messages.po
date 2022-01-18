@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-18 02:37\n"
+"PO-Revision-Date: 2022-01-18 03:33\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -92,7 +92,7 @@ msgstr "Och det som dina vänner läser"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "Uppdatera din lässtatus när du startar och slutför böcker, lägg ut status-uppdateringar lite nu och då, och sätt upp ett årligt läsmål."
 
 #: templates/index.html:74
 msgid "Discover books"
@@ -116,11 +116,11 @@ msgstr "På sättet som du vill"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr ""
+msgstr "Skriv recensioner eller lägg ut en släntrianmässig kommentar allt eftersom och kontrollera vem som får se dina inlägg med finmaskiga integritetsinställningar."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: Social läsning och recensering"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -141,7 +141,7 @@ msgstr "Dokumentation"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> är samarbetsvillig, företagsfientlig programvara som underhålls av <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:73 templates/layout.html:76
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
@@ -179,11 +179,11 @@ msgstr "%s användare"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr ""
+msgstr "Programvara i mänsklig skala"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "BookWyrm är utformad för att hålla sig liten och personlig; Om du har funktionsförfrågningar, felrapporter eller storslagna drömmar så vill vi gärna ha med dig i konversationen."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
@@ -195,7 +195,7 @@ msgstr "Buggar och önskemål om funktioner"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "BookWyrm's buggspårare och kod finns på <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; det är det bästa stället att rapportera fel och göra funktionsförfrågningar."
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
