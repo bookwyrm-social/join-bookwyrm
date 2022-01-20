@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 16:37\n"
+"PO-Revision-Date: 2022-01-20 16:29\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -19,52 +19,52 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Добро пожаловать на BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Социальное чтение и обзоры, децентрализованно"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Присоединиться к BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Сеть небольших, самоуправляющихся сообществ"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "Вместо одного огромного сайта BookWyrm существует множество экземпляров BookWyrm, которые могут взаимодействовать друг с другом. Вы можете получить преимущества небольшого сообщества, которому вы доверяете, и в то же время взаимодействовать с большой сетью интересных новых людей (когда захотите)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr ""
+msgstr "Это значит, что нет единого места для регистрации! Вы можете выбрать экземпляр, который лучше подходит под ваши интересы, или просто попробуйте случайно &mdash; они все замечательные."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "Присоединиться"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
-msgstr ""
+msgstr "Запросить приглашение"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "пользователей"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr ""
+msgstr "Открытая регистрация"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr ""
+msgstr "Регистрация по запросу"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54
 msgid "Learn More"
-msgstr ""
+msgstr "Узнать подробнее"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -72,23 +72,23 @@ msgstr ""
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Децентрализовано"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Дружелюбно"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Антикорпоративно"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Отслеживайте ваше чтение"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "И что читают ваши друзья"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
