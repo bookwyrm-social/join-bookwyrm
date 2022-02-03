@@ -1,227 +1,228 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-03 14:20-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-01-07 13:45-0800\n"
+"PO-Revision-Date: 2022-01-18 03:33\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: bookwyrm\n"
+"X-Crowdin-Project-ID: 479239\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /[bookwyrm-social.join-bookwyrm] main/locale/en_US/LC_MESSAGES/messages.po\n"
+"X-Crowdin-File-ID: 1581\n"
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Välkommen till BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Social läsning och granskning, Decentraliserad"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Gå med i BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Ett nätverk bestående av små, självstyrda gemenskaper"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "I stället för en enda stor BookWyrm-webbplats så finns det många instanser på BookWyrm som kan interagera sömlöst med varandra. Du kan ha fördelarna med en liten gemenskap som du litar på samtidigt som du interagerar med ett stort nätverk av nya intressanta människor (när du vill)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr ""
+msgstr "Det här betyder att det finns inte bara ett ställe att registrera sig på! Du kan välja en instans som låter som en bra passform för dina intressen eller så provar du en slumpmässig &mdash; de är alla mycket trevliga."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "Gå med i instans"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 msgid "Request Invite"
-msgstr ""
+msgstr "Begär inbjudning"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "användare"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Open registration"
-msgstr ""
+msgstr "Öppen registrering"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 msgid "Registration by request"
-msgstr ""
+msgstr "Registrering genom förfrågning"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54
 msgid "Learn More"
-msgstr ""
+msgstr "Lär dig mer"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "BookWyrm är ett socialt nätverk för att spåra din läsning, prata om böcker, skriva recensioner, och upptäcka vad du ska läsa härnäst. Federering tillåter BookWyrm användare att gå med i små, betrodda gemenskaper som kan ansluta med varandra, och med andra <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> tjänster som <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> och <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Decentraliserat"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Vänlig"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Anti-företag"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Spåra din läsning"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "Och det som dina vänner läser"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "Uppdatera din lässtatus när du startar och slutför böcker, lägg ut status-uppdateringar lite nu och då, och sätt upp ett årligt läsmål."
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Upptäck böcker"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "Rekommendationer från personer, inte algoritmer"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr ""
+msgstr "Se det som dina vänner läser, och få åsikter från din gemenskap."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "Dela dina tankar"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "På sättet som du vill"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr ""
+msgstr "Skriv recensioner eller lägg ut en släntrianmässig kommentar allt eftersom och kontrollera vem som får se dina inlägg med finmaskiga integritetsinställningar."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: Social läsning och recensering"
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Gå med"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr ""
+msgstr "Hjälp"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> är samarbetsvillig, företagsfientlig programvara som underhålls av <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:73 templates/layout.html:76
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr ""
+msgstr "Stötta BookWyrm på <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
 msgid "Get Involved"
-msgstr ""
+msgstr "Bli engagerad"
 
 #: templates/layout.html:79 templates/layout.html:82
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "BookWyrm på GitHub"
 
 #: templates/layout.html:82 templates/layout.html:85
 msgid "Contribute to this page"
-msgstr ""
+msgstr "Bidra till den här sidan"
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr ""
+msgstr "Lär dig mer"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Kontakta underhållare"
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #: templates/instances/index.html:51
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s användare"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr ""
+msgstr "Programvara i mänsklig skala"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "BookWyrm är utformad för att hålla sig liten och personlig; Om du har funktionsförfrågningar, felrapporter eller storslagna drömmar så vill vi gärna ha med dig i konversationen."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "BookWyrm underhålls av <a href='https://mousereeve.com/'>Mouse Reeve</a> - de styr projektet, hanterar utvecklarcommunityn och försöker rätta buggar snabbare än de introducerar dem. Deras primära mål är att göra BookWyrm till en vänlig som en gemenskap och som en bit mjukvara."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Buggar och önskemål om funktioner"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "BookWyrm's buggspårare och kod finns på <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; det är det bästa stället att rapportera fel och göra funktionsförfrågningar."
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
-msgstr ""
+msgstr "Socialt media"
 
 #: templates/get-involved/index.html:50
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "Du kan följa BookWyrm på <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> och <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> för att få uppdateringar om nya funktioner. Känn dig fri att gärna tagga kontot eller skicka ett direkt meddelande om du vill komma i kontakt med oss."
 
 #: templates/get-involved/index.html:56
 msgid "Developer Chat"
-msgstr ""
+msgstr "Utvecklarchatt"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "Vi använder <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> för BookWyrm utvecklingschatt &mdash; det är ett jättebra ställe för att ställa frågor och få hjälp. Det fokuserar på utveckling av BookWyrm's programvara och att köra BookWyrm-instanser, men alla typer av BookWyrm-diskussioner välkomnas."
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Engagera dig"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm underhålls av <a href='https://mousereeve.com/'>Mouse Reeve</a> - de styr projektet, hanterar utvecklarcommunityn och försöker rätta buggar snabbare än de introducerar dem. Deras primära mål är att göra BookWyrm till en vänlig och välkomnande plats."
 
 #: templates/instances/index.html:53
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Version %s"
+
