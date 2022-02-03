@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-30 08:26\n"
+"PO-Revision-Date: 2022-02-03 18:11\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -183,19 +183,19 @@ msgstr "Programinė įranga, kuriai vystyti nereikia įmonės"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "„BookWyrm“ sukurtas taip, kad liktų nedidelis ir asmeniškas; jei norite papildomų funkcijų, įgyvendinti svajones ar pranešti apie klaidas, pasikalbėkime."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "Programinę įrangą „BookWyrm“ prižiūri <a href='https://mousereeve.com/'>Mouse Reeve</a> – jie valdo projektą, koordinuoja programuotojų bendruomenę ir bando ištaisyti klaidas greičiau, nei jas kas nors pastebi. Pirminis jų tikslas – padaryti „BookWyrm“ mielą ir draugišką tiek programuotojams, tiek ir malonią programinę įrangą."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Pranešimai apie klaidas ir naujas funkcijas"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "„BookWyrm“ klaidos sekamos ir kodas laikomas <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; tai geriausia vieta pranešti apie klaidas ir paprašyti naujų funkcijų."
 
 #: templates/get-involved/index.html:47
 msgid "Social Media"
@@ -211,7 +211,7 @@ msgstr "Progamuotojų pokalbiai"
 
 #: templates/get-involved/index.html:59
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "„BookWyrm“ programuotojų pokalbių svetainė &mdash; <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a>. Tai puiki vieta užduoti klausimus ir gauti pagalbos. Čia dėmesys telkiamas „BookWyrm“ programinei įrangai ir įvairioms diskusijoms apie „BookWyrm“."
 
 #: templates/layout.html:38
 msgid "Get involved"
@@ -219,7 +219,7 @@ msgstr "Įsitraukite"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "Programinę įrangą „BookWyrm“ prižiūri <a href='https://mousereeve.com/'>Mouse Reeve</a> – jie valdo projektą, koordinuoja programuotojų bendruomenę ir bando ištaisyti klaidas greičiau, nei jas kas nors pastebi. Pirminis jų tikslas – padaryti „BookWyrm“ miela ir draugiška vieta."
 
 #: templates/instances/index.html:53
 #, c-format
