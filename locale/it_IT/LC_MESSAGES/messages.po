@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-28 19:04\n"
+"PO-Revision-Date: 2022-02-07 10:17\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -72,7 +72,7 @@ msgstr "BookWyrm è un social network per tenere traccia delle tue letture, parl
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr "Decentralizzata"
+msgstr "Decentralizzato"
 
 #: templates/index.html:24
 msgid "Friendly"
