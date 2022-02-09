@@ -28,6 +28,7 @@ def load_instances():
         },
         {"path": "https://ziurkes.group.lt/"},
         {"path": "https://kirja.casa/"},
+        {"path": "https://books.solarpunk.moe/"},
     ]
 
     print("  Fetching instance statistics:")
