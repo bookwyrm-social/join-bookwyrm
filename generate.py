@@ -1,5 +1,6 @@
 """ generate html files """
 import os
+from packaging import version
 from jinja2 import Environment, FileSystemLoader
 from lxml import html
 import requests
@@ -38,6 +39,9 @@ def load_instances():
         try:
             response = requests.get(f"{instance_path}api/v1/instance", timeout=15)
             data = response.json()
+            version_number = data["version"]
+            if version.parse(version_number) < version.parse("0.3.0"):
+                raise Exception("Instance is out of date wiht version:", version_number)
             # pylint: disable=consider-using-f-string
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["registration"] = "open" if data["registrations"] else "invite"
