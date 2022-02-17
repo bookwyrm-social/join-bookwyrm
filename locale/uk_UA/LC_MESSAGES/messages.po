@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 16:37\n"
+"POT-Creation-Date: 2022-02-17 15:49-0800\n"
+"PO-Revision-Date: 2022-02-17 23:53\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -197,19 +197,19 @@ msgstr ""
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
 msgstr ""
 
-#: templates/get-involved/index.html:47
+#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
 msgstr ""
 
-#: templates/get-involved/index.html:50
+#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
 msgstr ""
 
-#: templates/get-involved/index.html:56
+#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
 msgstr ""
 
-#: templates/get-involved/index.html:59
+#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
 msgstr ""
 
@@ -224,5 +224,13 @@ msgstr ""
 #: templates/instances/index.html:53
 #, c-format
 msgid "Version %s"
+msgstr ""
+
+#: templates/get-involved/index.html:47
+msgid "Translations"
+msgstr ""
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
 msgstr ""
 
