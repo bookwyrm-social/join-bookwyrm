@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 13:45-0800\n"
-"PO-Revision-Date: 2022-01-08 18:53\n"
+"POT-Creation-Date: 2022-02-17 15:49-0800\n"
+"PO-Revision-Date: 2022-02-17 23:54\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -197,19 +197,19 @@ msgstr "Bogues et demandes de fonctionnalités"
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
 msgstr "Le suivi de bogues et le code de BookWyrm sont hébergés sur <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; c'est le meilleur endroit pour rapporter des bogues et faire des demandes de fonctionnalités."
 
-#: templates/get-involved/index.html:47
+#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
 msgstr "Réseaux sociaux"
 
-#: templates/get-involved/index.html:50
+#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
 msgstr "Vous pouvez suivre BookWyrm sur <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> et <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> pour obtenir des mises à jour sur les nouvelles fonctionnalités. N'hésitez pas à taguer le compte ou à envoyer un message direct si vous souhaitez entrer en contact."
 
-#: templates/get-involved/index.html:56
+#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
 msgstr "Chat de développement"
 
-#: templates/get-involved/index.html:59
+#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
 msgstr "Nous utilisons <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pour le chat de développement BookWyrm &mdash; c'est un endroit idéal pour poser des questions et obtenir de l'aide. Il est centré sur le développement du logiciel BookWyrm et sur la gestion des instances de BookWyrm, mais toutes sortes de discussions autour de BookWyrm sont les bienvenues."
 
@@ -225,4 +225,12 @@ msgstr "BookWyrm est maintenu par <a href='https://mousereeve.com/'>Mouse Reeve<
 #, c-format
 msgid "Version %s"
 msgstr "Version %s"
+
+#: templates/get-involved/index.html:47
+msgid "Translations"
+msgstr ""
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
+msgstr ""
 
