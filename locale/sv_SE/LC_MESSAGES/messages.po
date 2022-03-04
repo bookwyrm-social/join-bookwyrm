@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 15:49-0800\n"
-"PO-Revision-Date: 2022-02-17 23:53\n"
+"PO-Revision-Date: 2022-03-04 03:50\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -228,9 +228,9 @@ msgstr "Version %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Översättningar"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Hjälp till att <a href='https://translate.joinbookwyrm.com/' target='_blank'>översätta</a> BookWyrm till andra språk! Du kan få veta mer om översättningsprocessen i vår <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>dokumentation</a>."
 
