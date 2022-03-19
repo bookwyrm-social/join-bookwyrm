@@ -70,23 +70,23 @@ if __name__ == "__main__":
     for locale in i18n.locales_metadata:
         i18n.setLocale(locale["code"])
 
-        localized_site_path = "site/"
+        LOCALIZED_SITE_PATH = "site/"
         if not locale["code"] == "en_US":
-            localized_site_path = f'site/{locale["slug"]}'
+            LOCALIZED_SITE_PATH = f'site/{locale["slug"]}'
 
         for (path, data_loader) in paths:
-            print("  Generating", f"{localized_site_path}{path}")
+            print("  Generating", f"{LOCALIZED_SITE_PATH}{path}")
             with open(f"templates/{path}", "r", encoding="utf-8") as template_file:
                 template_string = template_file.read()
             template = env.from_string(template_string)
 
-            localized_dirs = f"{localized_site_path}{path}"
+            localized_dirs = f"{LOCALIZED_SITE_PATH}{path}"
             localized_dirs = localized_dirs[: localized_dirs.rfind("/")]
             if not os.path.exists(localized_dirs):
                 os.makedirs(localized_dirs)
 
             with open(
-                f"{localized_site_path}{path}", "w+", encoding="utf-8"
+                f"{LOCALIZED_SITE_PATH}{path}", "w+", encoding="utf-8"
             ) as render_file:
                 render_file.write(
                     template.render(

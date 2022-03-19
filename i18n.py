@@ -4,7 +4,7 @@ import gettext as gettextlib
 import threading
 
 localedir = os.path.join(os.path.dirname(__file__), "locale")
-domain = "messages"
+DOMAIN = "messages"
 thread_local_data = threading.local()
 thread_local_data.locale = "en_US"
 
@@ -22,7 +22,8 @@ locales_metadata = [
     {"code": "sv_SE", "name": "Svenska", "slug": "sv/"},
     {"code": "zh_Hans", "name": "简体中文", "slug": "zh/"},
 ]
-default_locale = "en_US"
+
+default_locale = "en_US" # pylint: disable=invalid-name
 
 # find out all supported locales in locale directory
 locales = []
@@ -34,20 +35,22 @@ for dirpath, dirnames, filenames in os.walk(localedir):
 all_translations = {}
 for locale_name in locales:
     all_translations[locale_name] = gettextlib.translation(
-        domain, localedir, [locale_name]
+        DOMAIN, localedir, [locale_name]
     )
 
 
 def gettext(message):
     """translate message based on current locale"""
-    return all_translations[thread_local_data.locale].gettextlib(message)
+    return all_translations[thread_local_data.locale].gettext(message)
 
 
+# pylint: disable=invalid-name
 def ngettext(singular, plural, n):
     """translation strings with plurals"""
     return all_translations[thread_local_data.locale].ngettext(singular, plural, n)
 
 
+# pylint: disable=invalid-name
 def setLocale(locale):
     """set thread data locale"""
     if locale in locales:
