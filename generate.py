@@ -42,18 +42,17 @@ def load_instances():
             description_text = data["short_description"] or ""
             if not description_text:
                 description = data["description"]
+                # pylint: disable=invalid-name
                 for p in str(html.fromstring(description).text_content()).split("\n"):
                     description_text += f"<p>{p}</p>" if p else ""
                     if len(description_text) > 80:
                         break
             instance["description"] = description_text
-            # right now there's a bug in how instances are serving logos on the api
-            # page, so it's still hard-coded here
-            instance["logo"] = instance.get("logo", data["thumbnail"])
+            instance["logo"] = data["thumbnail"]
             instance["name"] = data["title"]
             instance["version"] = data["version"]
-        except Exception as e:  # pylint: disable=broad-except
-            print(f"    ! {e}")
+        except Exception as err:  # pylint: disable=broad-except
+            print(f"    ! {err}")
             print("    - Site could possibly be down. Please check it manually:")
             print(f"    - Site url: {instance_path}")
             instance["skip"] = True
@@ -71,23 +70,23 @@ if __name__ == "__main__":
     for locale in i18n.locales_metadata:
         i18n.setLocale(locale["code"])
 
-        localized_site_path = "site/"
+        LOCALIZED_SITE_PATH = "site/"
         if not locale["code"] == "en_US":
-            localized_site_path = f'site/{locale["slug"]}'
+            LOCALIZED_SITE_PATH = f'site/{locale["slug"]}'
 
         for (path, data_loader) in paths:
-            print("  Generating", f"{localized_site_path}{path}")
+            print("  Generating", f"{LOCALIZED_SITE_PATH}{path}")
             with open(f"templates/{path}", "r", encoding="utf-8") as template_file:
                 template_string = template_file.read()
             template = env.from_string(template_string)
 
-            localized_dirs = f"{localized_site_path}{path}"
+            localized_dirs = f"{LOCALIZED_SITE_PATH}{path}"
             localized_dirs = localized_dirs[: localized_dirs.rfind("/")]
             if not os.path.exists(localized_dirs):
                 os.makedirs(localized_dirs)
 
             with open(
-                f"{localized_site_path}{path}", "w+", encoding="utf-8"
+                f"{LOCALIZED_SITE_PATH}{path}", "w+", encoding="utf-8"
             ) as render_file:
                 render_file.write(
                     template.render(
