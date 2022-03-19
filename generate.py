@@ -42,18 +42,17 @@ def load_instances():
             description_text = data["short_description"] or ""
             if not description_text:
                 description = data["description"]
+                # pylint: disable=invalid-name
                 for p in str(html.fromstring(description).text_content()).split("\n"):
                     description_text += f"<p>{p}</p>" if p else ""
                     if len(description_text) > 80:
                         break
             instance["description"] = description_text
-            # right now there's a bug in how instances are serving logos on the api
-            # page, so it's still hard-coded here
-            instance["logo"] = instance.get("logo", data["thumbnail"])
+            instance["logo"] = data["thumbnail"]
             instance["name"] = data["title"]
             instance["version"] = data["version"]
-        except Exception as e:  # pylint: disable=broad-except
-            print(f"    ! {e}")
+        except Exception as err:  # pylint: disable=broad-except
+            print(f"    ! {err}")
             print("    - Site could possibly be down. Please check it manually:")
             print(f"    - Site url: {instance_path}")
             instance["skip"] = True
