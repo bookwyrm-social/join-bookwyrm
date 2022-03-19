@@ -1,6 +1,6 @@
 """ handle internationalization """
 import os
-import gettext
+import gettext as gettextlib
 import threading
 
 localedir = os.path.join(os.path.dirname(__file__), "locale")
@@ -32,19 +32,24 @@ for dirpath, dirnames, filenames in os.walk(localedir):
     break
 
 all_translations = {}
-for locale in locales:
-    all_translations[locale] = gettext.translation(domain, localedir, [locale])
+for locale_name in locales:
+    all_translations[locale_name] = gettextlib.translation(
+        domain, localedir, [locale_name]
+    )
 
 
 def gettext(message):
-    return all_translations[thread_local_data.locale].gettext(message)
+    """translate message based on current locale"""
+    return all_translations[thread_local_data.locale].gettextlib(message)
 
 
 def ngettext(singular, plural, n):
+    """translation strings with plurals"""
     return all_translations[thread_local_data.locale].ngettext(singular, plural, n)
 
 
 def setLocale(locale):
+    """set thread data locale"""
     if locale in locales:
         thread_local_data.locale = locale
 
