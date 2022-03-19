@@ -23,7 +23,7 @@ locales_metadata = [
     {"code": "zh_Hans", "name": "简体中文", "slug": "zh/"},
 ]
 
-default_locale = "en_US" # pylint: disable=invalid-name
+default_locale = "en_US"  # pylint: disable=invalid-name
 
 # find out all supported locales in locale directory
 locales = []
