@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 15:49-0800\n"
-"PO-Revision-Date: 2022-02-17 23:53\n"
+"PO-Revision-Date: 2022-03-23 12:29\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -68,7 +68,7 @@ msgstr "Узнать подробнее"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "BookWyrm это социальная сеть для отслеживания вашего чтения, обсуждения книг, написания отзывов и поиска того, что читать дальше. Федерация позволяет пользователям BookWyrm присоединятся к небольшим доверенным сообществам, которые могут взаимодействовать друг с другом, а также с другими сервисами <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>, такими как <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> и <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -92,19 +92,19 @@ msgstr "И что читают ваши друзья"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "Обновляйте свой статус чтения по мере того, как вы начинаете и заканчиваете книги, публикуйте обновления статуса по мере продвижения и устанавливайте годовую цель по чтению."
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Открывайте для себя книги"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "Рекомендации от людей, а не алгоритмов"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr ""
+msgstr "Узнайте, что читают ваши друзья, и получайте мнения от сообщества."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
@@ -132,20 +132,20 @@ msgstr ""
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> это коллаборативное, антикорпоративное программное обеспечение, поддерживаемое <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:73 templates/layout.html:76
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr ""
+msgstr "Поддержите BookWyrm на <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
@@ -162,7 +162,7 @@ msgstr ""
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr ""
+msgstr "Подробнее"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
