@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="ro">
 <head>
-    <title>BookWyrm: soziales Lesen und Besprechen</title>
+    <title>BookWyrm: citit social și recenzii</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,27 +24,27 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/de/">
+        <a class="navbar-item" href="/ro/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/de/instances" class="navbar-item">
-                <span class="button is-success">Beitreten</span>
+            <a href="/ro/instances" class="navbar-item">
+                <span class="button is-success">Alăturați-vă</span>
             </a>
-            <a href="/de/get-involved" class="navbar-item">
-                Mitmachen
+            <a href="/ro/get-involved" class="navbar-item">
+                Implicați-vă
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Support
+                Asistență
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Quelltext
+                Code
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Handbuch
+                Documentație
             </a>
         </div>
     </div>
@@ -55,7 +55,7 @@
                     
                     <option value="" >English (US)</option>
                     
-                    <option value="de/" selected>Deutsch</option>
+                    <option value="de/" >Deutsch</option>
                     
                     <option value="es/" >Español</option>
                     
@@ -73,7 +73,7 @@
                     
                     <option value="pt-br/" >Português do Brasil</option>
                     
-                    <option value="ro/" >Română</option>
+                    <option value="ro/" selected>Română</option>
                     
                     <option value="sv/" >Svenska</option>
                     
@@ -89,12 +89,12 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Willkommen bei BookWyrm</h1>
-        <p class="subtitle">Soziales Lesen und Besprechen, dezentralisiert</p>
+        <h1 class="title is-1">Bine ați venit în BookWyrm</h1>
+        <p class="subtitle">Citit social și recenzii, descentralizat</p>
     </header>
 
     <p class="block">
-    BookWyrm ist ein soziales Netzwerk zur Verfolgung deiner Lektüre; ein Ort, um über Bücher zu sprechen und Bücher zu besprechen; und ein Angebot zu entdecken, was du als nächstes lesen könntest. BookWyrm-Benutzer*innen können kleinen, vertrauenswürdigen Gemeinschaften beitreten, die sich untereinander verbinden können und mit anderen <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>-Diensten wie <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> und <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
+    BookWyrm este o rețea socială pentru a urmări progresul cititului, vorbi despre cărți, scrie recenzii și descoperi ce să citiți în continuare. Federarea permite utilizatorilor BookWyrm să se alăture comunităților mici și de încredere care se conectează una la cealaltă și cu alte servici <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> precum <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> și <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
     </p>
 
     <div class="block pt-5">
@@ -102,19 +102,19 @@
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
-                    <p class="heading">Dezentral</p>
+                    <p class="heading">Decentralizat</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
-                    <p class="heading">Freundlich</p>
+                    <p class="heading">Prietenos</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
-                    <p class="heading">Nichtkommerziell</p>
+                    <p class="heading">Anti-corporație</p>
                 </div>
             </div>
         </section>
@@ -122,7 +122,7 @@
 </section>
 
 <div class="section p-4 has-text-centered">
-    <a href="/de/instances" class="button is-success is-rounded">BookWyrm beitreten</a>
+    <a href="/ro/instances" class="button is-success is-rounded">Alăturați-vă BookWyrm</a>
 </div>
 
 <section class="section">
@@ -137,10 +137,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Verfolge deine Lesegewohnheiten</p>
-                    <p class="subtitle">Und die Lesegewohnheiten deiner Freund*innen</p>
+                    <p class="title">Urmăriți progresul lecturii dumneavoastră</p>
+                    <p class="subtitle">Și ceea ce prietenii voștri citesc</p>
                     <div class="content">
-                        Aktualisiere deinen Lesestatus, wenn du Bücher zu lesen beginnst oder beendest. Veröffentliche Statusupdates, während du liest, und setze dir ein jährliches Leseziel.
+                        Actualizați statutul vostru de lectură când începeți și terminați cărți, publicați actualizări de statut de-a lungul timpului și stabiliți un obiectiv anual de lectură.
                     </div>
                 </div>
             </article>
@@ -158,10 +158,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Entdecke Bücher</p>
-                    <p class="subtitle">Empfehlungen von Menschen, nicht von Algorithmen</p>
+                    <p class="title">Descoperiți cărți</p>
+                    <p class="subtitle">Recomandări de la oameni, nu de la algoritmi</p>
                     <div class="content">
-                        Schau dir an, was deine Freund*innen lesen und hold die Meinungen deiner Gemeinschaft ein.
+                        Vedeți ceea ce citesc prietenii voștri și aflați opinii de la comunitatea voastră.
                     </div>
                 </div>
             </article>
@@ -179,10 +179,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Teile deine Meinung</p>
-                    <p class="subtitle">So, wie du es willst</p>
+                    <p class="title">Partajați gândurile dumneavoastră</p>
+                    <p class="subtitle">Cum doriți</p>
                     <div class="content">
-                        Schreibe Besprechungen oder veröffentliche formlose Kommentare, während du liest, und bestimme dank feinkörniger Privatsphäre-Einstellungen selbst, wer deine Beiträge sehen kann.
+                        Scrieți recenzii sau publicați comentarii obișnuite de-a lungul timpului și controlați cine poate vedea publicațiile dumneavoastră cu setări de confidențialitate granulate.
                     </div>
                 </div>
             </article>
@@ -197,19 +197,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> ist eine kollaborative, nichtkommerzielle Software, die von <a href='https://www.mousereeve.com/'>Mouse Reeve</a> betreut wird.
+                    <strong>BookWyrm</strong> este un program colaborativ, anti-corporație menținut de <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Unterstütze BookWyrm auf <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Susțineți BookWyrm cu <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Mitmachen</h3>
+                <h3 class="title is-6">Implicați-vă</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm auf GitHub</a>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm pe GitHub</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Zu dieser Seite beitragen</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribuiți la această pagină</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -224,15 +224,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Erfahre mehr</h3>
+                <h3 class="title is-6">Aflați mai multe</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Handbuch</a>
+                    <a href="https://docs.joinbookwyrm.com">Documentație</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Betreuer*in kontaktieren</a>
+                    <a href="mailto:mousereeve@riseup.net">Contactați responsabilul</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Lizenz</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licență</a>
                 </p>
             </div>
         </div>
@@ -243,7 +243,7 @@
     (function() {
         var languageSelector = document.getElementById("language_selection");
         languageSelector.onchange = function(event) {
-            var current_locale = "de/";
+            var current_locale = "ro/";
             var current_location = window.location.pathname;
 
             var locale_index = current_location.indexOf(current_locale);
