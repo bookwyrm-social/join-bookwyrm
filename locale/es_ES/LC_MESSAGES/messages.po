@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 15:49-0800\n"
-"PO-Revision-Date: 2022-02-17 23:54\n"
+"PO-Revision-Date: 2022-04-25 20:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr "Bienvenido a BookWyrm"
+msgstr "Te damos la bienvenida a BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "Lectura y revisión social, descentralizada"
+msgstr "Lectura y reseñas sociales, descentralizadas"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -76,11 +76,11 @@ msgstr "Descentralizado"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr "Amigable"
+msgstr "Amable"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr "Anti-Corporativo"
+msgstr "Anticorporaciones"
 
 #: templates/index.html:53
 msgid "Track your reading"
@@ -120,7 +120,7 @@ msgstr "Escriba reseñas o publique comentarios casuales sobre la marcha, y cont
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: lectura y revisión social"
+msgstr "BookWyrm: Lectura y reseñas sociales"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -228,9 +228,9 @@ msgstr "Versión %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Traducciones"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "¡Ayuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm! Aprende más sobre el proceso de traducción en <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentación</a>."
 
