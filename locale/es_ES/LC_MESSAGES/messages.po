@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-17 15:49-0800\n"
-"PO-Revision-Date: 2022-04-25 20:28\n"
+"PO-Revision-Date: 2022-04-26 09:06\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -35,7 +35,7 @@ msgstr "Una red de comunidades pequeñas y autónomas"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr "En lugar de un sitio enorme de BookWyrm, hay muchas instancias de BookWyrm que pueden interactuar sin problemas entre sí. Puede disfrutar de los beneficios de una pequeña comunidad en la que confía, sin dejar de interactuar con una gran red de gente nueva e interesante (cuando lo desee)."
+msgstr "En lugar de un sitio enorme de BookWyrm, hay muchas instancias de BookWyrm que pueden interactuar sin problemas entre sí. Así puedes disfrutar de los beneficios de una comunidad pequeña en la que confiar, sin dejar de interactuar con una gran red de gente nueva e interesante (si es lo que quieres)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
