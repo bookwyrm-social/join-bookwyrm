@@ -58,5 +58,25 @@
         {% endif %}
         {% endfor %}
     </div>
+    <div class="notification has-text-centered">
+        {{ _("Is your instance missing from this list?") }}
+
+        <p class="has-text-weight-bold">
+            <a href="https://github.com/bookwyrm-social/join-bookwyrm/issues" target="_blank">
+                {{ _("Open a GitHub issue") }}
+            </a>
+        </p>
+    </div>
+    <div class="notification has-text-centered">
+        {{ _("Not finding what you want?") }}
+
+        <p class="has-text-weight-bold">
+            <a href="https://docs.joinbookwyrm.com/installing-in-production.html" target="_blank">
+                {{ _("Run your own BookWyrm community") }}</a>
+            &middot;
+            <a href="https://www.patreon.com/posts/64768354" target="_blank">
+                {{ _("Or skip the technical work and get managed hosting") }}</a>
+        </p>
+    </div>
 </section>
 {% endblock %}
