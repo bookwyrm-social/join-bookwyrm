@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 14:20-0700\n"
+"POT-Creation-Date: 2022-04-29 15:37-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,4 +232,24 @@ msgstr ""
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
+msgstr ""
+
+#: templates/instances/index.html:62
+msgid "Is your instance missing from this list?"
+msgstr ""
+
+#: templates/instances/index.html:66
+msgid "Open a GitHub issue"
+msgstr ""
+
+#: templates/instances/index.html:71
+msgid "Not finding what you want?"
+msgstr ""
+
+#: templates/instances/index.html:75
+msgid "Run your own BookWyrm community"
+msgstr ""
+
+#: templates/instances/index.html:78
+msgid "Or skip the technical work and get managed hosting"
 msgstr ""
