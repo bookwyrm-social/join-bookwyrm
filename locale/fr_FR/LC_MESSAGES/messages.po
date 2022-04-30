@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 15:49-0800\n"
-"PO-Revision-Date: 2022-02-20 20:25\n"
+"POT-Creation-Date: 2022-04-29 15:37-0700\n"
+"PO-Revision-Date: 2022-04-30 10:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -233,4 +233,24 @@ msgstr "Traductions"
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
 msgstr "Aidez à <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduire</a> BookWyrm dans d'autres langues ! Vous pouvez en savoir plus sur le processus de traduction dans notre <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
+
+#: templates/instances/index.html:62
+msgid "Is your instance missing from this list?"
+msgstr "Votre instance n’est pas sur cette liste ?"
+
+#: templates/instances/index.html:66
+msgid "Open a GitHub issue"
+msgstr "Ouvrir un ticket GitHub"
+
+#: templates/instances/index.html:71
+msgid "Not finding what you want?"
+msgstr "Vous ne trouvez pas ce que vous voulez ?"
+
+#: templates/instances/index.html:75
+msgid "Run your own BookWyrm community"
+msgstr "Gérez votre propre communauté BookWyrm"
+
+#: templates/instances/index.html:78
+msgid "Or skip the technical work and get managed hosting"
+msgstr "Ou sautez le travail technique et passez à un hébergement géré"
 
