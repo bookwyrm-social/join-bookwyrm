@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-29 15:37-0700\n"
-"PO-Revision-Date: 2022-04-29 23:43\n"
+"PO-Revision-Date: 2022-04-30 13:02\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -236,21 +236,21 @@ msgstr "Hilf BookWyrm in andere Sprachen zu <a href='https://translate.joinbookw
 
 #: templates/instances/index.html:62
 msgid "Is your instance missing from this list?"
-msgstr ""
+msgstr "Fehlt deine Instanz in dieser Liste?"
 
 #: templates/instances/index.html:66
 msgid "Open a GitHub issue"
-msgstr ""
+msgstr "GitHub-Problem öffnen"
 
 #: templates/instances/index.html:71
 msgid "Not finding what you want?"
-msgstr ""
+msgstr "Das Gesuchte nicht gefunden?"
 
 #: templates/instances/index.html:75
 msgid "Run your own BookWyrm community"
-msgstr ""
+msgstr "Starte deine eigene BookWyrm-Community"
 
 #: templates/instances/index.html:78
 msgid "Or skip the technical work and get managed hosting"
-msgstr ""
+msgstr "Oder lassen sie die technische Arbeit durch Managed Hosting erledigen"
 
