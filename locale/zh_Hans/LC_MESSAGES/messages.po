@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-29 15:37-0700\n"
-"PO-Revision-Date: 2022-04-29 23:43\n"
+"PO-Revision-Date: 2022-04-30 03:16\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -236,7 +236,7 @@ msgstr "帮助 <a href='https://translate.joinbookwyrm.com/' target='_blank'>将
 
 #: templates/instances/index.html:62
 msgid "Is your instance missing from this list?"
-msgstr "您的实例是否不存在于你的列表？"
+msgstr "此列表没有您的实例？"
 
 #: templates/instances/index.html:66
 msgid "Open a GitHub issue"
