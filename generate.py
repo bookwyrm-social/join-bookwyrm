@@ -38,7 +38,13 @@ def load_instances():
                 raise Exception("Instance is out of date wiht version:", version_number)
             # pylint: disable=consider-using-f-string
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
-            instance["registration"] = "open" if data["registrations"] else "invite"
+            instance["registration"] = (
+                "open"
+                if data["registrations"]
+                else "invite"
+                if data["approval_required"]
+                else "closed"
+            )
             description_text = data["short_description"] or ""
             if not description_text:
                 description = data["description"]
