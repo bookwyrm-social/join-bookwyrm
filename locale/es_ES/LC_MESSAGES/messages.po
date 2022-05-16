@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 15:37-0700\n"
-"PO-Revision-Date: 2022-04-30 09:06\n"
+"POT-Creation-Date: 2022-05-16 12:02-0700\n"
+"PO-Revision-Date: 2022-05-16 19:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -46,6 +46,7 @@ msgid "Join instance"
 msgstr "Unirse a la instancia"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
+#: templates/instances/index.html:45
 msgid "Request Invite"
 msgstr "Solicitar invitación"
 
@@ -54,15 +55,17 @@ msgid "users"
 msgstr "usuarios"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
+#: templates/instances/index.html:54
 msgid "Open registration"
 msgstr "Registro abierto"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
+#: templates/instances/index.html:54
 msgid "Registration by request"
 msgstr "Registro por solicitud"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
-#: templates/instances/index.html:54
+#: templates/instances/index.html:54 templates/instances/index.html:56
 msgid "Learn More"
 msgstr "Más información"
 
@@ -172,7 +175,7 @@ msgstr "Contactar con le encargade"
 msgid "License"
 msgstr "Licencia"
 
-#: templates/instances/index.html:51
+#: templates/instances/index.html:51 templates/instances/index.html:53
 #, c-format
 msgid "%s users"
 msgstr "%s usuarios"
@@ -221,7 +224,7 @@ msgstr "Participa"
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
 msgstr "BookWyrm está mantenido por <a href='https://mousereeve.com/'>Mouse Reeve</a>: dirige el proyecto, administra la comunidad de desarrolladores e intenta arreglar los errores más rápido de lo que tarda en introducirlos. Su objetivo principal es hacer de BookWyrm un lugar amable y acogedor."
 
-#: templates/instances/index.html:53
+#: templates/instances/index.html:53 templates/instances/index.html:55
 #, c-format
 msgid "Version %s"
 msgstr "Versión %s"
@@ -234,23 +237,27 @@ msgstr "Traducciones"
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
 msgstr "¡Ayuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm! Aprende más sobre el proceso de traducción en <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>Documentación</a>."
 
-#: templates/instances/index.html:62
+#: templates/instances/index.html:62 templates/instances/index.html:64
 msgid "Is your instance missing from this list?"
 msgstr "¿Falta tu nodo en esta lista?"
 
-#: templates/instances/index.html:66
+#: templates/instances/index.html:66 templates/instances/index.html:68
 msgid "Open a GitHub issue"
 msgstr "Crea una propuesta en GitHub"
 
-#: templates/instances/index.html:71
+#: templates/instances/index.html:71 templates/instances/index.html:73
 msgid "Not finding what you want?"
 msgstr "¿No encuentras lo que quieres?"
 
-#: templates/instances/index.html:75
+#: templates/instances/index.html:75 templates/instances/index.html:77
 msgid "Run your own BookWyrm community"
 msgstr "Crea tu propia comunidad de BookWyrm"
 
-#: templates/instances/index.html:78
+#: templates/instances/index.html:78 templates/instances/index.html:80
 msgid "Or skip the technical work and get managed hosting"
 msgstr "O sáltate la parte técnica y obtén alojamiento gestionado"
+
+#: templates/instances/index.html:43
+msgid "Registration closed"
+msgstr ""
 
