@@ -39,6 +39,8 @@
                           <div>
                               {% if instance.registration == "open" %}
                                   <a href="{{ instance.path }}" class="button is-success is-rounded is-multiline">{{ _("Join instance") }}</a>
+                              {% elif instance.registration == "closed" %}
+                                  <a href="{{ instance.path }}" class="button is-disabled is-rounded is-multiline">{{ _("Registration closed") }}</a>
                               {% else %}
                                   <a href="{{ instance.path }}" class="button is-link is-rounded is-multiline">{{ _("Request Invite") }}</a>
                               {% endif %}
@@ -49,7 +51,6 @@
                 </div>
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item">{{ _("%s users" % instance.users) }}</span>
-                    <span class="card-footer-item">{% if instance.registration == "open" %}{{ _("Open registration") }}{% else %}{{ _("Registration by request")}}{% endif %}</span>
                     <span class="card-footer-item">{{ _("Version %s" % instance.version)}}</span>
                     <a href="{{ instance.path }}about" class="card-footer-item">{{ _("Learn More")}}</a>
                 </footer>
