@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-16 12:02-0700\n"
-"PO-Revision-Date: 2022-05-16 19:16\n"
+"PO-Revision-Date: 2022-05-17 16:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -259,5 +259,5 @@ msgstr "Ou pule a etapa do trabalho manual e tenha uma instância gerenciada"
 
 #: templates/instances/index.html:43
 msgid "Registration closed"
-msgstr ""
+msgstr "O registro está fechado"
 
