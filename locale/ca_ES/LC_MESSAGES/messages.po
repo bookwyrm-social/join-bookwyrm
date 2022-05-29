@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 12:02-0700\n"
-"PO-Revision-Date: 2022-05-17 09:09\n"
+"POT-Creation-Date: 2022-05-28 17:53-0700\n"
+"PO-Revision-Date: 2022-05-29 01:01\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -66,6 +66,7 @@ msgstr ""
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
+#: templates/instances/index.html:55
 msgid "Learn More"
 msgstr ""
 
@@ -225,6 +226,7 @@ msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</
 msgstr ""
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
+#: templates/instances/index.html:54
 #, c-format
 msgid "Version %s"
 msgstr ""
@@ -238,22 +240,27 @@ msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>transl
 msgstr ""
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
+#: templates/instances/index.html:63
 msgid "Is your instance missing from this list?"
 msgstr ""
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
+#: templates/instances/index.html:67
 msgid "Open a GitHub issue"
 msgstr ""
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
+#: templates/instances/index.html:72
 msgid "Not finding what you want?"
 msgstr ""
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
+#: templates/instances/index.html:76
 msgid "Run your own BookWyrm community"
 msgstr ""
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
+#: templates/instances/index.html:79
 msgid "Or skip the technical work and get managed hosting"
 msgstr ""
 
