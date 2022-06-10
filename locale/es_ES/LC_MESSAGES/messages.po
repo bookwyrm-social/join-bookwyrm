@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 12:02-0700\n"
-"PO-Revision-Date: 2022-05-23 09:43\n"
+"POT-Creation-Date: 2022-05-28 17:53-0700\n"
+"PO-Revision-Date: 2022-05-29 01:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -66,6 +66,7 @@ msgstr "Registro por solicitud"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
+#: templates/instances/index.html:55
 msgid "Learn More"
 msgstr "Más información"
 
@@ -225,6 +226,7 @@ msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</
 msgstr "BookWyrm está mantenido por <a href='https://mousereeve.com/'>Mouse Reeve</a>: dirige el proyecto, administra la comunidad de desarrolladores e intenta arreglar los errores más rápido de lo que tarda en introducirlos. Su objetivo principal es hacer de BookWyrm un lugar amable y acogedor."
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
+#: templates/instances/index.html:54
 #, c-format
 msgid "Version %s"
 msgstr "Versión %s"
@@ -238,22 +240,27 @@ msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>transl
 msgstr "¡Ayuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm! Aprende más sobre el proceso de traducción en <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>Documentación</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
+#: templates/instances/index.html:63
 msgid "Is your instance missing from this list?"
 msgstr "¿Falta tu nodo en esta lista?"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
+#: templates/instances/index.html:67
 msgid "Open a GitHub issue"
 msgstr "Crea una propuesta en GitHub"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
+#: templates/instances/index.html:72
 msgid "Not finding what you want?"
 msgstr "¿No encuentras lo que quieres?"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
+#: templates/instances/index.html:76
 msgid "Run your own BookWyrm community"
 msgstr "Crea tu propia comunidad de BookWyrm"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
+#: templates/instances/index.html:79
 msgid "Or skip the technical work and get managed hosting"
 msgstr "O sáltate la parte técnica y obtén alojamiento gestionado"
 

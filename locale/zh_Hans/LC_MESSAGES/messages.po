@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-16 12:02-0700\n"
-"PO-Revision-Date: 2022-05-16 19:16\n"
+"POT-Creation-Date: 2022-05-28 17:53-0700\n"
+"PO-Revision-Date: 2022-05-29 01:01\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -66,6 +66,7 @@ msgstr "邀请注册"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
+#: templates/instances/index.html:55
 msgid "Learn More"
 msgstr "了解更多"
 
@@ -225,6 +226,7 @@ msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</
 msgstr "BookWyrm由<a href='https://mousereeve.com/'>Mouse Reeve</a>维护 - 他们指导项目，管理开发者社区，并试着以修复不及新增之势解决掉Bug。他们对BookWyrm的主要目标是使其成为一个“平易近人”的地方。"
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
+#: templates/instances/index.html:54
 #, c-format
 msgid "Version %s"
 msgstr "版本 %s"
@@ -238,22 +240,27 @@ msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>transl
 msgstr "帮助 <a href='https://translate.joinbookwyrm.com/' target='_blank'>将</a> BookWyrm 翻译成其他语言！您可以在我们 <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>文档</a> 中了解更多关于翻译过程的信息。"
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
+#: templates/instances/index.html:63
 msgid "Is your instance missing from this list?"
 msgstr "此列表没有您的实例？"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
+#: templates/instances/index.html:67
 msgid "Open a GitHub issue"
 msgstr "打开一份 Github Issue"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
+#: templates/instances/index.html:72
 msgid "Not finding what you want?"
 msgstr "没有找到你想要的吗？"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
+#: templates/instances/index.html:76
 msgid "Run your own BookWyrm community"
 msgstr "运行您自己的 BookWyrm 社区"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
+#: templates/instances/index.html:79
 msgid "Or skip the technical work and get managed hosting"
 msgstr "或者跳过技术工作并管理主机"
 
