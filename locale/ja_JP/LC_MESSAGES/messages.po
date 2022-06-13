@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-28 17:53-0700\n"
-"PO-Revision-Date: 2022-05-29 01:01\n"
+"PO-Revision-Date: 2022-06-13 02:16\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,23 +19,23 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "BookWyrmへようこそ"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "ソーシャルリーディングとレビュー、分散型。"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "BookWyrmに参加"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "小規模で自立したコミュニティのネットワーク"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "一つの巨大なBookWyrmサイトの代わりに、互いにシームレスに相互作用することができるBookWyrmの多くのインスタンスがあります。 あなたは(あなたがしたいときに)興味深い新しい人々の大規模なネットワークとやりとりしながら、あなたが信頼する小さなコミュニティの利点を持つことができます。"
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
@@ -43,12 +43,12 @@ msgstr ""
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 msgid "Join instance"
-msgstr ""
+msgstr "インスタンスに参加する"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45
 msgid "Request Invite"
-msgstr ""
+msgstr "招待をリクエスト"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
@@ -100,11 +100,11 @@ msgstr ""
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "本を発見する"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "アルゴリズムではなく、人からのおすすめ"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
@@ -136,12 +136,12 @@ msgstr ""
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
-msgstr ""
+msgstr "ソースコード"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
 msgid "Documentation"
-msgstr ""
+msgstr "ドキュメンテーション"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
@@ -174,16 +174,16 @@ msgstr ""
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: templates/instances/index.html:51 templates/instances/index.html:53
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s人のユーザー"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr ""
+msgstr "人間的なソフトウェア"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
