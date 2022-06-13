@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-28 17:53-0700\n"
-"PO-Revision-Date: 2022-06-13 02:16\n"
+"PO-Revision-Date: 2022-06-13 03:24\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -187,7 +187,7 @@ msgstr "人間的なソフトウェア"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "BookWyrmは小規模でパーソナルな存在でありたいと考えています。 機能リクエストやバグレポートや壮大な夢があればぜひ会話に参加してください。"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
