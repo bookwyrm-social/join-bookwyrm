@@ -132,7 +132,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">BookWyrm's flagship instance: Talk about books, track your reading, and find out what your friends are reading, on your own terms.</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://bookwyrm.social/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -167,7 +167,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">The Dispossessed and everything else.</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://wyrms.de/" class="button is-disabled is-rounded is-multiline">Registration closed</a>
                               
@@ -202,7 +202,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>Dans Mon Catalogue is a tiny bookwyrm instance where people can socially-but-not-too-socially review books. It is a part of the fediverse that uses activitypub.</p></div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://book.dansmonorage.blue/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -237,7 +237,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>A website for book lovers.</p><p>世上本没有不能读的书。</p></div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://yyyyy.club/" class="button is-link is-rounded is-multiline">Prašyti pakvietimo</a>
                               
@@ -272,7 +272,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>This is the private Bookwyrm instance of MXHDRM. Feel free to create an account.</p></div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://books.mxhdr.net/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -307,7 +307,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">Lietuviškai skaitantys knygų graužikai / Lithuanian book lovers</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://ziurkes.group.lt/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -342,7 +342,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">General, for Finnish readers</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://kirja.casa/" class="button is-link is-rounded is-multiline">Prašyti pakvietimo</a>
                               
@@ -377,7 +377,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">We are collecting books and dreaming about a solarpunk utopia.</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://books.solarpunk.moe/" class="button is-link is-rounded is-multiline">Prašyti pakvietimo</a>
                               
@@ -412,7 +412,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">French-centered bookwyrm community</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://masstoc.io/" class="button is-link is-rounded is-multiline">Prašyti pakvietimo</a>
                               
@@ -447,7 +447,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">Uma instância em português do Bookwyrm.</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://velhaestante.com.br/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -484,7 +484,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">The Library of the Uncommons is a gathering place for those seeking to expand their literary horizons and share in their journey with others.</div>
-                          <div id="registration">
+                          <div class="registration">
                               
                                   <a href="https://books.theunseen.city/" class="button is-success is-rounded is-multiline">Prisijungti prie serverio</a>
                               
@@ -531,10 +531,8 @@
     const sortBtn = document.getElementById('sort-btn');
     const sortDropdown = document.getElementById('sort-options');
     const sortOptions = document.querySelectorAll('#sort-options > span');
-    console.log(cards);
 
     const sort = option => {
-        console.log(`Filtering by ${option}`);
         switch (option) {
             case 'Users':
                 cards.sort((a, b) => {
@@ -566,8 +564,8 @@
                 cards.sort((a, b) => {
                     // Grab the classList of each of the join buttons, then manually compare them.
                     // Sorts by Open > Request Invite > Closed.
-                    const first = a.querySelector('#registration > a').classList;
-                    const second = b.querySelector('#registration > a').classList;
+                    const first = a.querySelector('.registration > a').classList;
+                    const second = b.querySelector('.registration > a').classList;
                     if (first === second) return 0;
                     if (first.contains('is-success') && !second.contains('is-success')) return -1;
                     if (!first.contains('is-success') && second.contains('is-success')) return 1;

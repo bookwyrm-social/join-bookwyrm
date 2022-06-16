@@ -45,7 +45,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">{{ instance.description }}</div>
-                          <div id="registration">
+                          <div class="registration">
                               {% if instance.registration == "open" %}
                                   <a href="{{ instance.path }}" class="button is-success is-rounded is-multiline">{{ _("Join instance") }}</a>
                               {% elif instance.registration == "closed" %}
@@ -96,10 +96,8 @@
     const sortBtn = document.getElementById('sort-btn');
     const sortDropdown = document.getElementById('sort-options');
     const sortOptions = document.querySelectorAll('#sort-options > span');
-    console.log(cards);
 
     const sort = option => {
-        console.log(`Filtering by ${option}`);
         switch (option) {
             case 'Users':
                 cards.sort((a, b) => {
@@ -131,8 +129,8 @@
                 cards.sort((a, b) => {
                     // Grab the classList of each of the join buttons, then manually compare them.
                     // Sorts by Open > Request Invite > Closed.
-                    const first = a.querySelector('#registration > a').classList;
-                    const second = b.querySelector('#registration > a').classList;
+                    const first = a.querySelector('.registration > a').classList;
+                    const second = b.querySelector('.registration > a').classList;
                     if (first === second) return 0;
                     if (first.contains('is-success') && !second.contains('is-success')) return -1;
                     if (!first.contains('is-success') && second.contains('is-success')) return 1;
