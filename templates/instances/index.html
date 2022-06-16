@@ -17,14 +17,23 @@
         </p>
     </div>
 
-    <div class="block columns is-multiline">
+    <div class="dropdown">
+        <button id="sort-btn" class="button is-info">Sort By</button>
+        <div id="sort-options" class="dropdown-content">
+          <span>Users</span>
+          <span>Version</span>
+          <span>Registration Status</span>
+        </div>
+    </div> 
+
+    <div class="block columns is-multiline" id="cards">
         {% for instance in instances %}
         {% if not instance.skip %}
         <div class="column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="{{ instance.path }}">{{ instance.name }}</a>
+                  <a class="name" href="{{ instance.path }}">{{ instance.name }}</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -50,8 +59,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">{{ _("%s users" % instance.users) }}</span>
-                    <span class="card-footer-item">{{ _("Version %s" % instance.version)}}</span>
+                    <span class="card-footer-item users">{{ _("%s users" % instance.users) }}</span>
+                    <span class="card-footer-item version">{{ _("Version %s" % instance.version)}}</span>
                     <a href="{{ instance.path }}about" class="card-footer-item">{{ _("Learn More")}}</a>
                 </footer>
             </div>
@@ -80,4 +89,52 @@
         </p>
     </div>
 </section>
+<script>
+    // Get references to DOM elements
+    const cardsContainer = document.getElementById('cards');
+    const cards = Array.prototype.slice.call(document.querySelectorAll('.column.is-6'));
+    const sortBtn = document.getElementById('sort-btn');
+    const sortDropdown = document.getElementById('sort-options');
+    const sortOptions = document.querySelectorAll('#sort-options > span');
+    console.log(cards);
+
+    const sort = option => {
+        console.log(`Filtering by ${option}`);
+        switch (option) {
+            case 'Users':
+                cards.sort((a, b) => {
+                    // Sanitize HTML node text to get raw number and coerce string to num with +
+                    // This sorts by descending value
+                    const first = +a.querySelector('.users').innerText.split(' ')[0].replace(',', '');
+                    const second = +b.querySelector('.users').innerText.split(' ')[0].replace(',', '');
+                    return second - first;
+                });
+                break;
+            case 'Version':
+                cards.sort((a, b) => {
+                    // TODO
+                });
+                break;
+            case 'Registration Status':
+                cards.sort((a, b) => {
+                    // TODO
+                });
+                break;
+            }
+            cardsContainer.innerHTML = '';
+            cards.forEach(card => cardsContainer.append(card));
+    }
+
+    sortBtn.onclick = () => {
+        sortDropdown.classList.toggle('show');
+    }
+    sortOptions.forEach(option => {
+        option.onclick = () => sort(option.innerHTML)
+    })
+    window.onclick = e => {
+        if (!e.target.matches('.button', '.is-info')) {
+            sortDropdown.classList.remove('show');
+        }
+    }
+</script>
 {% endblock %}
