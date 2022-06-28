@@ -26,10 +26,10 @@
         </div>
     </div> 
 
-    <div class="block columns is-multiline" id="cards">
+    <div id="instances" class="block columns is-multiline">
         {% for instance in instances %}
         {% if not instance.skip %}
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -91,14 +91,14 @@
 </section>
 <script>
     // Get references to DOM elements
-    const cardsContainer = document.getElementById('cards');
-    const cards = Array.prototype.slice.call(document.querySelectorAll('.column.is-6'));
+    const instancesContainer = document.getElementById('instances');
+    const instances = Array.prototype.slice.call(document.querySelectorAll('.instance'));
     const sortOptions = document.querySelectorAll('#sort-options > button');
 
     const sort = option => {
         switch (option) {
             case 'Users':
-                cards.sort((a, b) => {
+                instances.sort((a, b) => {
                     // Process HTML node text to get raw number and coerce string to num with +.
                     // This sorts by descending value.
                     const first = +a.querySelector('.users').innerText.split(' ')[0].replace(',', '');
@@ -107,7 +107,7 @@
                 });
                 break;
             case 'Version':
-                cards.sort((a, b) => {
+                instances.sort((a, b) => {
                     // Process HTML node text to get each of the semver parts in an array.
                     // Once separated, check for equality at each step and then sort when necessary.
                     // Coerce strings to nums just in case semver parts ever reach double digits.
@@ -124,7 +124,7 @@
                 });
                 break;
             case 'Registration Status':
-                cards.sort((a, b) => {
+                instances.sort((a, b) => {
                     // Grab the classList of each of the join buttons, then manually compare them.
                     // Sorts by Open > Request Invite > Closed.
                     const first = a.querySelector('.registration > a').classList;
@@ -137,8 +137,8 @@
                 });
                 break;
         }
-        cardsContainer.innerHTML = '';
-        cards.forEach(card => cardsContainer.append(card));
+        instancesContainer.innerHTML = '';
+        instances.forEach(instance => instancesContainer.append(instance));
     }
 
     sortOptions.forEach(option => {
