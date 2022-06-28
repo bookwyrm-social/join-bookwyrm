@@ -17,12 +17,12 @@
         </p>
     </div>
 
-    <div class="dropdown">
-        <button id="sort-btn" class="button is-info">Sort By</button>
-        <div id="sort-options" class="dropdown-content">
-          <span>Users</span>
-          <span>Version</span>
-          <span>Registration Status</span>
+    <div id="sort" class="block">
+        <b>Sort By:</b>
+        <div id="sort-options" class="buttons has-addons">
+            <button class="button sort-option">Users</button>
+            <button class="button sort-option">Version</button>
+            <button class="button sort-option">Registration Status</button>
         </div>
     </div> 
 
@@ -93,9 +93,7 @@
     // Get references to DOM elements
     const cardsContainer = document.getElementById('cards');
     const cards = Array.prototype.slice.call(document.querySelectorAll('.column.is-6'));
-    const sortBtn = document.getElementById('sort-btn');
-    const sortDropdown = document.getElementById('sort-options');
-    const sortOptions = document.querySelectorAll('#sort-options > span');
+    const sortOptions = document.querySelectorAll('#sort-options > button');
 
     const sort = option => {
         switch (option) {
@@ -143,16 +141,16 @@
         cards.forEach(card => cardsContainer.append(card));
     }
 
-    sortBtn.onclick = () => {
-        sortDropdown.classList.toggle('show');
-    }
     sortOptions.forEach(option => {
-        option.onclick = () => sort(option.innerHTML)
-    })
-    window.onclick = e => {
-        if (!e.target.matches('.button', '.is-info')) {
-            sortDropdown.classList.remove('show');
+        option.onclick = () => {
+            sortOptions.forEach(option2 => {
+                if (option2 !== option) {
+                    option2.classList.remove('is-info', 'is-selected');
+                }
+            });
+            option.classList.add('is-info', 'is-selected');
+            sort(option.innerText);
         }
-    }
+    })
 </script>
 {% endblock %}
