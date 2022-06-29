@@ -104,14 +104,23 @@
         </p>
     </div>
 
-    <div class="block columns is-multiline">
+    <div id="sort" class="block">
+        <b>Sort By:</b>
+        <div id="sort-options" class="buttons has-addons">
+            <button class="button sort-option">Users</button>
+            <button class="button sort-option">Version</button>
+            <button class="button sort-option">Registration Status</button>
+        </div>
+    </div> 
+
+    <div id="instances" class="block columns is-multiline">
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://bookwyrm.social/">BookWyrm</a>
+                  <a class="name" href="https://bookwyrm.social/">BookWyrm</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -123,7 +132,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">BookWyrm's flagship instance: Talk about books, track your reading, and find out what your friends are reading, on your own terms.</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://bookwyrm.social/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -133,8 +142,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">3,290 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="3405">3,405 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://bookwyrm.social/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -142,11 +151,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://wyrms.de/">Wyrms.de</a>
+                  <a class="name" href="https://wyrms.de/">Wyrms.de</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -158,7 +167,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">The Dispossessed and everything else.</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://wyrms.de/" class="button is-disabled is-rounded is-multiline">Registration closed</a>
                               
@@ -168,8 +177,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">108 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="108">108 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://wyrms.de/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -177,11 +186,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://book.dansmonorage.blue/">Dans Mon Catalogue</a>
+                  <a class="name" href="https://book.dansmonorage.blue/">Dans Mon Catalogue</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -193,7 +202,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>Dans Mon Catalogue is a tiny bookwyrm instance where people can socially-but-not-too-socially review books. It is a part of the fediverse that uses activitypub.</p></div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://book.dansmonorage.blue/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -203,8 +212,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">168 users</span>
-                    <span class="card-footer-item">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="173">173 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -212,11 +221,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://yyyyy.club/">Y Not Read</a>
+                  <a class="name" href="https://yyyyy.club/">Y Not Read</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -228,7 +237,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>A website for book lovers.</p><p>世上本没有不能读的书。</p></div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://yyyyy.club/" class="button is-link is-rounded is-multiline">Einladung anfragen</a>
                               
@@ -238,8 +247,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">63 users</span>
-                    <span class="card-footer-item">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="63">63 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://yyyyy.club/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -247,11 +256,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://books.mxhdr.net/">MXHDR BookWyrm</a>
+                  <a class="name" href="https://books.mxhdr.net/">MXHDR BookWyrm</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -263,7 +272,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3"><p>This is the private Bookwyrm instance of MXHDRM. Feel free to create an account.</p></div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://books.mxhdr.net/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -273,8 +282,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">35 users</span>
-                    <span class="card-footer-item">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="37">37 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.mxhdr.net/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -282,11 +291,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://ziurkes.group.lt/">Žiurkikės</a>
+                  <a class="name" href="https://ziurkes.group.lt/">Žiurkikės</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -298,7 +307,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">Lietuviškai skaitantys knygų graužikai / Lithuanian book lovers</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://ziurkes.group.lt/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -308,8 +317,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">11 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="16">16 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://ziurkes.group.lt/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -317,11 +326,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://kirja.casa/">Kirjakasa</a>
+                  <a class="name" href="https://kirja.casa/">Kirjakasa</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -333,7 +342,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">General, for Finnish readers</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://kirja.casa/" class="button is-link is-rounded is-multiline">Einladung anfragen</a>
                               
@@ -343,8 +352,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">19 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="19">19 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://kirja.casa/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -352,11 +361,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://books.solarpunk.moe/">Moé for Solarpunk Books</a>
+                  <a class="name" href="https://books.solarpunk.moe/">Moé for Solarpunk Books</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -368,7 +377,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">We are collecting books and dreaming about a solarpunk utopia.</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://books.solarpunk.moe/" class="button is-link is-rounded is-multiline">Einladung anfragen</a>
                               
@@ -378,8 +387,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">10 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="10">10 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.solarpunk.moe/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -387,11 +396,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://masstoc.io/">Masstoc</a>
+                  <a class="name" href="https://masstoc.io/">Masstoc</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -403,7 +412,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">French-centered bookwyrm community</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://masstoc.io/" class="button is-link is-rounded is-multiline">Einladung anfragen</a>
                               
@@ -413,8 +422,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">11 users</span>
-                    <span class="card-footer-item">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="11">11 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://masstoc.io/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -422,11 +431,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://velhaestante.com.br/">Velha Estante</a>
+                  <a class="name" href="https://velhaestante.com.br/">Velha Estante</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -438,7 +447,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">Uma instância em português do Bookwyrm.</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://velhaestante.com.br/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -448,8 +457,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">30 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="32">32 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://velhaestante.com.br/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -457,11 +466,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://books.birdsonbicycles.racing/">Katakomben von Buchhaim</a>
+                  <a class="name" href="https://books.birdsonbicycles.racing/">Katakomben von Buchhaim</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -473,7 +482,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">hard scifi, space opera and Sibylle Berg</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://books.birdsonbicycles.racing/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -483,8 +492,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">1 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="1">1 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.birdsonbicycles.racing/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -492,11 +501,11 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
-                  <a href="https://books.theunseen.city/">The Library of the Uncommons</a>
+                  <a class="name" href="https://books.theunseen.city/">The Library of the Uncommons</a>
                   </p>
                 </header>
                 <div class="card-content is-flex-grow-1 is-flex">
@@ -508,7 +517,7 @@
                       </div>
                       <div class="column is-flex is-flex-direction-column">
                           <div class="is-flex-grow-1 pb-3">The Library of the Uncommons is a gathering place for those seeking to expand their literary horizons and share in their journey with others.</div>
-                          <div>
+                          <div class="registration">
                               
                                   <a href="https://books.theunseen.city/" class="button is-success is-rounded is-multiline">Instanz beitreten</a>
                               
@@ -518,8 +527,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item">4 users</span>
-                    <span class="card-footer-item">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="9">9 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.theunseen.city/about" class="card-footer-item">Erfahre mehr</a>
                 </footer>
             </div>
@@ -548,6 +557,70 @@
         </p>
     </div>
 </section>
+<script>
+    // Get references to DOM elements
+    const instancesContainer = document.getElementById('instances');
+    const instances = Array.prototype.slice.call(document.querySelectorAll('.instance'));
+    const sortOptions = document.querySelectorAll('#sort-options > button');
+
+    const sort = option => {
+        switch (option) {
+            case 'Users':
+                instances.sort((a, b) => {
+                    // Grab user number from data-users attribute and coerce string to num with +.
+                    // This sorts by descending value.
+                    const first = +a.querySelector('.users').getAttribute('data-users');
+                    const second = +b.querySelector('.users').getAttribute('data-users');
+                    return second - first;
+                });
+                break;
+            case 'Version':
+                instances.sort((a, b) => {
+                    // Process data-version attribute to get each of the semver parts in an array.
+                    // Once separated, check for equality at each step and then sort when necessary.
+                    // Coerce strings to nums just in case semver parts ever reach double digits.
+                    const first = a.querySelector('.version').getAttribute('data-version').split('.');
+                    const second = b.querySelector('.version').getAttribute('data-version').split('.');
+                    if (first[0] === second[0]) {
+                        if (first[1] === second[1]) {
+                            if (first[2] === second[2]) return 0;
+                            return +first[2] > +second[2] ? -1 : 1;
+                        }
+                        return +first[1] > +second[1] ? -1 : 1;
+                    }
+                    return +first[0] > +second[0] ? -1 : 1;
+                });
+                break;
+            case 'Registration Status':
+                instances.sort((a, b) => {
+                    // Grab the classList of each of the join buttons, then manually compare them.
+                    // Sorts by Open > Request Invite > Closed.
+                    const first = a.querySelector('.registration > a').classList;
+                    const second = b.querySelector('.registration > a').classList;
+                    if (first === second) return 0;
+                    if (first.contains('is-success') && !second.contains('is-success')) return -1;
+                    if (!first.contains('is-success') && second.contains('is-success')) return 1;
+                    if (first.contains('is-link') && second.contains('is-disabled')) return -1;
+                    if (first.contains('is-disabled') && second.contains('is-link')) return 1;
+                });
+                break;
+        }
+        instancesContainer.innerHTML = '';
+        instances.forEach(instance => instancesContainer.append(instance));
+    }
+
+    sortOptions.forEach(option => {
+        option.onclick = () => {
+            sortOptions.forEach(option2 => {
+                if (option2 !== option) {
+                    option2.classList.remove('is-info', 'is-selected');
+                }
+            });
+            option.classList.add('is-info', 'is-selected');
+            sort(option.innerText);
+        }
+    })
+</script>
 
 </div>
 
