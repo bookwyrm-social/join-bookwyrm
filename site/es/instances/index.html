@@ -104,19 +104,19 @@
         </p>
     </div>
 
-    <div class="dropdown">
-        <button id="sort-btn" class="button is-info">Sort By</button>
-        <div id="sort-options" class="dropdown-content">
-          <span>Users</span>
-          <span>Version</span>
-          <span>Registration Status</span>
+    <div id="sort" class="block">
+        <b>Sort By:</b>
+        <div id="sort-options" class="buttons has-addons">
+            <button class="button sort-option">Users</button>
+            <button class="button sort-option">Version</button>
+            <button class="button sort-option">Registration Status</button>
         </div>
     </div> 
 
-    <div class="block columns is-multiline" id="cards">
+    <div id="instances" class="block columns is-multiline">
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -142,8 +142,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">3,374 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="3405">3,405 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://bookwyrm.social/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -151,7 +151,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -177,8 +177,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">108 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="108">108 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://wyrms.de/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -186,7 +186,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -212,8 +212,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">170 users</span>
-                    <span class="card-footer-item version">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="173">173 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -221,7 +221,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -247,8 +247,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">63 users</span>
-                    <span class="card-footer-item version">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="63">63 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://yyyyy.club/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -256,7 +256,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -282,8 +282,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">36 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="37">37 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.mxhdr.net/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -291,7 +291,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -317,8 +317,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">12 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="16">16 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://ziurkes.group.lt/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -326,7 +326,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -352,8 +352,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">19 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="19">19 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://kirja.casa/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -361,7 +361,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -387,8 +387,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">10 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="10">10 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.solarpunk.moe/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -396,7 +396,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -422,8 +422,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">11 users</span>
-                    <span class="card-footer-item version">Version 0.3.4</span>
+                    <span class="card-footer-item users" data-users="11">11 users</span>
+                    <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://masstoc.io/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -431,7 +431,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -457,8 +457,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">30 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="32">32 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://velhaestante.com.br/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -466,7 +466,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -492,8 +492,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">1 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="1">1 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.birdsonbicycles.racing/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -501,7 +501,7 @@
         
         
         
-        <div class="column is-6">
+        <div class="instance column is-6">
             <div class="card is-stretchable">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -527,8 +527,8 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users">8 users</span>
-                    <span class="card-footer-item version">Version 0.4.0</span>
+                    <span class="card-footer-item users" data-users="9">9 users</span>
+                    <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.theunseen.city/about" class="card-footer-item">Más información</a>
                 </footer>
             </div>
@@ -559,30 +559,28 @@
 </section>
 <script>
     // Get references to DOM elements
-    const cardsContainer = document.getElementById('cards');
-    const cards = Array.prototype.slice.call(document.querySelectorAll('.column.is-6'));
-    const sortBtn = document.getElementById('sort-btn');
-    const sortDropdown = document.getElementById('sort-options');
-    const sortOptions = document.querySelectorAll('#sort-options > span');
+    const instancesContainer = document.getElementById('instances');
+    const instances = Array.prototype.slice.call(document.querySelectorAll('.instance'));
+    const sortOptions = document.querySelectorAll('#sort-options > button');
 
     const sort = option => {
         switch (option) {
             case 'Users':
-                cards.sort((a, b) => {
-                    // Process HTML node text to get raw number and coerce string to num with +.
+                instances.sort((a, b) => {
+                    // Grab user number from data-users attribute and coerce string to num with +.
                     // This sorts by descending value.
-                    const first = +a.querySelector('.users').innerText.split(' ')[0].replace(',', '');
-                    const second = +b.querySelector('.users').innerText.split(' ')[0].replace(',', '');
+                    const first = +a.querySelector('.users').getAttribute('data-users');
+                    const second = +b.querySelector('.users').getAttribute('data-users');
                     return second - first;
                 });
                 break;
             case 'Version':
-                cards.sort((a, b) => {
-                    // Process HTML node text to get each of the semver parts in an array.
+                instances.sort((a, b) => {
+                    // Process data-version attribute to get each of the semver parts in an array.
                     // Once separated, check for equality at each step and then sort when necessary.
                     // Coerce strings to nums just in case semver parts ever reach double digits.
-                    const first = a.querySelector('.version').innerText.split(' ')[1].split('.');
-                    const second = b.querySelector('.version').innerText.split(' ')[1].split('.');
+                    const first = a.querySelector('.version').getAttribute('data-version').split('.');
+                    const second = b.querySelector('.version').getAttribute('data-version').split('.');
                     if (first[0] === second[0]) {
                         if (first[1] === second[1]) {
                             if (first[2] === second[2]) return 0;
@@ -594,7 +592,7 @@
                 });
                 break;
             case 'Registration Status':
-                cards.sort((a, b) => {
+                instances.sort((a, b) => {
                     // Grab the classList of each of the join buttons, then manually compare them.
                     // Sorts by Open > Request Invite > Closed.
                     const first = a.querySelector('.registration > a').classList;
@@ -607,21 +605,21 @@
                 });
                 break;
         }
-        cardsContainer.innerHTML = '';
-        cards.forEach(card => cardsContainer.append(card));
+        instancesContainer.innerHTML = '';
+        instances.forEach(instance => instancesContainer.append(instance));
     }
 
-    sortBtn.onclick = () => {
-        sortDropdown.classList.toggle('show');
-    }
     sortOptions.forEach(option => {
-        option.onclick = () => sort(option.innerHTML)
-    })
-    window.onclick = e => {
-        if (!e.target.matches('.button', '.is-info')) {
-            sortDropdown.classList.remove('show');
+        option.onclick = () => {
+            sortOptions.forEach(option2 => {
+                if (option2 !== option) {
+                    option2.classList.remove('is-info', 'is-selected');
+                }
+            });
+            option.classList.add('is-info', 'is-selected');
+            sort(option.innerText);
         }
-    }
+    })
 </script>
 
 </div>
