@@ -142,7 +142,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="3405">3,405 users</span>
+                    <span class="card-footer-item users" data-users="3406">3,406 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://bookwyrm.social/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -212,7 +212,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="173">173 users</span>
+                    <span class="card-footer-item users" data-users="174">174 users</span>
                     <span class="card-footer-item version" data-version="0.3.4">Version 0.3.4</span>
                     <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -282,7 +282,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="37">37 users</span>
+                    <span class="card-footer-item users" data-users="38">38 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.mxhdr.net/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -317,7 +317,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="16">16 users</span>
+                    <span class="card-footer-item users" data-users="17">17 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://ziurkes.group.lt/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -457,7 +457,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="32">32 users</span>
+                    <span class="card-footer-item users" data-users="33">33 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://velhaestante.com.br/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -492,7 +492,7 @@
 
                 </div>
                 <footer class="card-footer has-text-centered">
-                    <span class="card-footer-item users" data-users="1">1 users</span>
+                    <span class="card-footer-item users" data-users="2">2 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
                     <a href="https://books.birdsonbicycles.racing/about" class="card-footer-item">Saber Mais</a>
                 </footer>
@@ -672,24 +672,41 @@
 </footer>
 
 <script type="text/javascript">
-    (function() {
-        var languageSelector = document.getElementById("language_selection");
-        languageSelector.onchange = function(event) {
-            var current_locale = "pt-pt/";
-            var current_location = window.location.pathname;
-
-            var locale_index = current_location.indexOf(current_locale);
-            var new_location = "/" + event.target.value;
-
-            if (locale_index) {
-                new_location += current_location.slice(locale_index + current_locale.length);
-            } else {
-                new_location += current_location.slice(1);
-            }
-
-            window.location = new_location;
+    const languageSelector = document.getElementById("language_selection");
+    languageSelector.onchange = function(event) {
+        const current_locale = "pt-pt/";
+        const current_location = window.location.pathname;
+        
+        const locale_index = current_location.indexOf(current_locale);
+        let new_location = "/" + event.target.value;
+        
+        if (locale_index) {
+            new_location += current_location.slice(locale_index + current_locale.length);
+        } else {
+            new_location += current_location.slice(1);
         }
-    })()
+
+        window.location = new_location;
+    }
+
+    // Check if a language has been detected and set already
+    // If not, do a one-time redirect based on navigator.languages if possible
+    // Quit on the off chance session storage is somehow unavailable
+    try {
+        const languageSet = sessionStorage.getItem('languageSet');
+        if (!languageSet) {
+            for (const language of navigator.languages) {
+                if (languageSelector.querySelector(`option[value='${language.toLowerCase()}/']`)) {
+                    sessionStorage.setItem('languageSet', true);
+                    languageSelector.value = `${language.toLowerCase()}/`;
+                    languageSelector.dispatchEvent(new Event('change'));
+                    break;
+                }
+            }
+        }
+    } catch {
+        console.log('Cannot access sessionStorage, language redirect is disabled.');
+    }
 </script>
 
 </body>
