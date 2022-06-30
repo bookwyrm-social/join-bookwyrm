@@ -225,9 +225,9 @@
         window.location = new_location;
     }
 
-    // Check if a language has been detected and set already
-    // If not, do a one-time redirect based on navigator.languages if possible
-    // Quit on the off chance session storage is somehow unavailable
+    // Check if a language has been detected and set already.
+    // If not, do a one-time redirect based on navigator.languages if possible.
+    // Wrap in try/catch on the off chance session storage is unavailable.
     try {
         const languageSet = sessionStorage.getItem('languageSet');
         if (!languageSet) {
