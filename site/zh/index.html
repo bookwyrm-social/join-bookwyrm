@@ -240,24 +240,41 @@
 </footer>
 
 <script type="text/javascript">
-    (function() {
-        var languageSelector = document.getElementById("language_selection");
-        languageSelector.onchange = function(event) {
-            var current_locale = "zh/";
-            var current_location = window.location.pathname;
-
-            var locale_index = current_location.indexOf(current_locale);
-            var new_location = "/" + event.target.value;
-
-            if (locale_index) {
-                new_location += current_location.slice(locale_index + current_locale.length);
-            } else {
-                new_location += current_location.slice(1);
-            }
-
-            window.location = new_location;
+    const languageSelector = document.getElementById("language_selection");
+    languageSelector.onchange = function(event) {
+        const current_locale = "zh/";
+        const current_location = window.location.pathname;
+        
+        const locale_index = current_location.indexOf(current_locale);
+        let new_location = "/" + event.target.value;
+        
+        if (locale_index) {
+            new_location += current_location.slice(locale_index + current_locale.length);
+        } else {
+            new_location += current_location.slice(1);
         }
-    })()
+
+        window.location = new_location;
+    }
+
+    // Check if a language has been detected and set already
+    // If not, do a one-time redirect based on navigator.languages if possible
+    // Quit on the off chance session storage is somehow unavailable
+    try {
+        const languageSet = sessionStorage.getItem('languageSet');
+        if (!languageSet) {
+            for (const language of navigator.languages) {
+                if (languageSelector.querySelector(`option[value='${language.toLowerCase()}/']`)) {
+                    sessionStorage.setItem('languageSet', true);
+                    languageSelector.value = `${language.toLowerCase()}/`;
+                    languageSelector.dispatchEvent(new Event('change'));
+                    break;
+                }
+            }
+        }
+    } catch {
+        console.log('Cannot access sessionStorage, language redirect is disabled.');
+    }
 </script>
 
 </body>
