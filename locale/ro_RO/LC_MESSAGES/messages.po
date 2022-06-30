@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-28 17:53-0700\n"
-"PO-Revision-Date: 2022-05-29 01:01\n"
+"POT-Creation-Date: 2022-06-30 09:53-0700\n"
+"PO-Revision-Date: 2022-06-30 17:11\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -42,11 +42,12 @@ msgid "This means there isn't just one place to sign up! You can select an insta
 msgstr "Asta înseamnă că nu există doar un singur loc căruia să vă alăturați! Puteți alege o instanță care se potrivește intereselor voastre sau să încercați una aleatoriu &mdash; toate sunt foarte bune."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
+#: templates/instances/index.html:50
 msgid "Join instance"
 msgstr "Alăturați-vă instanței"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
-#: templates/instances/index.html:45
+#: templates/instances/index.html:45 templates/instances/index.html:54
 msgid "Request Invite"
 msgstr "Solicitați o invitație"
 
@@ -66,7 +67,7 @@ msgstr "Înscriere la cerere"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
-#: templates/instances/index.html:55
+#: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
 msgstr "Aflați mai multe"
 
@@ -177,6 +178,7 @@ msgid "License"
 msgstr "Licență"
 
 #: templates/instances/index.html:51 templates/instances/index.html:53
+#: templates/instances/index.html:62
 #, c-format
 msgid "%s users"
 msgstr "%s utilizatori"
@@ -226,7 +228,7 @@ msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</
 msgstr "BookWyrm este menținut de <a href='https://mousereeve.com/'>Mouse Reeve</a> care dirijează proiectul, gestionează comunitatea de dezvoltatori și încearcă să repare bugurile mai repede decât le introduce. Scopul primar este de a face BookWyrm un loc amabil și ospitalier."
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
-#: templates/instances/index.html:54
+#: templates/instances/index.html:54 templates/instances/index.html:63
 #, c-format
 msgid "Version %s"
 msgstr "Versiune %s"
@@ -240,31 +242,47 @@ msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>transl
 msgstr "Ajutați la <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducerea</a> BookWyrm în alte limbi! Puteți afla mai multe despre procesul de traducere în <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentația</a> noastră."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
-#: templates/instances/index.html:63
+#: templates/instances/index.html:63 templates/instances/index.html:72
 msgid "Is your instance missing from this list?"
 msgstr "Instanța dvs. lipsește de pe această listă?"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
-#: templates/instances/index.html:67
+#: templates/instances/index.html:67 templates/instances/index.html:76
 msgid "Open a GitHub issue"
 msgstr "Deschideți un tichet GitHub"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
-#: templates/instances/index.html:72
+#: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
 msgstr "Nu găsiți ceea ce căutați?"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
-#: templates/instances/index.html:76
+#: templates/instances/index.html:76 templates/instances/index.html:85
 msgid "Run your own BookWyrm community"
 msgstr "Rulați propria comunitate BookWyrm"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
-#: templates/instances/index.html:79
+#: templates/instances/index.html:79 templates/instances/index.html:88
 msgid "Or skip the technical work and get managed hosting"
 msgstr "Sau săriți peste munca tehnică și obțineți găzduire gestionată"
 
-#: templates/instances/index.html:43
+#: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
 msgstr "Înscrierile sunt închise"
+
+#: templates/instances/index.html:21
+msgid "Sort By"
+msgstr ""
+
+#: templates/instances/index.html:23
+msgid "Users"
+msgstr ""
+
+#: templates/instances/index.html:24
+msgid "Version"
+msgstr ""
+
+#: templates/instances/index.html:25
+msgid "Registration Status"
+msgstr ""
 
