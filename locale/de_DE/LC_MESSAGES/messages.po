@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-28 17:53-0700\n"
-"PO-Revision-Date: 2022-05-29 01:01\n"
+"PO-Revision-Date: 2022-06-13 13:13\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -266,5 +266,5 @@ msgstr "Oder lassen sie die technische Arbeit durch Managed Hosting erledigen"
 
 #: templates/instances/index.html:43
 msgid "Registration closed"
-msgstr ""
+msgstr "Anmeldung geschlossen"
 
