@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-30 09:53-0700\n"
-"PO-Revision-Date: 2022-07-02 14:50\n"
+"PO-Revision-Date: 2022-07-02 15:47\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Us donem la benvinguda a BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
