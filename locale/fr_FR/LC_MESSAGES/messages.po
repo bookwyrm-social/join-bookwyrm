@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-30 09:53-0700\n"
-"PO-Revision-Date: 2022-06-30 17:11\n"
+"PO-Revision-Date: 2022-06-30 19:13\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -272,17 +272,17 @@ msgstr "Inscriptions closes"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "Trier par"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Comptes"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Statut d’enregistrement"
 
