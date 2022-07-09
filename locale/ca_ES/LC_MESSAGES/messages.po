@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-30 09:53-0700\n"
-"PO-Revision-Date: 2022-07-02 15:47\n"
+"PO-Revision-Date: 2022-07-09 19:58\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -23,19 +23,19 @@ msgstr "Us donem la benvinguda a BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Lectura i ressenyes socials, descentralitzades"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Uniu-vos a BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Una xarxa de comunitats petites i autònomes"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "En comptes d'un gran lloc de BookWyrm, hi ha moltes instàncies de BookWyrm que poden interactuar entre sí sense problemes. Pots tenir els beneficis d'una comunitat petita de confiança i interactuar amb una gran xarxa de gent nova i interessant (si vols)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
