@@ -9,6 +9,7 @@ thread_local_data = threading.local()
 thread_local_data.locale = "en_US"
 
 locales_metadata = [
+    {"code": "ca_ES", "name": "Català", "slug": "ca/"},
     {"code": "en_US", "name": "English (US)", "slug": ""},
     {"code": "de_DE", "name": "Deutsch", "slug": "de/"},
     {"code": "es_ES", "name": "Español", "slug": "es/"},

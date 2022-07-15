@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="lt">
+<html lang="ca">
 <head>
-    <title>„BookWyrm“: bendruomenės skaitiniai ir apžvalgos</title>
+    <title>BookWyrm: Lectura i ressenyes socials</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,27 +24,27 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/lt/">
+        <a class="navbar-item" href="/ca/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/lt/instances" class="navbar-item">
-                <span class="button is-success">Prisijungti</span>
+            <a href="/ca/instances" class="navbar-item">
+                <span class="button is-success">Uneix-te</span>
             </a>
-            <a href="/lt/get-involved" class="navbar-item">
-                Įsitraukite
+            <a href="/ca/get-involved" class="navbar-item">
+                Col·laboreu-hi
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Paremti
+                Assistència
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Kodas
+                Codi
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Dokumentacija
+                Documentació
             </a>
         </div>
     </div>
@@ -53,7 +53,7 @@
             <div class="select">
                 <select aria-label="Select a language" id="language_selection">
                     
-                    <option value="ca/" >Català</option>
+                    <option value="ca/" selected>Català</option>
                     
                     <option value="" >English (US)</option>
                     
@@ -67,7 +67,7 @@
                     
                     <option value="fr/" >Français</option>
                     
-                    <option value="lt/" selected>Lietuvių</option>
+                    <option value="lt/" >Lietuvių</option>
                     
                     <option value="no/" >Norsk</option>
                     
@@ -91,12 +91,12 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Sveiki atvykę į „BookWyrm“</h1>
-        <p class="subtitle">Socialinis skaitymas, peržiūros, decentralizuota</p>
+        <h1 class="title is-1">Us donem la benvinguda a BookWyrm</h1>
+        <p class="subtitle">Lectura i ressenyes socials, descentralitzades</p>
     </header>
 
     <p class="block">
-    „BookWyrm“ yra socialinis skaitymo sekimo tinklas, kuriame kalbama apie knygas, rašomi atsiliepimai ir atrandama naujų skaitinių. Federacija leidžia „BookWyrm“ nariams prisijungti prie mažų, patikimų bendruomenių, galinčių jungtis viena prie kitos bei prie <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> paslaugų, kaip <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> ir <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
+    BookWyrm és una xarxa social per portar un registre de les teves lectures, parlar sobre llibres, escriure ressenyes, i descobrir què llegir a continuació. La federació permet a qualsevol de BookWyrm unir-se a comunitats petites i de confiança que poden connectar-se entre sí i amb altres serveis de <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> com <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> i <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
     </p>
 
     <div class="block pt-5">
@@ -104,19 +104,19 @@
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
-                    <p class="heading">Decentralizuota</p>
+                    <p class="heading">Descentralitzat</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
-                    <p class="heading">Draugiška</p>
+                    <p class="heading">Amistós</p>
                 </div>
             </div>
             <div class="level-item has-text-centered">
                 <div>
                     <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
-                    <p class="heading">Nekorporacinė</p>
+                    <p class="heading">Anti-Corporatiu</p>
                 </div>
             </div>
         </section>
@@ -124,7 +124,7 @@
 </section>
 
 <div class="section p-4 has-text-centered">
-    <a href="/lt/instances" class="button is-success is-rounded">Prisijunkite prie „BookWyrm“</a>
+    <a href="/ca/instances" class="button is-success is-rounded">Uniu-vos a BookWyrm</a>
 </div>
 
 <section class="section">
@@ -139,10 +139,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Sekite savo skaitinius</p>
-                    <p class="subtitle">Ką skaito jūsų draugai</p>
+                    <p class="title">Porta un registre de les teves lectures</p>
+                    <p class="subtitle">I el que els teus amics estan llegint</p>
                     <div class="content">
-                        Pradėję ar užbaigę knygą, atnaujinkite skaitymo būseną ir išsikelkite metinį skaitymo tikslą.
+                        Actualitza l'estat de la teva lectura a mesura que comences i acabes llibres, publica actualitzacions d'estat a mesura que avances, i posa't un objectiu anual de lectura.
                     </div>
                 </div>
             </article>
@@ -160,10 +160,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Atraskite knygas</p>
-                    <p class="subtitle">Rekomenduoja žmonės, o ne algoritmai</p>
+                    <p class="title">Descobreix llibres</p>
+                    <p class="subtitle">Recomanacions de persones, no d'algoritmes</p>
                     <div class="content">
-                        Sužinokite, ką skaito jūsų draugai ir gaukite atsiliepimų iš bendruomenės.
+                        Dona una ullada al que llegeixen els teus amics, i rep opinions de la teva comunitat.
                     </div>
                 </div>
             </article>
@@ -181,10 +181,10 @@
         <div class="tile is-parent">
             <article class="tile is-child notification is-info">
                 <div class="content">
-                    <p class="title">Pasidalinkite savo mintimis</p>
-                    <p class="subtitle">Kaip tik norite</p>
+                    <p class="title">Comparteix el que penses</p>
+                    <p class="subtitle">A la teva manera</p>
                     <div class="content">
-                        Rašykite atsiliepimus arba publikuokite savo komentarus bei nustatykite, kas gali matyti jūsų įrašus.
+                        Escriu ressenyes i publica comentaris sobre la marxa, i controla qui pot veure les teves publicacions amb una configuració de la privacitat granular.
                     </div>
                 </div>
             </article>
@@ -199,19 +199,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>„BookWyrm“</strong> yra bendruomeniška ir nekorporacinė programinė įranga, kurią prižiūri <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
+                    <strong>BookWyrm</strong> és un programari col·laboratiu i anticorporatiu mantingut per <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Paremkite „BookWyrm“ <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Dona suport a BookWyrm a <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Įsitraukite</h3>
+                <h3 class="title is-6">Col·laboreu-hi</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">„BookWyrm“ „GitHub“ svetainėje</a>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm a GitHub</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Prisidėti prie šio puslapio</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribueix a aquesta pàgina</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -226,15 +226,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Sužinoti daugiau</h3>
+                <h3 class="title is-6">Saber-ne més</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Dokumentacija</a>
+                    <a href="https://docs.joinbookwyrm.com">Documentació</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Susisiekti su stebėtoju</a>
+                    <a href="mailto:mousereeve@riseup.net">Contacta amb l'administració</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licencija</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Llicència</a>
                 </p>
             </div>
         </div>
@@ -244,7 +244,7 @@
 <script type="text/javascript">
     const languageSelector = document.getElementById("language_selection");
     languageSelector.onchange = function(event) {
-        const current_locale = "lt/";
+        const current_locale = "ca/";
         const current_location = window.location.pathname;
         
         const locale_index = current_location.indexOf(current_locale);

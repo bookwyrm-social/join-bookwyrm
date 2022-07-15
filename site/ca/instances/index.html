@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="ca">
 <head>
-    <title>BookWyrm: Social di lettura e recensioni</title>
+    <title>BookWyrm: Lectura i ressenyes socials</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,27 +24,27 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/it/">
+        <a class="navbar-item" href="/ca/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/it/instances" class="navbar-item">
-                <span class="button is-success">Entra</span>
+            <a href="/ca/instances" class="navbar-item">
+                <span class="button is-success">Uneix-te</span>
             </a>
-            <a href="/it/get-involved" class="navbar-item">
-                Partecipa
+            <a href="/ca/get-involved" class="navbar-item">
+                Col·laboreu-hi
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Sostieni
+                Assistència
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Codice
+                Codi
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Documentazione
+                Documentació
             </a>
         </div>
     </div>
@@ -53,7 +53,7 @@
             <div class="select">
                 <select aria-label="Select a language" id="language_selection">
                     
-                    <option value="ca/" >Català</option>
+                    <option value="ca/" selected>Català</option>
                     
                     <option value="" >English (US)</option>
                     
@@ -63,7 +63,7 @@
                     
                     <option value="gl/" >Galego</option>
                     
-                    <option value="it/" selected>Italiano</option>
+                    <option value="it/" >Italiano</option>
                     
                     <option value="fr/" >Français</option>
                     
@@ -91,27 +91,27 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Unisciti a BookWyrm</h1>
-        <p class="subtitle">Una rete di piccole comunità autogestite</p>
+        <h1 class="title is-1">Uniu-vos a BookWyrm</h1>
+        <p class="subtitle">Una xarxa de comunitats petites i autònomes</p>
     </header>
 </section>
 
 <section class="section p-5">
     <div class="block content">
         <p>
-            Invece di un solo enorme sito di BookWyrm, ci sono molte istanze di BookWyrm che possono interagire tra di loro senza soluzione di continuità. Puoi avere i benefici di una piccola comunità di cui ti fidi, mentre interagisci con una vasta rete di persone nuove e interessanti (quando vuoi).
+            En comptes d'un gran lloc de BookWyrm, hi ha moltes instàncies de BookWyrm que poden interactuar entre sí sense problemes. Pots tenir els beneficis d'una comunitat petita de confiança i interactuar amb una gran xarxa de gent nova i interessant (si vols).
         </p>
         <p>
-            Questo significa che non c'è un solo posto per registrarsi! Puoi selezionare un'istanza che ti sembra adatta ai tuoi interessi o semplicemente provarne una a caso &mdash; sono tutte molto interessanti.
+            Això significa que no només hi ha un lloc per registrar-se! Pots seleccionar una instància adequada als teus interessos, o provar una aleatòriament &mdash; totes són agradables.
         </p>
     </div>
 
     <div id="sort" class="block">
-        <b>Sort By:</b>
+        <b>Ordena Per:</b>
         <div id="sort-options" class="buttons has-addons">
-            <button class="button sort-option">Users</button>
-            <button class="button sort-option">Version</button>
-            <button class="button sort-option">Registration Status</button>
+            <button class="button sort-option">Usuaris</button>
+            <button class="button sort-option">Versió</button>
+            <button class="button sort-option">Estat del registre</button>
         </div>
     </div>
 
@@ -136,7 +136,7 @@
                           <div class="is-flex-grow-1 pb-3">BookWyrm's flagship instance: Talk about books, track your reading, and find out what your friends are reading, on your own terms.</div>
                           <div class="registration">
                               
-                                  <a href="https://bookwyrm.social/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://bookwyrm.social/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -146,7 +146,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="3462">3,462 users</span>
                     <span class="card-footer-item version" data-version="0.4.3">Version 0.4.3</span>
-                    <a href="https://bookwyrm.social/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://bookwyrm.social/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -171,7 +171,7 @@
                           <div class="is-flex-grow-1 pb-3">The Dispossessed and everything else.</div>
                           <div class="registration">
                               
-                                  <a href="https://wyrms.de/" class="button is-disabled is-rounded is-multiline">Registrazioni chiuse</a>
+                                  <a href="https://wyrms.de/" class="button is-disabled is-rounded is-multiline">Registres tancats</a>
                               
                           </div>
                       </div>
@@ -181,7 +181,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="108">108 users</span>
                     <span class="card-footer-item version" data-version="0.4.1">Version 0.4.1</span>
-                    <a href="https://wyrms.de/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://wyrms.de/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -206,7 +206,7 @@
                           <div class="is-flex-grow-1 pb-3"><p>Dans Mon Catalogue is a tiny bookwyrm instance where people can socially-but-not-too-socially review books. It is a part of the fediverse that uses activitypub.</p></div>
                           <div class="registration">
                               
-                                  <a href="https://book.dansmonorage.blue/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://book.dansmonorage.blue/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -216,7 +216,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="179">179 users</span>
                     <span class="card-footer-item version" data-version="0.4.1">Version 0.4.1</span>
-                    <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://book.dansmonorage.blue/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -241,7 +241,7 @@
                           <div class="is-flex-grow-1 pb-3"><p>A website for book lovers.</p><p>世上本没有不能读的书。</p></div>
                           <div class="registration">
                               
-                                  <a href="https://yyyyy.club/" class="button is-link is-rounded is-multiline">Chiedi un invito</a>
+                                  <a href="https://yyyyy.club/" class="button is-link is-rounded is-multiline">Demana una invitació</a>
                               
                           </div>
                       </div>
@@ -251,7 +251,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="63">63 users</span>
                     <span class="card-footer-item version" data-version="0.4.1">Version 0.4.1</span>
-                    <a href="https://yyyyy.club/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://yyyyy.club/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -276,7 +276,7 @@
                           <div class="is-flex-grow-1 pb-3"><p>This is the private Bookwyrm instance of MXHDRM. Feel free to create an account.</p></div>
                           <div class="registration">
                               
-                                  <a href="https://books.mxhdr.net/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://books.mxhdr.net/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -286,7 +286,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="38">38 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
-                    <a href="https://books.mxhdr.net/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://books.mxhdr.net/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -311,7 +311,7 @@
                           <div class="is-flex-grow-1 pb-3">Lietuviškai skaitantys knygų graužikai / Lithuanian book lovers</div>
                           <div class="registration">
                               
-                                  <a href="https://ziurkes.group.lt/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://ziurkes.group.lt/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -321,7 +321,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="11">11 users</span>
                     <span class="card-footer-item version" data-version="0.4.3">Version 0.4.3</span>
-                    <a href="https://ziurkes.group.lt/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://ziurkes.group.lt/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -346,7 +346,7 @@
                           <div class="is-flex-grow-1 pb-3">General, for Finnish readers</div>
                           <div class="registration">
                               
-                                  <a href="https://kirja.casa/" class="button is-link is-rounded is-multiline">Chiedi un invito</a>
+                                  <a href="https://kirja.casa/" class="button is-link is-rounded is-multiline">Demana una invitació</a>
                               
                           </div>
                       </div>
@@ -356,7 +356,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="19">19 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
-                    <a href="https://kirja.casa/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://kirja.casa/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -381,7 +381,7 @@
                           <div class="is-flex-grow-1 pb-3">We are collecting books and dreaming about a solarpunk utopia.</div>
                           <div class="registration">
                               
-                                  <a href="https://books.solarpunk.moe/" class="button is-link is-rounded is-multiline">Chiedi un invito</a>
+                                  <a href="https://books.solarpunk.moe/" class="button is-link is-rounded is-multiline">Demana una invitació</a>
                               
                           </div>
                       </div>
@@ -391,7 +391,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="10">10 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
-                    <a href="https://books.solarpunk.moe/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://books.solarpunk.moe/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -418,7 +418,7 @@
                           <div class="is-flex-grow-1 pb-3">Uma instância em português do Bookwyrm.</div>
                           <div class="registration">
                               
-                                  <a href="https://velhaestante.com.br/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://velhaestante.com.br/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -428,7 +428,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="33">33 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
-                    <a href="https://velhaestante.com.br/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://velhaestante.com.br/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -453,7 +453,7 @@
                           <div class="is-flex-grow-1 pb-3">hard scifi, space opera and Sibylle Berg</div>
                           <div class="registration">
                               
-                                  <a href="https://books.birdsonbicycles.racing/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://books.birdsonbicycles.racing/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -463,7 +463,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="2">2 users</span>
                     <span class="card-footer-item version" data-version="0.4.0">Version 0.4.0</span>
-                    <a href="https://books.birdsonbicycles.racing/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://books.birdsonbicycles.racing/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -488,7 +488,7 @@
                           <div class="is-flex-grow-1 pb-3">The Library of the Uncommons is a gathering place for those seeking to expand their literary horizons and share in their journey with others.</div>
                           <div class="registration">
                               
-                                  <a href="https://books.theunseen.city/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://books.theunseen.city/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -498,7 +498,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="9">9 users</span>
                     <span class="card-footer-item version" data-version="0.4.3">Version 0.4.3</span>
-                    <a href="https://books.theunseen.city/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://books.theunseen.city/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -523,7 +523,7 @@
                           <div class="is-flex-grow-1 pb-3">a social book review site for people who procrastinate on reading or procrastinate by reading</div>
                           <div class="registration">
                               
-                                  <a href="https://bookrastinating.com/" class="button is-success is-rounded is-multiline">Unisciti all'istanza</a>
+                                  <a href="https://bookrastinating.com/" class="button is-success is-rounded is-multiline">Uneix-te a la instància</a>
                               
                           </div>
                       </div>
@@ -533,7 +533,7 @@
                 <footer class="card-footer has-text-centered">
                     <span class="card-footer-item users" data-users="46">46 users</span>
                     <span class="card-footer-item version" data-version="0.4.2">Version 0.4.2</span>
-                    <a href="https://bookrastinating.com/about" class="card-footer-item">Scopri di più</a>
+                    <a href="https://bookrastinating.com/about" class="card-footer-item">Més informació</a>
                 </footer>
             </div>
         </div>
@@ -541,23 +541,23 @@
         
     </div>
     <div class="notification has-text-centered">
-        La tua istanza manca in questa lista?
+        La teva instància no es troba a la llista?
 
         <p class="has-text-weight-bold">
             <a href="https://github.com/bookwyrm-social/join-bookwyrm/issues" target="_blank">
-                Apri una segnalazione su GitHub
+                Obre una issue a GitHub
             </a>
         </p>
     </div>
     <div class="notification has-text-centered">
-        Non hai trovato quello che cercavi?
+        No trobes el que vols?
 
         <p class="has-text-weight-bold">
             <a href="https://docs.joinbookwyrm.com/install-prod.html" target="_blank">
-                Gestisci la tua community di BookWyrm</a>
+                Comença la teva pròpia comunitat de BookWyrm</a>
             &middot;
             <a href="https://www.patreon.com/posts/64768354" target="_blank">
-                Oppure salta il lavoro tecnico e ottieni un hosting gestito</a>
+                O salta't la part tècnica i obté un allotjament gestionat</a>
         </p>
     </div>
 </section>
@@ -633,19 +633,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> è un software collaborativo e anti-commerciale gestito da <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
+                    <strong>BookWyrm</strong> és un programari col·laboratiu i anticorporatiu mantingut per <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Sostieni BookWyrm su <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Dona suport a BookWyrm a <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Partecipa</h3>
+                <h3 class="title is-6">Col·laboreu-hi</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm su GitHub</a>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm a GitHub</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribuisci a questa pagina</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribueix a aquesta pàgina</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -660,15 +660,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Scopri di più</h3>
+                <h3 class="title is-6">Saber-ne més</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Documentazione</a>
+                    <a href="https://docs.joinbookwyrm.com">Documentació</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Contatta il responsabile</a>
+                    <a href="mailto:mousereeve@riseup.net">Contacta amb l'administració</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Licenza</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Llicència</a>
                 </p>
             </div>
         </div>
@@ -678,7 +678,7 @@
 <script type="text/javascript">
     const languageSelector = document.getElementById("language_selection");
     languageSelector.onchange = function(event) {
-        const current_locale = "it/";
+        const current_locale = "ca/";
         const current_location = window.location.pathname;
         
         const locale_index = current_location.indexOf(current_locale);
