@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:04\n"
+"PO-Revision-Date: 2022-07-31 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -113,7 +113,7 @@ msgstr "Vedeți ceea ce citesc prietenii voștri și aflați opinii de la comuni
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr "Partajați gândurile dumneavoastră"
+msgstr "Împărtășiți-vă gândurile"
 
 #: templates/index.html:96
 msgid "The way you want to"
@@ -288,5 +288,5 @@ msgstr "Starea înregistrării"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Faceți cunoștință cu întreținătorul"
 
