@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-30 09:53-0700\n"
-"PO-Revision-Date: 2022-07-25 06:48\n"
+"POT-Creation-Date: 2022-07-30 16:35-0700\n"
+"PO-Revision-Date: 2022-07-31 00:03\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -285,4 +285,8 @@ msgstr "Wersja"
 #: templates/instances/index.html:25
 msgid "Registration Status"
 msgstr "Status rejestracji"
+
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr ""
 
