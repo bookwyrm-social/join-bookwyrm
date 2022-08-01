@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-30 09:53-0700\n"
-"PO-Revision-Date: 2022-07-30 21:36\n"
+"POT-Creation-Date: 2022-07-30 16:35-0700\n"
+"PO-Revision-Date: 2022-07-31 10:35\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -73,7 +73,7 @@ msgstr "Aflați mai multe"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr "BookWyrm este o rețea socială pentru a urmări progresul cititului, vorbi despre cărți, scrie recenzii și descoperi ce să citiți în continuare. Federarea permite utilizatorilor BookWyrm să se alăture comunităților mici și de încredere care se conectează una la cealaltă și cu alte servici <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> precum <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> și <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "BookWyrm este o rețea socială pentru a urmări progresul lecturii dvs., vorbi despre cărți, scrie recenzii și descoperi ce să citiți în continuare. Federarea permite utilizatorilor BookWyrm să se alăture comunităților mici și de încredere interconectate una la cealaltă și altor <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> precum <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> și <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -97,7 +97,7 @@ msgstr "Și ceea ce prietenii voștri citesc"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr "Actualizați statutul vostru de lectură când începeți și terminați cărți, publicați actualizări de statut de-a lungul timpului și stabiliți un obiectiv anual de lectură."
+msgstr "Actualizați starea lecturii dvs. când începeți și terminați cărți, publicați actualizări de stare de-a lungul timpului și stabiliți un obiectiv anual de lectură."
 
 #: templates/index.html:74
 msgid "Discover books"
@@ -113,11 +113,11 @@ msgstr "Vedeți ceea ce citesc prietenii voștri și aflați opinii de la comuni
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr "Partajați gândurile dumneavoastră"
+msgstr "Împărtășiți-vă gândurile"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr "Cum doriți"
+msgstr "În modul vostru"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
@@ -285,4 +285,8 @@ msgstr "Versiune"
 #: templates/instances/index.html:25
 msgid "Registration Status"
 msgstr "Starea înregistrării"
+
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr "Faceți cunoștință cu întreținătorul"
 
