@@ -18,6 +18,7 @@ locales_metadata = [
     {"code": "fr_FR", "name": "Français", "slug": "fr/"},
     {"code": "lt_LT", "name": "Lietuvių", "slug": "lt/"},
     {"code": "no_NO", "name": "Norsk", "slug": "no/"},
+    {"code": "pl_PL", "name": "Polski", "slug": "pl/"},
     {"code": "pt_PT", "name": "Português Europeu", "slug": "pt-pt/"},
     {"code": "pt_BR", "name": "Português do Brasil", "slug": "pt-br/"},
     {"code": "ro_RO", "name": "Română", "slug": "ro/"},
