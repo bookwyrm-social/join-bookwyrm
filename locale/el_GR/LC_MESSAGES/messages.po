@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:04\n"
+"PO-Revision-Date: 2022-08-04 16:28\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -19,130 +19,130 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Καλώς ήρθατε στο BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Κοινωνική Ανάγνωση και Κριτική, Αποκεντρωμένη"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Εγγραφή στο BookWyrm"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Ένα Δίκτυο Μικρών, Αυτο-Κατευθυνόμενων Κοινοτήτων"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "Αντί για μια τεράστια ιστοσελίδα BookWyrm, υπάρχουν πολλά instance του BookWyrm που μπορούν να αλληλεπιδράσουν απρόσκοπτα μεταξύ τους. Μπορείτε να έχετε τα οφέλη της μικρής κοινότητας που εμπιστεύεστε, ενώ εξακολουθείτε να αλληλεπιδράτε με ένα μεγάλο δίκτυο ενδιαφέροντων ανθρώπων (όταν θέλετε)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr ""
+msgstr "Αυτό σημαίνει ότι δεν υπάρχει μόνο ένα μέρος για να εγγραφείτε! Μπορείτε να επιλέξετε ένα instance που ακούγεται σαν μια καλή εφαρμογή για τα ενδιαφέροντά σας, ή επιλέξτε μια τυχαία &mdash; όλες είναι πολύ καλές."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
 msgid "Join instance"
-msgstr ""
+msgstr "Συμμετοχή σε instance"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
 msgid "Request Invite"
-msgstr ""
+msgstr "Αίτηση Πρόσκλησης"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "χρήστες"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Open registration"
-msgstr ""
+msgstr "Ανοικτή εγγραφή"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Registration by request"
-msgstr ""
+msgstr "Εγγραφή κατόπιν αιτήματος"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
 #: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
-msgstr ""
+msgstr "Μάθετε Περισσότερα"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "Το BookWyrm είναι ένα κοινωνικό δίκτυο για την παρακολούθηση της ανάγνωσής σας, μιλώντας για βιβλία, γράφοντας σχόλια και ανακαλύπτοντας τι να διαβάσετε στη συνέχεια. Η ομοσπονδία επιτρέπει στους χρήστες της BookWyrm να ενταχθούν σε μικρές, αξιόπιστες κοινότητες που μπορούν να συνδεθούν μεταξύ τους, και με άλλες υπηρεσίες <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> υπηρεσίες όπως <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> και <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Αποκεντρωμένο"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Φιλικό"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Αντι-Εταιρικό"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Παρακολουθήστε την ανάγνωσή σας"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "Και τι διαβάζουν οι φίλοι σας"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr ""
+msgstr "Ενημερώστε την κατάσταση ανάγνωσής σας καθώς ξεκινάτε και τελειώνετε βιβλία, δημοσιεύστε ενημερώσεις κατάστασης, και ορίστε έναν ετήσιο στόχο ανάγνωσης βιβλίων."
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Ανακαλύψτε βιβλία"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
-msgstr ""
+msgstr "Συστάσεις από ανθρώπους, όχι αλγόριθμους"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr ""
+msgstr "Δείτε τι διαβάζουν οι φίλοι σας και πάρτε απόψεις από την κοινότητά σας."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "Μοιραστείτε τις σκέψεις σας"
 
 #: templates/index.html:96
 msgid "The way you want to"
-msgstr ""
+msgstr "Με τον τρόπο που θέλετε"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr ""
+msgstr "Γράψτε κριτικές ή δημοσιεύστε σχόλια, και ελέγξτε ποιος βλέπει τις δημοσιεύσεις σας με ρυθμίσεις απορρήτου."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: Κοινωνική Ανάγνωση και Κριτική"
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Εγγραφή"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr ""
+msgstr "Υποστήριξη"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
-msgstr ""
+msgstr "Κώδικας"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
@@ -155,33 +155,33 @@ msgstr ""
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
 msgid "Get Involved"
-msgstr ""
+msgstr "Συμμετοχή"
 
 #: templates/layout.html:79 templates/layout.html:82
 msgid "BookWyrm on GitHub"
-msgstr ""
+msgstr "BookWyrm on GitHub"
 
 #: templates/layout.html:82 templates/layout.html:85
 msgid "Contribute to this page"
-msgstr ""
+msgstr "Συνεισφέρετε σε αυτή τη σελίδα"
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr ""
+msgstr "Μάθετε περισσότερα"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Επικοινωνία με συντηρητή"
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
-msgstr ""
+msgstr "Άδεια χρήσης"
 
 #: templates/instances/index.html:51 templates/instances/index.html:53
 #: templates/instances/index.html:62
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s χρήστες"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr ""
+msgstr "Το BookWyrm έχει σχεδιαστεί για να παραμένει μικρό και προσωπικό. Αν έχετε αιτήματα χαρακτηριστικών, αναφορές σφαλμάτων, ή μεγάλα όνειρα, θα θέλαμε να συμμετάσχετε στη συνομιλία."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
@@ -197,7 +197,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Αιτήσεις σφαλμάτων και λειτουργιών"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
@@ -205,7 +205,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
-msgstr ""
+msgstr "Μέσα Κοινωνικής Δικτύωσης"
 
 #: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
@@ -213,7 +213,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
-msgstr ""
+msgstr "Συνομιλία με προγραμματιστή"
 
 #: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
@@ -221,45 +221,45 @@ msgstr ""
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Συμμετοχή"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "Το BookWyrm συντηρείται από τον <a href='https://mousereeve.com/'>Mouse Reeve</a> - διευθύνει το έργο, διαχειρίζεται την κοινότητα των προγραμματιστών και προσπαθεί να διορθώσει τα σφάλματα πιο γρήγορα από ό,τι τα εισάγουν. Πρωταρχικός στόχος του είναι να κάνει το BookWyrm ένα καλό και φιλόξενο μέρος."
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
 #: templates/instances/index.html:54 templates/instances/index.html:63
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Έκδοση %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Μεταφράσεις"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Βοηθήστε <a href='https://translate.joinbookwyrm.com/' target='_blank'>στη μετάφραση</a> BookWyrm σε άλλες γλώσσες! Μπορείτε να μάθετε περισσότερα για τη διαδικασία μετάφρασης στο <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
 msgid "Is your instance missing from this list?"
-msgstr ""
+msgstr "Το instance σας λείπει από αυτή τη λίστα;"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
 msgid "Open a GitHub issue"
-msgstr ""
+msgstr "Άνοιγμα ενός ζητήματος στο GitHub"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr ""
+msgstr "Δεν βρήκατε αυτό που θέλατε;"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
 msgid "Run your own BookWyrm community"
-msgstr ""
+msgstr "Διαχειριστείτε τη δική σας κοινότητα BookWyrm"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
 #: templates/instances/index.html:79 templates/instances/index.html:88
@@ -268,25 +268,25 @@ msgstr ""
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr ""
+msgstr "Η εγγραφή έκλεισε"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "Ταξινόμηση κατά"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Χρήστες"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Έκδοση"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Κατάσταση Εγγραφής"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Γνωρίστε τον συντηρητή"
 
