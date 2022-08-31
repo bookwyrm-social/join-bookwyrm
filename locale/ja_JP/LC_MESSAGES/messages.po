@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-08-31 14:49\n"
+"PO-Revision-Date: 2022-08-31 16:43\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -39,7 +39,7 @@ msgstr "一つの巨大なBookWyrmサイトの代わりに、互いにシーム�
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr ""
+msgstr "つまり、新規登録するだけのBookWyrmインスタンスは一つだけではありません！ あなたの興味によく合った印象を与えるような、インスタンスを選ぶことができます。 または単にランダムにインスタンスを選んで試してみてください。 &mdash; 全てのインスタンスは、みんなとても素敵です。"
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
@@ -73,7 +73,7 @@ msgstr "詳しく見る"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "BookWyrmは、あなたの読書を記録し、本について会話し、レビューを書き、次に読む本を見つけるためのソーシャルネットワークです。連合機能はBookWyrmのユーザーに小さくても信頼できるコミュニティに参加し、お互いにもしくはその他の<a href='https://joinmastodon.org/' target='_blank'>Mastodon</a>や<a href='http://pleroma.social/' target='_blank'>Pleroma</a>のような、<a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>に対応したサービスのユーザーと交流する事を可能にします。"
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -85,7 +85,7 @@ msgstr "フレンドリー"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr "反企業"
+msgstr "アンチ・コーポレート"
 
 #: templates/index.html:53
 msgid "Track your reading"
@@ -125,7 +125,7 @@ msgstr "本へのレビューを書く、または気楽にコメントを投稿
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr ""
+msgstr "BookWyrm: ソーシャルリーディングとレビュー"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -146,7 +146,7 @@ msgstr "ドキュメント"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr ""
+msgstr "<strong>BookWyrm</strong> は、<a href='https://www.mousereeve.com/'>Mouse Reeve</a> によってメンテナンスされている、協調型のアンチ・コーポレートなソフトウェアです。"
 
 #: templates/layout.html:73 templates/layout.html:76
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
@@ -185,15 +185,15 @@ msgstr "%sユーザー"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
-msgstr "人間的なソフトウェア"
+msgstr "ヒューマンスケールなソフトウェア"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr "BookWyrmは小規模でパーソナルな存在でありたいと考えています。 機能リクエストやバグレポートや壮大な夢があればぜひ会話に参加してください。"
+msgstr "BookWyrmは小規模でパーソナルな存在でありたいと考えています。機能リクエストやバグレポートや壮大な夢があれば、ぜひ会話に参加してください。"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "BookWyrm は <a href='https://mousereeve.com/'>Mouse Reeve</a> によってメンテナンスされています。彼はプロジェクトの舵を切る人であり、 開発者コミュニティの管理を行い、そしてバグを組み込んでしまうよりも早く修正する努力をしています。BookWyrmの主な目標は、開発者コミュニティとして、そしてソフトウェアの一部として、人々を温かく歓迎する場にすることです。"
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -201,7 +201,7 @@ msgstr "バグや機能リクエスト"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "BookWyrmのバグトラッカーやコードは<a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a>でホストされています。 &mdash; GitHubはバグ報告や新機能のリクエストを行うための最適な場です。"
 
 #: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
@@ -209,7 +209,7 @@ msgstr "ソーシャルメディア"
 
 #: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "BookWyrmの<a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a>と<a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a>をフォローすることができ、Bookwyrmの新機能について知ることができます。気兼ねなくあなたの投稿にBookWyrmのアカウントを含めたり、また連絡を取りたい場合はダイレクト・メッセージを送信してください。"
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
@@ -217,7 +217,7 @@ msgstr "開発者向けチャット"
 
 #: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "私たちは<a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a>をBookWyrmの開発用チャット向けに利用しています。 &mdash; 質問をしたり、ヘルプを得るには素晴らしい場です。主な話題はBookWyrmのソフトウェアの開発やBookWyrmのインスタンスを動かすことについてですが、BookWyrmに関するあらゆる議論を歓迎しています。"
 
 #: templates/layout.html:38
 msgid "Get involved"
@@ -225,7 +225,7 @@ msgstr "開発への参加"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrmは<a href='https://mousereeve.com/'>Mouse Reeve</a>によってメンテナンスされています。彼がプロジェクトの舵を取り、開発コミュニティの管理を行い、そしてバグを組み込んでしまうよりも早く直そうと努力しています。第一目標は、BookWyrmを人々を温かく迎え入れる場所にすることです。"
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
 #: templates/instances/index.html:54 templates/instances/index.html:63
