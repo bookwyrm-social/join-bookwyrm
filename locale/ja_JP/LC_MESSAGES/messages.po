@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:04\n"
+"PO-Revision-Date: 2022-08-31 13:30\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -77,11 +77,11 @@ msgstr ""
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr "分散型"
+msgstr "脱中央集権的"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr "友好的"
+msgstr "フレンドリー"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr "本を発見する"
+msgstr "本を探す"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
