@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-08-31 16:43\n"
+"PO-Revision-Date: 2022-09-05 18:51\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -58,7 +58,7 @@ msgstr "ユーザー"
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Open registration"
-msgstr ""
+msgstr "許可なしで新規登録可能"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
@@ -254,7 +254,7 @@ msgstr "GitHubでissueを開く"
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr ""
+msgstr "お探しのものが見付かりませんか？"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
