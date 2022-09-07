@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-09-05 18:51\n"
+"PO-Revision-Date: 2022-09-07 15:31\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -288,5 +288,5 @@ msgstr "新規登録の可否"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "メインテナーについて"
+msgstr "メインテナーの紹介"
 
