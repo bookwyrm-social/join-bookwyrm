@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:04\n"
+"PO-Revision-Date: 2022-09-25 16:29\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -272,21 +272,21 @@ msgstr "Registrazioni chiuse"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "Ordina per"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Utenti"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Versione"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Stato Registrazione"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Incontra il responsabile"
 
