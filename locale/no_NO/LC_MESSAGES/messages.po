@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:03\n"
+"PO-Revision-Date: 2022-11-06 09:55\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian\n"
 "Language: no_NO\n"
@@ -235,16 +235,16 @@ msgstr "Versjon %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Oversettelser"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Hjelp til med å <a href='https://translate.joinbookwyrm.com/' target='_blank'>oversette BookWyrm</a> til andre språk! Du kan lære mer om oversettelsesprosessen i vår <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>dokumentasjon</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
 msgid "Is your instance missing from this list?"
-msgstr ""
+msgstr "Mangler instansen din i denne listen?"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
@@ -288,5 +288,5 @@ msgstr ""
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Møt vedlikeholderen"
 
