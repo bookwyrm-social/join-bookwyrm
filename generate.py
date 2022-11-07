@@ -28,6 +28,7 @@ def load_instances():
         {"path": "https://books.birdsonbicycles.racing/"},
         {"path": "https://books.theunseen.city/"},
         {"path": "https://bookrastinating.com/"},
+        {"path": "https://bookwyrm.gatti.ninja/"},
     ]
 
     print("  Fetching instance statistics:")
