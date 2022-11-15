@@ -14,34 +14,37 @@ env.install_gettext_translations(i18n)
 def load_instances():
     """update the list of instances"""
     # pylint: disable=line-too-long
-    instance_data = [
-        {"path": "https://bookwyrm.social/"},
-        {"path": "https://wyrms.de/"},
-        {"path": "https://book.dansmonorage.blue/"},
-        {"path": "https://yyyyy.club/"},
-        {"path": "https://books.mxhdr.net/"},
-        {"path": "https://ziurkes.group.lt/"},
-        {"path": "https://kirja.casa/"},
-        {"path": "https://books.solarpunk.moe/"},
-        {"path": "https://masstoc.io/"},
-        {"path": "https://velhaestante.com.br/"},
-        {"path": "https://books.birdsonbicycles.racing/"},
-        {"path": "https://books.theunseen.city/"},
-        {"path": "https://bookrastinating.com/"},
-        {"path": "https://bookwyrm.gatti.ninja/"},
+    instance_urls = [
+        "https://bookwyrm.social/",
+        "https://wyrms.de/",
+        "https://book.dansmonorage.blue/",
+        "https://yyyyy.club/",
+        "https://books.mxhdr.net/",
+        "https://ziurkes.group.lt/",
+        "https://kirja.casa/",
+        "https://books.solarpunk.moe/",
+        "https://masstoc.io/",
+        "https://velhaestante.com.br/",
+        "https://books.birdsonbicycles.racing/",
+        "https://books.theunseen.city/",
+        "https://bookrastinating.com/",
+        "https://bookwyrm.gatti.ninja/",
+        "https://ramblingreaders.org/",
+        "https://books.jascha.wtf/",
     ]
 
     print("  Fetching instance statistics:")
-    for instance in instance_data:
-        instance_path = instance["path"]
-        print(f"  - Fetching: {instance_path}")
+    instance_data = []
+    for instance_url in instance_urls:
+        print(f"  - Fetching: {instance_url}")
         try:
-            response = requests.get(f"{instance_path}api/v1/instance", timeout=15)
+            response = requests.get(f"{instance_url}api/v1/instance", timeout=30)
             data = response.json()
             version_number = data["version"]
             if version.parse(version_number) < version.parse("0.3.0"):
                 raise Exception("Instance is out of date wiht version:", version_number)
             # pylint: disable=consider-using-f-string
+            instance = {"path": instance_url}
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
             instance["registration"] = (
                 "open"
@@ -65,8 +68,9 @@ def load_instances():
         except Exception as err:  # pylint: disable=broad-except
             print(f"    ! {err}")
             print("    - Site could possibly be down. Please check it manually:")
-            print(f"    - Site url: {instance_path}")
-            instance["skip"] = True
+            print(f"    - Site url: {instance_url}")
+            instance = {"path": instance_url, "skip": True}
+        instance_data.append(instance)
     return instance_data
 
 
