@@ -4,7 +4,7 @@ Static page about the bookwyrm network
 
 ## Development
 
-After installing the required packages in your environment (or virtual environment), run the command `./serve.sh` to serve the `site` directory with the Python HTTP local server. Then, every time you update the template files, run the command `./bw-dev site:compile` from another terminal.
+After installing the required packages in your environment (or virtual environment), run the command `./bw-dev site:serve` to serve the `site` directory with the Python HTTP local server. Then, every time you update the template files, run the command `./bw-dev site:compile` from another terminal.
 
 ### Translating the website
 
