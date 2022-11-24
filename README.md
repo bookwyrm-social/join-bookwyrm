@@ -23,3 +23,13 @@ This command will extract the translation keys from the `.html` files stored in 
 ```
 
 This second command will compile the `.PO` file into the corresponding `.MO` file.
+
+### Adding a new BookWyrm instance
+
+To add a BookWyrm instance to the list at [/instances](https://joinbookwyrm.com/instances/)
+
+1. Fork this repository
+2. Update the list of instance URLs in generate.py (being careful to include a trailing slash)
+3. Run `./bw_dev site:compile`
+4. Confirm the instance appears by running `./bw_dev site:serve`
+5. Send in a pull request
