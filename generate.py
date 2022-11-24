@@ -31,6 +31,7 @@ def load_instances():
         "https://bookwyrm.gatti.ninja/",
         "https://ramblingreaders.org/",
         "https://books.jascha.wtf/",
+        "https://orreadi.com/",
     ]
 
     print("  Fetching instance statistics:")
