@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-09-21 03:44\n"
+"PO-Revision-Date: 2022-11-26 09:58\n"
 "Last-Translator: \n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
@@ -133,7 +133,7 @@ msgstr "Únete"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr "Axuda"
+msgstr "Apóianos"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
@@ -288,5 +288,5 @@ msgstr "Estado do rexistro"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "Coñece ao Creador"
+msgstr "Traballando en BookWyrm"
 
