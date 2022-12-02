@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-01 20:21\n"
+"PO-Revision-Date: 2022-12-02 11:14\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Dobrodošli na BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Decentralizirano družabno omrežje za branje in recenzije"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "Pridružite se BookWyrmu"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "uborabniki"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
@@ -73,7 +73,7 @@ msgstr ""
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "BookWyrm je družabno omrežje za beleženje prebranih knjig, pogovore o knjigah, pisanje recenzij in odkrivanju nadaljnjega branja. Uporabniki BookWyrma se zaradi federiranja lahko pridružijo majhnim in zaupnim skupnostim, ki se povezujejo med seboj in z ostalimi <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> servisi kot sta npr. <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> in <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
