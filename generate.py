@@ -39,7 +39,7 @@ def load_instances():
     for instance_url in instance_urls:
         print(f"  - Fetching: {instance_url}")
         try:
-            response = requests.get(f"{instance_url}api/v1/instance", timeout=30)
+            response = requests.get(f"{instance_url}api/v1/instance", timeout=10)
             data = response.json()
             version_number = data["version"]
             if version.parse(version_number) < version.parse("0.3.0"):
