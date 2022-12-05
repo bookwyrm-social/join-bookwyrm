@@ -27,7 +27,9 @@ def load_instances():
     for instance_url in instance_urls:
         print(f"  - Fetching: {instance_url}")
         try:
-            response = requests.get(f"{instance_url}api/v1/instance", timeout=settings.TIMEOUT)
+            response = requests.get(
+                f"{instance_url}api/v1/instance", timeout=settings.TIMEOUT
+            )
             data = response.json()
             version_number = data["version"]
             parsed_version = version.parse(version_number)
@@ -63,9 +65,11 @@ def load_instances():
             # reduce weight of user count
             rank += instance["users_int"] ** 0.5
             # distance between this version and current version (how up to date is it?)
-            rank -= (current_version.major - parsed_version.major) * 100 + \
-                    (current_version.minor - parsed_version.minor) * 10 + \
-                    (current_version.micro - parsed_version.micro)
+            rank -= (
+                (current_version.major - parsed_version.major) * 100
+                + (current_version.minor - parsed_version.minor) * 10
+                + (current_version.micro - parsed_version.micro)
+            )
             # prioritize open instance
             if instance["registration"] == "open":
                 rank += 10
