@@ -1,5 +1,6 @@
 """ generate html files """
 import os
+import json
 from packaging import version
 from jinja2 import Environment, FileSystemLoader
 from lxml import html
@@ -14,25 +15,8 @@ env.install_gettext_translations(i18n)
 def load_instances():
     """update the list of instances"""
     # pylint: disable=line-too-long
-    instance_urls = [
-        "https://bookwyrm.social/",
-        "https://wyrms.de/",
-        "https://book.dansmonorage.blue/",
-        "https://yyyyy.club/",
-        "https://books.mxhdr.net/",
-        "https://ziurkes.group.lt/",
-        "https://kirja.casa/",
-        "https://books.solarpunk.moe/",
-        "https://masstoc.io/",
-        "https://velhaestante.com.br/",
-        "https://books.birdsonbicycles.racing/",
-        "https://books.theunseen.city/",
-        "https://bookrastinating.com/",
-        "https://bookwyrm.gatti.ninja/",
-        "https://ramblingreaders.org/",
-        "https://books.jascha.wtf/",
-        "https://orreadi.com/",
-    ]
+    with open("instances.json", "r", encoding="utf-8") as list_file:
+        instance_urls = json.load(list_file)
 
     print("  Fetching instance statistics:")
     instance_data = []
