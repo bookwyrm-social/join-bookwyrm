@@ -7,6 +7,8 @@ from lxml import html
 import requests
 import i18n
 
+import settings
+
 env = Environment(loader=FileSystemLoader("templates/"), extensions=["jinja2.ext.i18n"])
 
 env.install_gettext_translations(i18n)
@@ -14,7 +16,6 @@ env.install_gettext_translations(i18n)
 
 def load_instances():
     """update the list of instances"""
-    # pylint: disable=line-too-long
     with open("instances.json", "r", encoding="utf-8") as list_file:
         instance_urls = json.load(list_file)
 
@@ -23,11 +24,11 @@ def load_instances():
     for instance_url in instance_urls:
         print(f"  - Fetching: {instance_url}")
         try:
-            response = requests.get(f"{instance_url}api/v1/instance", timeout=10)
+            response = requests.get(f"{instance_url}api/v1/instance", timeout=settings.TIMEOUT)
             data = response.json()
             version_number = data["version"]
-            if version.parse(version_number) < version.parse("0.3.0"):
-                raise Exception("Instance is out of date wiht version:", version_number)
+            if version.parse(version_number) < version.parse(settings.MINIMUM_VERSION):
+                raise Exception("Instance is out of date with version:", version_number)
             # pylint: disable=consider-using-f-string
             instance = {"path": instance_url}
             instance["users"] = "{:,}".format(data["stats"]["user_count"])
@@ -74,8 +75,9 @@ if __name__ == "__main__":
         if not locale["code"] == "en_US":
             LOCALIZED_SITE_PATH = f'site/{locale["slug"]}'
 
+        print("  Generating", LOCALIZED_SITE_PATH, end="")
         for (path, data_loader) in paths:
-            print("  Generating", f"{LOCALIZED_SITE_PATH}{path}")
+            print(".", end="")
             with open(f"templates/{path}", "r", encoding="utf-8") as template_file:
                 template_string = template_file.read()
             template = env.from_string(template_string)
@@ -95,3 +97,4 @@ if __name__ == "__main__":
                         **data_loader(),
                     )
                 )
+        print("")  # newline
