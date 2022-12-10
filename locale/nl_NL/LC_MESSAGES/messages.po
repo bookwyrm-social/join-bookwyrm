@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-10 13:20\n"
+"PO-Revision-Date: 2022-12-10 14:18\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -209,7 +209,7 @@ msgstr "Sociale media"
 
 #: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "Je kunt BookWyrm volgen op <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> en <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> om updates te krijgen over nieuwe functies. Voel je vrij om de gebruiker te taggen of een direct bericht te sturen als je contact wilt opnemen."
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
@@ -276,17 +276,17 @@ msgstr ""
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Gebruikers"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Versie"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Registratie Status"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Ontmoet de onderhouder"
 
