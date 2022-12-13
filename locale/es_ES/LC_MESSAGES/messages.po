@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-09-10 21:24\n"
+"PO-Revision-Date: 2022-12-13 14:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -163,7 +163,7 @@ msgstr "BookWyrm en GitHub"
 
 #: templates/layout.html:82 templates/layout.html:85
 msgid "Contribute to this page"
-msgstr "Contribuir a esta página"
+msgstr "Contribuye a esta página"
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
