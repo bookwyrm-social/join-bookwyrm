@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-06 07:20\n"
+"PO-Revision-Date: 2022-12-13 06:56\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -69,7 +69,7 @@ msgstr ""
 #: templates/instances/index.html:54 templates/instances/index.html:56
 #: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
-msgstr ""
+msgstr "Več o tem"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -129,11 +129,11 @@ msgstr ""
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Pridruži se"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Prevodi"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
