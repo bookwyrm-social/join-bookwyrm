@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-07-31 00:03\n"
+"PO-Revision-Date: 2022-12-03 17:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -268,25 +268,25 @@ msgstr "或者跳过技术工作并管理主机"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr ""
+msgstr "注册已关闭"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "排序方式"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "用户"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "注册状态"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "联络维护者"
 
