@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-17 05:16\n"
+"PO-Revision-Date: 2022-12-17 06:48\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -264,7 +264,7 @@ msgstr ""
 #: templates/instances/index.html:78 templates/instances/index.html:80
 #: templates/instances/index.html:79 templates/instances/index.html:88
 msgid "Or skip the technical work and get managed hosting"
-msgstr ""
+msgstr "Або пропустіть технічну роботу і використайте керований хостинг"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
@@ -280,7 +280,7 @@ msgstr "Користувачі"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Версія"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
