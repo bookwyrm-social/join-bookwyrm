@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-09 08:39\n"
+"PO-Revision-Date: 2022-12-17 05:16\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr ""
+msgstr "Відкрийте для себе книги"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
@@ -155,7 +155,7 @@ msgstr ""
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
 msgid "Get Involved"
-msgstr ""
+msgstr "Долучитися"
 
 #: templates/layout.html:79 templates/layout.html:82
 msgid "BookWyrm on GitHub"
@@ -167,11 +167,11 @@ msgstr ""
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
-msgstr ""
+msgstr "Дізнатися більше"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
-msgstr ""
+msgstr "Зв'язатися з розробником"
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
@@ -181,7 +181,7 @@ msgstr "Ліцензія"
 #: templates/instances/index.html:62
 #, c-format
 msgid "%s users"
-msgstr ""
+msgstr "%s користувачів"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Долучайтесь"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
@@ -231,15 +231,15 @@ msgstr ""
 #: templates/instances/index.html:54 templates/instances/index.html:63
 #, c-format
 msgid "Version %s"
-msgstr ""
+msgstr "Версія: %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Переклади"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Допоможіть <a href='https://translate.joinbookwyrm.com/' target='_blank'>перекласти</a> BookWyrm на інші мови! Ви можете дізнатися більше про процес перекладу на нашій <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>сторінці документації</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
@@ -254,7 +254,7 @@ msgstr ""
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr ""
+msgstr "Не знаходиться те, що шукали?"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
@@ -268,15 +268,15 @@ msgstr ""
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr ""
+msgstr "Реєстрацію закрито"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "Сортувати за"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Користувачі"
 
 #: templates/instances/index.html:24
 msgid "Version"
@@ -284,9 +284,9 @@ msgstr ""
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Статус реєстрації"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Знайомство з супроводжуючим"
 
