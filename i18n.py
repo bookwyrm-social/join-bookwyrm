@@ -13,6 +13,7 @@ locales_metadata = [
     {"code": "en_US", "name": "English (US)", "slug": ""},
     {"code": "de_DE", "name": "Deutsch", "slug": "de/"},
     {"code": "es_ES", "name": "Español", "slug": "es/"},
+    {"code": "eu_ES", "name": "Euskara", "slug": "eu/"},
     {"code": "gl_ES", "name": "Galego", "slug": "gl/"},
     {"code": "it_IT", "name": "Italiano", "slug": "it/"},
     {"code": "fr_FR", "name": "Français", "slug": "fr/"},
