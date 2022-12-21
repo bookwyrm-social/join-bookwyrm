@@ -84,6 +84,7 @@ def load_instances():
             instance = {"path": instance_url, "skip": True}
         instance_data.append(instance)
 
+    instance_data = [i for i in instance_data if not i.get("skip")]
     instance_data = sorted(instance_data, key=lambda i: i["rank"])
     return instance_data
 
