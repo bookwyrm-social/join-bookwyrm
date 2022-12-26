@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-21 19:52\n"
+"PO-Revision-Date: 2022-12-26 20:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -39,7 +39,7 @@ msgstr "En lugar de un sitio enorme de BookWyrm, hay muchas instancias de BookWy
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr "¡Esto significa que no hay un solo lugar para registrarse! Elige una instancia que se adecue a tus intereses o prueba una al azar &mdash; todas son la mar de agradables."
+msgstr "¡Esto significa que no hay un único lugar para registrarse! Puede seleccionar una instancia que le parezca adecuada a sus intereses o simplemente probar una al azar &mdash; todas son muy agradables."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
@@ -292,5 +292,5 @@ msgstr "Conoce a le encargade"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "¡Ayuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>a traducir</a> BookWyrm a otros idiomas! Puedes aprender más sobre el proceso de traducción en nuestra <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentación</a>."
 
