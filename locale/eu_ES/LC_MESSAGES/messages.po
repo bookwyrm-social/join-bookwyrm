@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-21 19:52\n"
+"PO-Revision-Date: 2022-12-27 02:51\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -133,7 +133,7 @@ msgstr "Batu"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr "Laguntza"
+msgstr "Babestu"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
@@ -292,5 +292,5 @@ msgstr "Ezagutu arduraduna"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Lagundu BookWyrm beste hizkuntza batzuetara <a href='https://translate.joinbookwyrm.com/' target='_blank'>itzultzen</a>! Itzulpen prozesuari buruz gehiago jakin dezakezu <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentazio</a> atalean."
 
