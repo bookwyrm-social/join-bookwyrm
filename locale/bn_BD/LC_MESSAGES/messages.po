@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-01-06 12:04\n"
+"PO-Revision-Date: 2023-01-06 13:09\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -31,11 +31,11 @@ msgstr "BookWyrm-এ যুক্ত হোন"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "ছোটো এবং স্ব-পরিচালিত কমিউনিটি"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "একটি বড়সর BookWyrm সাইটের বদলে অনেকগুলো BookWyrm ইন্সট্যান্স রয়েছে যা একে অপরের সাথে নিরবিচ্ছিন্নভাবে যোগাযোগ করতে পারে। আপনি বিশ্বাসযোগ্য ছোটো কমিউনিটিতে থাকার সুবিধার পাশাপাশি বড় একটি নেটওয়ার্কের নতুন মানুষদের সাথে যোগাযোগ করতে পারবেন (যখন আপনি চান)।"
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
