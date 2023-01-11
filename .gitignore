@@ -3,3 +3,4 @@ __pycache__
 **/*.swp
 venv/
 .DS_Store
+/site
