@@ -97,6 +97,13 @@ if __name__ == "__main__":
         ["get-involved/index.html", lambda: {}],
     ]
 
+    print("  Generating API endpoint")
+    with open(
+        f"site/instances.json", "w+", encoding="utf-8"
+    ) as json_file:
+        json_file.write(json.dumps(instances))
+    print("")  # newline
+
     for locale in i18n.locales_metadata:
         i18n.setLocale(locale["code"])
 
