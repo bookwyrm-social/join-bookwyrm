@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
     print("  Generating API endpoint")
     with open(
-        f"site/instances.json", "w+", encoding="utf-8"
+        "site/instances.json", "w+", encoding="utf-8"
     ) as json_file:
         json_file.write(json.dumps(instances))
     print("")  # newline
