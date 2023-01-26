@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-01-02 11:51\n"
+"PO-Revision-Date: 2023-01-26 18:15\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -58,7 +58,7 @@ msgstr "Benutzer*innen"
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Open registration"
-msgstr "Selbstregistrierung möglich"
+msgstr "Registrierung offen"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
@@ -268,7 +268,7 @@ msgstr "Oder lassen sie die technische Arbeit durch Managed Hosting erledigen"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr "Anmeldung geschlossen"
+msgstr "Registrierung geschlossen"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -276,7 +276,7 @@ msgstr "Sortieren nach"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr "Benutzer"
+msgstr "Nutzer*innen"
 
 #: templates/instances/index.html:24
 msgid "Version"
@@ -288,7 +288,7 @@ msgstr "Registrierungsstatus"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "Treffe die Betreuer*innen"
+msgstr "Treffe di:er Betreuer*in"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
