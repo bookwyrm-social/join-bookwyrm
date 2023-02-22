@@ -88,6 +88,7 @@ def load_instances():
     instance_data = sorted(instance_data, key=lambda i: i["rank"])
     return instance_data
 
+
 def generate_instances_api_endpoint(instance_list):
     """A json version of the instance list"""
     keys = [
@@ -101,7 +102,7 @@ def generate_instances_api_endpoint(instance_list):
     ]
     filtered = []
     for instance in instance_list:
-        filtered.append({k:instance[l] for l, k in keys})
+        filtered.append({k: instance[l] for l, k in keys})
     return json.dumps(filtered)
 
 
