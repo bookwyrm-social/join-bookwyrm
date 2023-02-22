@@ -88,6 +88,22 @@ def load_instances():
     instance_data = sorted(instance_data, key=lambda i: i["rank"])
     return instance_data
 
+def generate_instances_api_endpoint(instance_list):
+    """A json version of the instance list"""
+    keys = [
+        ("path", "path"),
+        ("users_int", "users"),
+        ("registration", "registration"),
+        ("description", "description"),
+        ("name", "name"),
+        ("version", "version"),
+        ("logo", "logo"),
+    ]
+    filtered = []
+    for instance in instance_list:
+        filtered.append({k:instance[l] for l, k in keys})
+    return json.dumps(filtered)
+
 
 if __name__ == "__main__":
     instances = load_instances()
@@ -99,7 +115,7 @@ if __name__ == "__main__":
 
     print("  Generating API endpoint")
     with open("site/instances.json", "w+", encoding="utf-8") as json_file:
-        json_file.write(json.dumps(instances))
+        json_file.write(generate_instances_api_endpoint(instances))
     print("")  # newline
 
     for locale in i18n.locales_metadata:
