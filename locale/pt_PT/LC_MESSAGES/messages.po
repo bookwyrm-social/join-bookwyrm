@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-02-23 11:07\n"
+"PO-Revision-Date: 2023-02-23 12:20\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -225,7 +225,7 @@ msgstr "Participa"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr "BookWyrm é mantido por <a href='https://mousereeve.com/'>Mouse Reeve</a> - ele dirige o projeto, gerencia a comunidade de desenvolvedores e tentar corrigir erros mais rápido do que eles aparecem. O seu objetivo principal é fazer de BookWyrm um lugar gentil e acolhedor."
+msgstr "BookWyrm é mantido por <a href='https://mousereeve.com/'>Mouse Reeve</a> — dirige o projeto, gere a comunidade de programadores e tenta corrigir erros antes sequer de eles aparecerem. O objetivo principal é fazer do BookWyrm um lugar agradável e acolhedor."
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
 #: templates/instances/index.html:54 templates/instances/index.html:63
