@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-21 19:52\n"
+"PO-Revision-Date: 2023-03-02 21:34\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -209,7 +209,7 @@ msgstr "Socialiniai tinklai"
 
 #: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "Norėdami gauti naujienas apie BookWyrm - galite sekti<a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> ir <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a>. Norėdami susisiekti - nedvejokite."
+msgstr "Norėdami gauti naujienas apie „BookWyrm“ - galite sekti <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> ir <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a>. Norėdami susisiekti - nedvejokite."
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
