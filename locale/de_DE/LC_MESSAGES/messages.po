@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-01-26 18:15\n"
+"PO-Revision-Date: 2023-03-07 08:12\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -73,7 +73,7 @@ msgstr "Erfahre mehr"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr "BookWyrm ist ein soziales Netzwerk zur Verfolgung deiner Lektüre; ein Ort, um über Bücher zu sprechen und Bücher zu besprechen; und ein Angebot zu entdecken, was du als Nächstes lesen könntest. BookWyrm-Mitglieder können kleinen, vertrauenswürdigen Communities beitreten, die sich untereinander verbinden können und mit anderen <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>-Diensten wie <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> und <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "BookWyrm ist ein soziales Netzwerk zur Verfolgung deiner Lektüre, um über Bücher zu sprechen und sie zu besprechen und um zu entdecken, was du als Nächstes lesen könntest. BookWyrm-Mitglieder können kleinen, vertrauenswürdigen Communities beitreten, die sich sowohl untereinander verbinden können als auch mit anderen <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>-Diensten wie <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> und <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -97,7 +97,7 @@ msgstr "Und die Lesegewohnheiten deiner Freund*innen"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr "Aktualisiere deinen Lesestatus, wenn du Bücher zu lesen beginnst oder beendest. Veröffentliche Statusupdates, während du liest, und setze dir ein jährliches Leseziel."
+msgstr "Aktualisiere deinen Lesestatus, wenn du Bücher zu lesen beginnst oder beendest, veröffentliche Statusupdates, während du liest, und setze dir ein jährliches Leseziel."
 
 #: templates/index.html:74
 msgid "Discover books"
@@ -109,7 +109,7 @@ msgstr "Empfehlungen von Menschen, nicht von Algorithmen"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr "Schau dir an, was deine Freund*innen lesen und hold die Meinungen deiner Community ein."
+msgstr "Schau dir an, was deine Freund*innen lesen und hol die Meinungen deiner Community ein."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
