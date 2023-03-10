@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-27 02:51\n"
+"PO-Revision-Date: 2023-03-10 11:11\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -101,7 +101,7 @@ msgstr "Eguneratu irakurketa egoera liburuak hasi eta amaitzean, argitaratu egoe
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr "Liburuak ezagutu"
+msgstr "Deskubritu liburuak"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
