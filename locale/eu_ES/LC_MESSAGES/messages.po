@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-03-10 15:06\n"
+"PO-Revision-Date: 2023-03-10 20:37\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -81,7 +81,7 @@ msgstr "Deszentralizatua"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr "Lagungarria"
+msgstr "Lagunkoia"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
