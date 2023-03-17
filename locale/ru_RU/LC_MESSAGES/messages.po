@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-03-17 06:11\n"
+"PO-Revision-Date: 2023-03-17 07:14\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr "Добро пожаловать на BookWyrm"
+msgstr "Добро пожаловать в BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "Социальное чтение и рецензирование, Децентрализованно"
+msgstr "Социально читаем и обсуждаем, децентрализованно"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -35,7 +35,7 @@ msgstr "Сеть небольших, самоуправляющихся сооб
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr "Вместо одного огромного сайта BookWyrm существует множество экземпляров BookWyrm, которые могут взаимодействовать друг с другом. Вы можете получить преимущества небольшого сообщества, которому вы доверяете, и в то же время взаимодействовать с большой сетью интересных новых людей (когда захотите)."
+msgstr "Вместо огромного единого сайта BookWyrm есть множество узлов BookWyrm, взаимодействующих друг с другом. При всех достоинствах своего маленького сообщества, вы взаимодействуете с большой сетью новых интересных людей (когда захотите)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
@@ -121,11 +121,11 @@ msgstr "Так, как вы хотите"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr "Пишите обзоры или публикуйте случайные комментарии по ходу дела, и контролируйте, кто может видеть ваши публикации, с помощью детальных настроек конфиденциальности."
+msgstr "Пишите рецензии, комментируйте по ходу дела, и, с помощью точных настроек конфиденциальности, укажите, кому можно видеть ваши заметки."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: Социальное чтение и рецензирование"
+msgstr "BookWyrm: читаем и обсуждаем вместе"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -146,7 +146,7 @@ msgstr "Документация"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> это коллаборативное, антикорпоративное программное обеспечение, поддерживаемое <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> это совместное, антикорпоративное программное обеспечение, поддерживаемое <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:73 templates/layout.html:76
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
@@ -193,15 +193,15 @@ msgstr "BookWyrm разработан для того, чтобы остават
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr ""
+msgstr "BookWyrm разрабатывают <a href='https://mousereeve.com/'>Mouse Reeve</a> - они ведут проект, управляют сообществом разработчиков и стараются исправлять глюки быстрее, чем они появляются. Их главная задача — сделать BookWyrm приятным и милым местом, как для разработчиков, так и для пользователей."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr ""
+msgstr "Баги и запрос новых функций"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr ""
+msgstr "Баг-трекер BookWyrm и его код размещены на <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; сообщать об ошибках и просить новые функции лучше всего там."
 
 #: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
@@ -213,19 +213,19 @@ msgstr "Вы можете подписаться на BookWyrm на <a href='htt
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
-msgstr ""
+msgstr "Чат разработчиков"
 
 #: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr ""
+msgstr "Мы используем <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> для общения разработчиков BookWyrm &mdash; прекрасное место, чтобы задать вопросы и получить помощь. Хотя в основном там обсуждается разработка и поддержка узлов BookWyrm, у нас приветствуются любые обсуждения BookWyrm."
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr ""
+msgstr "Участвовать"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr ""
+msgstr "BookWyrm разрабатывают <a href='https://mousereeve.com/'>Mouse Reeve</a> - они ведут проект, управляют сообществом разработчиков и стараются исправлять глюки быстрее, чем они появляются. Их главная задача — сделать BookWyrm приятным и милым местом."
 
 #: templates/instances/index.html:53 templates/instances/index.html:55
 #: templates/instances/index.html:54 templates/instances/index.html:63
@@ -235,11 +235,11 @@ msgstr "Версия %s"
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
-msgstr ""
+msgstr "Переводы"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Помогите <a href='https://translate.joinbookwyrm.com/' target='_blank'>перевести</a> BookWyrm на другие языки! Узнать, как переводить, можно <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>тут</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
@@ -288,9 +288,9 @@ msgstr "Статус регистрации"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Пообщаться с разработчиками"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Помогите <a href='https://translate.joinbookwyrm.com/' target='_blank'>перевести</a> BookWyrm на другие языки! Узнать, как переводить, можно <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>тут</a>."
 
