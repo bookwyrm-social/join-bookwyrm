@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-11-14 20:32\n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2023-03-07 09:29\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -58,7 +58,7 @@ msgstr "Benutzer*innen"
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Open registration"
-msgstr "Selbstregistrierung möglich"
+msgstr "Registrierung offen"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
@@ -73,7 +73,7 @@ msgstr "Erfahre mehr"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr "BookWyrm ist ein soziales Netzwerk zur Verfolgung deiner Lektüre; ein Ort, um über Bücher zu sprechen und Bücher zu besprechen; und ein Angebot zu entdecken, was du als nächstes lesen könntest. BookWyrm-Benutzer*innen können kleinen, vertrauenswürdigen Gemeinschaften beitreten, die sich untereinander verbinden können und mit anderen <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>-Diensten wie <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> und <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "BookWyrm ist ein soziales Netzwerk zur Verfolgung deiner Lektüre, um über Bücher zu sprechen und sie zu besprechen und um zu entdecken, was du als Nächstes lesen könntest. BookWyrm-Mitglieder können kleinen, vertrauenswürdigen Communities beitreten, die sich sowohl untereinander verbinden können als auch mit anderen <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a>-Diensten wie <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> und <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -97,7 +97,7 @@ msgstr "Und die Lesegewohnheiten deiner Freund*innen"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
-msgstr "Aktualisiere deinen Lesestatus, wenn du Bücher zu lesen beginnst oder beendest. Veröffentliche Statusupdates, während du liest, und setze dir ein jährliches Leseziel."
+msgstr "Aktualisiere deinen Lesestatus, wenn du Bücher zu lesen beginnst oder beendest, veröffentliche Statusupdates, während du liest, und setze dir ein jährliches Leseziel."
 
 #: templates/index.html:74
 msgid "Discover books"
@@ -109,11 +109,11 @@ msgstr "Empfehlungen von Menschen, nicht von Algorithmen"
 
 #: templates/index.html:77
 msgid "See what your friends are reading, and get opinions from your community."
-msgstr "Schau dir an, was deine Freund*innen lesen und hold die Meinungen deiner Gemeinschaft ein."
+msgstr "Schau dir an, was deine Freund*innen lesen und hol die Meinungen deiner Community ein."
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr "Teile deine Meinung"
+msgstr "Teile deine Gedanken"
 
 #: templates/index.html:96
 msgid "The way you want to"
@@ -121,11 +121,11 @@ msgstr "So, wie du es willst"
 
 #: templates/index.html:98
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
-msgstr "Schreibe Besprechungen oder veröffentliche formlose Kommentare, während du liest, und bestimme dank feinkörniger Privatsphäre-Einstellungen selbst, wer deine Beiträge sehen kann."
+msgstr "Schreibe Rezensionen oder veröffentliche Kommentare, während du liest, und bestimme durch detaillierte Privatsphäre-Einstellungen, wer deine Beiträge sehen kann."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: soziales Lesen und Besprechen"
+msgstr "BookWyrm: gemeinschaftliches Lesen und Besprechen"
 
 #: templates/layout.html:35
 msgid "Join"
@@ -142,7 +142,7 @@ msgstr "Quelltext"
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
 msgid "Documentation"
-msgstr "Handbuch"
+msgstr "Dokumentation"
 
 #: templates/layout.html:70 templates/layout.html:73
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
@@ -189,7 +189,7 @@ msgstr "Software im menschlichen Maßstab"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr "BookWyrm wurde entwickelt, um klein und persönlich zu bleiben; wenn du Funktionswünsche, Fehlerberichte oder große Träume hast, würden wir uns freuen, wenn du mit uns ins Gespräch kommen würdest."
+msgstr "BookWyrm wurde entwickelt, um klein und persönlich zu bleiben; wenn du Featurewünsche, Fehlerberichte oder große Träume hast, würden wir uns freuen, wenn du mit uns ins Gespräch kommen würdest."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
@@ -201,7 +201,7 @@ msgstr "Fehler? Neue Funktion vorschlagen?"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr "BookWyrms Bug Tracker und Code werden auf <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub gehostet</a> &ndash; der beste Ort, um Fehler zu melden und Featurewünsche anzumelden."
+msgstr "BookWyrms Bug Tracker und Code werden auf <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub gehostet</a> &mdash; dies ist der beste Ort, um Fehler zu melden und Featurewünsche zu äußern."
 
 #: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
@@ -209,15 +209,15 @@ msgstr "Soziale Netzwerke"
 
 #: templates/get-involved/index.html:50 templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "Du kannst BookWyrm auf <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> und <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> folgen, um Updates über neue Funktionen zu erhalten. Fühl dich frei, das Konto zu taggen oder eine Direktnachricht zu senden, wenn du Kontakt aufnehmen möchten."
+msgstr "Du kannst BookWyrm auf <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> und <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> folgen, um Updates über neue Funktionen zu erhalten. Du kannst gerne das Konto taggen oder eine Direktnachricht senden, wenn du Kontakt aufnehmen möchten."
 
 #: templates/get-involved/index.html:56 templates/get-involved/index.html:65
 msgid "Developer Chat"
-msgstr "Entwickler*in-Chat"
+msgstr "Entwickler*innen-Chat"
 
 #: templates/get-involved/index.html:59 templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr "Wir verwenden <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> für den BookWyrm Entwickler+in-Chat &ndash; ein großartiger Ort, um Fragen zu stellen und Hilfe zu erhalten. Der Schwerpunkt liegt auf der Entwicklung der BookWyrm-Software und dem Betrieb von BookWyrm-Instanzen, aber jede Diskussion rund um BookWyrm ist dort willkommen."
+msgstr "Wir verwenden <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> für den BookWyrm Entwickler*innen-Chat &mdash; ein großartiger Ort, um Fragen zu stellen und Hilfe zu erhalten. Der Schwerpunkt liegt auf der Entwicklung der BookWyrm-Software und dem Betrieb von BookWyrm-Instanzen, aber jede Diskussion rund um BookWyrm ist dort willkommen."
 
 #: templates/layout.html:38
 msgid "Get involved"
@@ -268,7 +268,7 @@ msgstr "Oder lassen sie die technische Arbeit durch Managed Hosting erledigen"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr "Anmeldung geschlossen"
+msgstr "Registrierung geschlossen"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -276,7 +276,7 @@ msgstr "Sortieren nach"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr "Benutzer"
+msgstr "Benutzer*innen"
 
 #: templates/instances/index.html:24
 msgid "Version"
@@ -288,5 +288,9 @@ msgstr "Registrierungsstatus"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "Treffen Sie den Betreuer"
+msgstr "Treffe di:er Betreuer*in"
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Hilf BookWyrm in andere Sprachen zu <a href='https://translate.joinbookwyrm.com/' target='_blank'>übersetzen</a>! Du kannst mehr über den Prozess zum Übersetzen in unserer <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>Dokumentation</a> erfahren."
 

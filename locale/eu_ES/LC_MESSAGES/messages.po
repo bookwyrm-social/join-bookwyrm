@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-11-28 13:28\n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2023-03-10 20:37\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -23,7 +23,7 @@ msgstr "Ongi etorri BookWyrm-era"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "Irakurketa eta iritzi soziala, deszentralizatua"
+msgstr "Irakurketa eta iritzi sozial deszentralizatuak"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -81,7 +81,7 @@ msgstr "Deszentralizatua"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr "Lagungarria"
+msgstr "Lagunkoia"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
@@ -101,7 +101,7 @@ msgstr "Eguneratu irakurketa egoera liburuak hasi eta amaitzean, argitaratu egoe
 
 #: templates/index.html:74
 msgid "Discover books"
-msgstr "Liburuak ezagutu"
+msgstr "Deskubritu liburuak"
 
 #: templates/index.html:75
 msgid "Recommendations from people, not algorithms"
@@ -133,7 +133,7 @@ msgstr "Batu"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr "Laguntza"
+msgstr "Babestu"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
@@ -289,4 +289,8 @@ msgstr "Izen-emateen egoera"
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
 msgstr "Ezagutu arduraduna"
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Lagundu BookWyrm beste hizkuntza batzuetara <a href='https://translate.joinbookwyrm.com/' target='_blank'>itzultzen</a>! Itzulpen prozesuari buruz gehiago jakin dezakezu <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentazio</a> atalean."
 

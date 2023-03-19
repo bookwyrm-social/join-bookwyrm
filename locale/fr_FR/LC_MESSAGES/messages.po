@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-08-06 05:53\n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2022-12-22 15:39\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -193,7 +193,7 @@ msgstr "BookWyrm est conçu pour rester petit et personnel ; si vous avez des de
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr "BookWyrm est maintenu par <a href='https://mousereeve.com/'>Mouse Reeve</a>, qui oriente le projet, gère la communauté des développeurs et essaye de corriger les bogues plus rapidement qu'ils ne sont introduits. Son objectif premier pour BookWyrm est de le rendre aimable et accueillant, en tant que communauté de développeurs et en tant que logiciel."
+msgstr "BookWyrm est maintenu par <a href='https://mousereeve.com/'>Mouse Reeve</a> qui dirige le projet, gère la communauté des développeurs et essaye de corriger les bogues plus rapidement qu'ils ne sont introduits. Son premier objectif pour BookWyrm est de le rendre aimable et accueillant, en tant que communauté de développeurs et en tant que logiciel."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -289,4 +289,8 @@ msgstr "Statut d’enregistrement"
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
 msgstr "Rencontrez le responsable"
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Aidez à <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduire</a> BookWyrm dans d'autres langues ! Vous pouvez en apprendre plus sur le processus de traduction dans notre <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
 
