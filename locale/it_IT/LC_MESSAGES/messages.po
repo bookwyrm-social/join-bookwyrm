@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-09-25 16:29\n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2022-12-30 17:02\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -289,4 +289,8 @@ msgstr "Stato Registrazione"
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
 msgstr "Incontra il responsabile"
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Aiutaci a <a href='https://translate.joinbookwyrm.com/' target='_blank'> tradurre</a> BookWyrm in altre lingue! Puoi trovare più informazioni sul processo di traduzione nella nostra <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentazione</a>."
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-30 16:35-0700\n"
-"PO-Revision-Date: 2022-12-18 18:39\n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2023-01-03 11:29\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -244,31 +244,31 @@ msgstr "Hjälp till att <a href='https://translate.joinbookwyrm.com/' target='_b
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
 msgid "Is your instance missing from this list?"
-msgstr ""
+msgstr "Saknas din server i den här listan?"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
 msgid "Open a GitHub issue"
-msgstr ""
+msgstr "Öppna ett GitHub-ärende"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr ""
+msgstr "Hittar du inte det du vill?"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
 msgid "Run your own BookWyrm community"
-msgstr ""
+msgstr "Kör din egen BookWyrm-gemenskap"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
 #: templates/instances/index.html:79 templates/instances/index.html:88
 msgid "Or skip the technical work and get managed hosting"
-msgstr ""
+msgstr "Eller hoppa över det tekniska arbetet och få hanterad hosting"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr ""
+msgstr "Registrering stängd"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -289,4 +289,8 @@ msgstr "Registreringsstatus"
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
 msgstr "Träffa utvecklaren"
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Hjälp till att <a href='https://translate.joinbookwyrm.com/' target='_blank'>översätta</a> BookWyrm till andra språk! Du kan läsa mer om översättningsprocessen i vår <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentation</a>."
 
