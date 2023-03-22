@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-03-22 19:14\n"
+"PO-Revision-Date: 2023-03-22 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -249,7 +249,7 @@ msgstr "Zure intsantzia falta al da zerrenda honetan?"
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
 msgid "Open a GitHub issue"
-msgstr "Zabaldu GitHub arazo bat"
+msgstr "Ireki arazo bat GitHub-en"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
