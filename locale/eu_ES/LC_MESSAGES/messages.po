@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-03-10 20:37\n"
+"PO-Revision-Date: 2023-03-22 20:09\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -181,7 +181,7 @@ msgstr "Lizentzia"
 #: templates/instances/index.html:62
 #, c-format
 msgid "%s users"
-msgstr "%s erabiltzaileak"
+msgstr "%s erabiltzaile"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -249,7 +249,7 @@ msgstr "Zure intsantzia falta al da zerrenda honetan?"
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
 msgid "Open a GitHub issue"
-msgstr "Zabaldu GitHub arazo bat"
+msgstr "Ireki arazo bat GitHub-en"
 
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
@@ -259,12 +259,12 @@ msgstr "Ez duzu nahi duzuna topatzen?"
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
 msgid "Run your own BookWyrm community"
-msgstr "Exekutatu zeure Bookwyrm komunitate propioa"
+msgstr "Jarri martxan zure BookWyrm komunitatea"
 
 #: templates/instances/index.html:78 templates/instances/index.html:80
 #: templates/instances/index.html:79 templates/instances/index.html:88
 msgid "Or skip the technical work and get managed hosting"
-msgstr "Ala saihestu lan teknikoa eta eskuratu kudeatutako ostatatzea"
+msgstr "Edo saihestu lan teknikoa eta eskuratu kudeatutako ostatatzea"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
