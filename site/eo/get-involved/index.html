@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="eo">
 <head>
-    <title>Bokwyrm: Sosial lesing og bokanmelding</title>
+    <title>BookWyrm: Sociaj legado kaj recenzado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="/static/css/bookwyrm.css">
     <link type="text/css" rel="stylesheet" href="/static/css/icons.css">
@@ -24,27 +24,27 @@
 <body>
 <nav class="navbar container is-max-desktop" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="/no/">
+        <a class="navbar-item" href="/eo/">
             <img class="image logo" src="/static/images/logo-small.png" alt="Go back to the homepage">
         </a>
     </div>
 
     <div class="navbar-menu" id="main-nav">
         <div class="navbar-start">
-            <a href="/no/instances" class="navbar-item">
-                <span class="button is-success">Bli med</span>
+            <a href="/eo/instances" class="navbar-item">
+                <span class="button is-success">Aliĝi</span>
             </a>
-            <a href="/no/get-involved" class="navbar-item">
-                Bli med
+            <a href="/eo/get-involved" class="navbar-item">
+                Kunlabori
             </a>
             <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Brukerstøtte
+                Subteni
             </a>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
-                Kildekode
+                Kodo
             </a>
             <a href="https://docs.joinbookwyrm.com/" class="navbar-item">
-                Dokumentasjon
+                Dokumentaro
             </a>
         </div>
     </div>
@@ -57,7 +57,7 @@
                     
                     <option value="ca/" >Català</option>
                     
-                    <option value="eo/" >Esperanto</option>
+                    <option value="eo/" selected>Esperanto</option>
                     
                     <option value="de/" >Deutsch</option>
                     
@@ -73,7 +73,7 @@
                     
                     <option value="lt/" >Lietuvių</option>
                     
-                    <option value="no/" selected>Norsk</option>
+                    <option value="no/" >Norsk</option>
                     
                     <option value="pl/" >Polski</option>
                     
@@ -97,103 +97,71 @@
     
 <section class="section">
     <header class="block has-text-centered">
-        <h1 class="title is-1">Velkommen til BookWyrm</h1>
-        <p class="subtitle">Sosial lesing og bokrapportering, desentralisert</p>
+        <h1 class="title is-1">Kunlabori</h1>
+        <p class="subtitle">Homskala programo</p>
     </header>
-
-    <p class="block">
-    BookWyrm er et sosialt nettverk hvor du sporer hva du har lest, snakker om bøker, skriver og leser bokrapporterer og å finne nye ting å lese. Små BookWyrm "instanser" lar grupper som stoler på hverandre koble seg sammen med andre lesegrupper, og andre <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> -tjenester som for eksempel <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> og <a href='http://pleroma.social/' target='_blank'>Pleroma</a>.
-    </p>
-
-    <div class="block pt-5">
-        <section class="level is-mobile">
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-paperplane"></span></p>
-                    <p class="heading">Desentralisert</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-heart"></span></p>
-                    <p class="heading">Vennlig</p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered">
-                <div>
-                    <p class="title has-text-weight-normal mb-0"><span class="icon icon-graphic-banknote"></span></p>
-                    <p class="heading">Ukommerst</p>
-                </div>
-            </div>
-        </section>
-    </div>
 </section>
 
-<div class="section p-4 has-text-centered">
-    <a href="/no/instances" class="button is-success is-rounded">Bli med i BookWyrm</a>
-</div>
-
-<section class="section">
-    <div class="tile is-ancestor pb-5">
-        <div class="tile is-parent is-7">
-            <article class="tile is-child notification p-0">
-                <figure class="image">
-                    <img src="/static/images/book-grid.png" alt="A grid of book covers">
-                </figure>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
-                <div class="content">
-                    <p class="title">Spor lesinga di</p>
-                    <p class="subtitle">Og se hva vennene dine leser</p>
-                    <div class="content">
-                        Oppdatér lesestatusen din som når du starter og fullfører bøker, legg ut statusoppdateringer fortløpende, og angi årlige lesemål.
-                    </div>
-                </div>
-            </article>
-        </div>
+<section class="section p-5">
+    <div class="block content">
+        <p>
+            BookWyrm celas resti malgranda kaj persona; se vi havas petojn pri trajtoj, cimraportojn, aŭ grandajn revojn, ni ĝojus ke vi aliĝu al la konversacio.
+        </p>
     </div>
 
-    <div class="tile is-ancestor pb-5 is-flex-direction-row-reverse">
-        <div class="tile is-parent is-8">
-            <article class="tile is-child notification p-0 has-background-white">
-                <figure class="image">
-                    <img src="/static/images/phone.png" alt="The preview for 'Ancillary Justice' by Ann Leckie on an iPhone screen.">
-                </figure>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
-                <div class="content">
-                    <p class="title">Oppdag bøker</p>
-                    <p class="subtitle">Anbefalinger fra folk, ikke algoritmer</p>
-                    <div class="content">
-                        Se hva vennene dine leser, og få meninger fra folka dine.
-                    </div>
+    <div class="block">
+        <div class="notification has-background-white-bis" id="maintainer">
+            <div class="columns">
+                <div class="column is-2">
+                    <figure class="image is-128x128 is-64x64-mobile">
+                        <img src="/static/images/maintainer-headshot.png" alt="Headshot of the maintainer">
+                    </figure>
                 </div>
-            </article>
+                <div class="column content">
+                    <h2 class="title is-5">
+                        Renkontu la prizorganton
+                    </h2>
+                    <p>
+                    BookWyrm-on prizorgas <a href='https://mousereeve.com/'>Mouse Reeve</a> – ri gvidas la projekton, estras la komunumon de programistoj, kaj provas ripari cimojn pli rapide ol ri kreas ilin. Ria ĉefa celo por BookWyrm estas fari ĝin afabla kaj bonveniga loko.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent is-5">
-            <article class="tile is-child notification p-0">
-                <figure class="image">
-                    <img src="/static/images/compose.png" alt="The compose status box">
-                </figure>
-            </article>
+        <div class="notification has-background-primary-light" id="github">
+            <h2 class="title is-5">
+                Cimoj kaj petoj pri trajtoj
+            </h2>
+            <p>
+            La cimspurilo kaj kodo de BookWyrm gastiĝas ĉe <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> – tio estas la plej bona loko por raporti cimojn kaj peti trajtojn.
+            </p>
         </div>
-        <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
-                <div class="content">
-                    <p class="title">Del dine tanker</p>
-                    <p class="subtitle">Slik du selv vil</p>
-                    <div class="content">
-                        Skriv anmeldelser, eller legg ut tanker og kommentarer mens du leser, med kontroll over hvem som kan se dine utlegg og finmasket tilgangsstyring.
-                    </div>
-                </div>
-            </article>
+
+        <div class="notification has-background-success-light" id="translate">
+            <h2 class="title is-5">
+                Tradukoj
+            </h2>
+            <p>
+            Heplu <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduki</a> BookWyrm al pliaj lingvoj! Vi povas lerni pli pri la traduka procezo per nia <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentaro</a>.
+            </p>
+        </div>
+
+        <div class="notification has-background-link-light" id="social">
+            <h2 class="title is-5">
+                Sociaj retoj
+            </h2>
+            <p>
+            Vi povas sekvi BookWyrm ĉe <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> kaj <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> por ricevi ĝisdatigojn pri novaj trajtoj. Sentu vin libera etikedi la konton aŭ sendi rektan mesaĝon se vi volas kontakti nin.
+            </p>
+        </div>
+
+        <div class="notification has-background-info-light" id="dev-chat">
+            <h2 class="title is-5">
+                Programista babilejo
+            </h2>
+            <p>
+                Ni uzas <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> por babilado pri la programado de BookWyrm – ĝi estas bonega loko por fari demandojn kaj ricevi helpon. Ĝi koncentriĝas pri la programado de la programkodo de BookWyrm kaj pri la rulado de instancoj de BookWyrm, sed ĉiaj diskutoj pri BookWyrm estas bonvenaj.
+            </p>
         </div>
     </div>
 </section>
@@ -205,19 +173,19 @@
         <div class="columns">
             <div class="column content">
                 <p>
-                    <strong>BookWyrm</strong> er delt, åpen og ikke-komersiell programvare vedlikeholdt av <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
+                    <strong>BookWyrm</strong> estas kunlabora, kontraŭkomerca programo prizorgata de <a href='https://www.mousereeve.com/'>Mouse Reeve</a>.
                 </p>
                 <p>
-                    Støtt BookWyrm på <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                    Subtenu BookWyrm ĉe <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Engasjer deg</h3>
+                <h3 class="title is-6">Kunlabori</h3>
                 <p>
-                    <a href="https://github.com/bookwyrm-social">BookWyrm på GitHub</a>
+                    <a href="https://github.com/bookwyrm-social">BookWyrm ĉe GitHub</a>
                 </p>
                 <p>
-                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Forbedre denne sida</a>
+                    <a href="https://github.com/bookwyrm-social/join-bookwyrm">Kontribui al ĉi tiu paĝo</a>
                 </p>
                 <p>
                     <a href="https://twitter.com/BookWyrmSocial" target="_blank">
@@ -232,15 +200,15 @@
                 </p>
             </div>
             <div class="column">
-                <h3 class="title is-6">Finn ut mer</h3>
+                <h3 class="title is-6">Lerni pli</h3>
                 <p>
-                    <a href="https://docs.joinbookwyrm.com">Dokumentasjon</a>
+                    <a href="https://docs.joinbookwyrm.com">Dokumentaro</a>
                 </p>
                 <p>
-                    <a href="mailto:mousereeve@riseup.net">Kontakt vedlikeholderen</a>
+                    <a href="mailto:mousereeve@riseup.net">Kontakti la prizorganton</a>
                 </p>
                 <p>
-                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Lisens</a>
+                    <a href="https://raw.githubusercontent.com/bookwyrm-social/join-bookwyrm/main/LICENSE.md">Permesilo</a>
                 </p>
             </div>
         </div>
@@ -250,7 +218,7 @@
 <script type="text/javascript">
     const languageSelector = document.getElementById("language_selection");
     languageSelector.onchange = function(event) {
-        const current_locale = "no/";
+        const current_locale = "eo/";
         const current_location = window.location.pathname;
         
         const locale_index = current_location.indexOf(current_locale);
