@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-21 19:52\n"
+"PO-Revision-Date: 2023-07-19 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -19,19 +19,19 @@ msgstr ""
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr ""
+msgstr "Hoşgeldiniz, burası BookWyrm"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr ""
+msgstr "Okuma ve İnceleme Sosyal Çevresi, Merkezsiz"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr ""
+msgstr "BookWyrm'a Katıl"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr ""
+msgstr "Küçük, Kendi Kendini Yöneten Topluluklar Ağı"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
