@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-09-28 08:38\n"
+"PO-Revision-Date: 2023-09-28 10:08\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -44,32 +44,32 @@ msgstr ""
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
 msgid "Join instance"
-msgstr ""
+msgstr "Tilmeld dig instans"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
 msgid "Request Invite"
-msgstr ""
+msgstr "Anmod om invitation"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr ""
+msgstr "brugere"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Open registration"
-msgstr ""
+msgstr "Åben tilmelding"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Registration by request"
-msgstr ""
+msgstr "Tilmelding efter anmodning"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
 #: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
-msgstr ""
+msgstr "Få mere at vide"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -81,7 +81,7 @@ msgstr ""
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Venlig"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Hold styr på din læsning"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: templates/index.html:95
 msgid "Share your thoughts"
-msgstr ""
+msgstr "Del dine tanker"
 
 #: templates/index.html:96
 msgid "The way you want to"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr ""
+msgstr "Tilmeld dig"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
-msgstr ""
+msgstr "Lukket for tilmelding"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -284,7 +284,7 @@ msgstr ""
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Tilmeldingsstatus"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
