@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-10-03 13:24\n"
+"PO-Revision-Date: 2023-10-03 15:10\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -23,7 +23,7 @@ msgstr "BookWyrmへようこそ"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "ソーシャルリーディングとレビュー、分散型。"
+msgstr "ソーシャルリーディングとレビュー、脱中央集権的"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -44,7 +44,7 @@ msgstr "つまり、新規登録するだけのBookWyrmインスタンスは一�
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
 msgid "Join instance"
-msgstr "インスタンスに参加する"
+msgstr "インスタンスに参加"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
@@ -133,11 +133,11 @@ msgstr "参加する"
 
 #: templates/layout.html:38 templates/layout.html:41
 msgid "Support"
-msgstr "支援"
+msgstr "サポート"
 
 #: templates/layout.html:41 templates/layout.html:44
 msgid "Code"
-msgstr "コード"
+msgstr "ソースコード"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
 #: templates/layout.html:102
@@ -155,7 +155,7 @@ msgstr "BookWyrmを<a href='https://www.patreon.com/bookwyrm' target='_blank'>Pa
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
 msgid "Get Involved"
-msgstr "開発への参加"
+msgstr "参加する"
 
 #: templates/layout.html:79 templates/layout.html:82
 msgid "BookWyrm on GitHub"
@@ -163,7 +163,7 @@ msgstr "BookWyrmのGithubリポジトリ"
 
 #: templates/layout.html:82 templates/layout.html:85
 msgid "Contribute to this page"
-msgstr "このサイトに貢献する"
+msgstr "このサイトにコントリビュート"
 
 #: templates/layout.html:97 templates/layout.html:100
 msgid "Learn more"
@@ -171,7 +171,7 @@ msgstr "さらに詳しく"
 
 #: templates/layout.html:102 templates/layout.html:105
 msgid "Contact maintainer"
-msgstr "お問い合わせ"
+msgstr "メンテナーにお問い合わせ"
 
 #: templates/layout.html:105 templates/layout.html:108
 msgid "License"
@@ -221,7 +221,7 @@ msgstr "私たちは<a href='https://app.element.io/#/room/#bookwyrm:matrix.org'
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr "開発への参加"
+msgstr "参加する"
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
@@ -254,7 +254,7 @@ msgstr "GitHubでissueを開く"
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr "お探しのものが見付かりませんか？"
+msgstr "お探しのものが見つかりませんか？"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
@@ -288,7 +288,7 @@ msgstr "新規登録の可否"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "メインテナーの紹介"
+msgstr "メンテナーの紹介"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
