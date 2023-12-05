@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-12-05 04:42\n"
+"PO-Revision-Date: 2023-12-05 06:17\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Cyrillic)\n"
 "Language: sr_SP\n"
@@ -39,7 +39,7 @@ msgstr "Уместо једног великог BookWyrm сајта, посто
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr "То значи да не постоји само једно место где можете да се пријавите! Можете одабрати инстанцу која делује као да је блиска вашим интересовањима, или само пробајте било коју &mdash; све су веома пријатне."
+msgstr "То значи да не постоји само једно место где се можете пријавити! Можете одабрати инстанцу која делује као да је блиска вашим интересовањима, или само пробајте било коју &mdash; све су веома пријатне."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
@@ -49,7 +49,7 @@ msgstr "Придружите се инстанци"
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
 msgid "Request Invite"
-msgstr "Затражите позивницу"
+msgstr "Затражи позивницу"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
@@ -63,37 +63,37 @@ msgstr "Отворена регистрација"
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
 msgid "Registration by request"
-msgstr ""
+msgstr "Регистрација на захтев"
 
 #: templates/instances/index.html:50 templates/instances/index.html:53
 #: templates/instances/index.html:54 templates/instances/index.html:56
 #: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
-msgstr ""
+msgstr "Сазнај више"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr ""
+msgstr "BookWyrm је социјална мрежа за праћење читања, разговоре о књигама, писање рецензија, и откривање шта даље читати. федерација омогућава BookWyrm корисницима да се придруже малим заједницама од поверења које могу да се повежу једна са другом, а и са другим <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> сервисима као <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> и <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Децентрализована"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Дружељубива"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr ""
+msgstr "Анти-корпоративна"
 
 #: templates/index.html:53
 msgid "Track your reading"
-msgstr ""
+msgstr "Прати своје читање"
 
 #: templates/index.html:54
 msgid "And what your friends are reading"
-msgstr ""
+msgstr "И шта твоји пријатељи читају"
 
 #: templates/index.html:56
 msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
