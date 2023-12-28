@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-01-03 11:29\n"
+"PO-Revision-Date: 2023-07-23 11:27\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -69,7 +69,7 @@ msgstr "Registrering genom förfrågning"
 #: templates/instances/index.html:54 templates/instances/index.html:56
 #: templates/instances/index.html:55 templates/instances/index.html:64
 msgid "Learn More"
-msgstr "Lär dig mer"
+msgstr "Läs mer"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -155,7 +155,7 @@ msgstr "Stötta BookWyrm på <a href='https://www.patreon.com/bookwyrm' target='
 #: templates/layout.html:77 templates/get-involved/index.html:5
 #: templates/layout.html:80
 msgid "Get Involved"
-msgstr "Bli engagerad"
+msgstr "Engagera dig"
 
 #: templates/layout.html:79 templates/layout.html:82
 msgid "BookWyrm on GitHub"
