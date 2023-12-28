@@ -17,7 +17,7 @@ case "$CMD" in
         ;;
     site:serve)
         cd site
-        python3 -m http.server 5000
+        python3 -m http.server 5005
         ;;
     messages:generate)
         mkdir -p locale/$@/LC_MESSAGES && touch locale/$@/LC_MESSAGES/messages.po
