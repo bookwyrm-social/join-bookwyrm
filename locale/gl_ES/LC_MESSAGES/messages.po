@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-10-20 12:36\n"
+"PO-Revision-Date: 2024-08-11 06:54\n"
 "Last-Translator: \n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
@@ -35,7 +35,7 @@ msgstr "Unha Rede de pequenas Comunidades autoxestionadas"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr "No lugar dun único e enorme sitio web BookWyrm, temos moitas instancias de BookWyrm que interactúan de xeito fluído entre elas. Tes as vantaxes dunha comunidade pequena na que confías e ao mesmo tempo interactúas cunha grande rede de persoas interesantes (cando queiras facelo)."
+msgstr "Bookwyrm non somos unha páxina web única e enorme, somos moitas instancias de BookWyrm que interactuamos de xeito fluído entre nós. Tes as vantaxes dunha comunidade pequena na que confías e ao mesmo tempo interactúas cunha grande rede de persoas interesantes (cando queiras facelo)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
@@ -73,7 +73,7 @@ msgstr "Saber máis"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
-msgstr "BookWyrm é unha rede social para seguir as túas lecturas, falar acerca dos libros, escribir recensións e descubrir novas lecturas. A Federación permítelle ás usuarias de BookWyrm unirse a pequenas comunidades de confianza e conectar unhas con outras, así como con outros servizos <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> como <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> e <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr "BookWyrm é unha rede social para seguir as túas lecturas, falar sobre libros, escribir recensións e descubrir novas lecturas. A Federación permítelle ás usuarias de BookWyrm unirse a pequenas comunidades de confianza e conectar unhas con outras, así como con outros servizos <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> como son <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> e <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
 
 #: templates/index.html:18
 msgid "Decentralized"
@@ -239,7 +239,7 @@ msgstr "Traducións"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr "Axuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm a outros idiomas! Podes coñecer máis acerca do proceso de tradución na nosa <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentación</a>."
+msgstr "Axuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm a outros idiomas! Podes coñecer máis sobre o proceso de tradución na nosa <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentación</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
@@ -284,7 +284,7 @@ msgstr "Versión"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr "Estado do rexistro"
+msgstr "Tipo de rexistro"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
@@ -292,5 +292,5 @@ msgstr "Traballando en BookWyrm"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr "Axuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm a outros idiomas! Coñece máis acerca do proceso de tradución na <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentación</a>."
+msgstr "Axuda a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducir</a> BookWyrm a outros idiomas! Coñece máis sobre o proceso de tradución na <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentación</a>."
 
