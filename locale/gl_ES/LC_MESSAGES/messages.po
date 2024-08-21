@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2024-08-21 04:07\n"
+"PO-Revision-Date: 2024-08-21 12:54\n"
 "Last-Translator: \n"
 "Language-Team: Galician\n"
 "Language: gl_ES\n"
@@ -39,7 +39,7 @@ msgstr "Bookwyrm non somos unha páxina web única e enorme, somos moitas instan
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr "Esto significa que non existe un único lugar no que podes abrir unha conta! Podes escoller unha instancia que semelle axeitarse aos teus intereses ou simplemente elexir unha ao chou &mdash; todas son amigables."
+msgstr "Isto significa que non existe un único lugar no que podes abrir unha conta! Podes escoller unha instancia que semelle axeitarse aos teus intereses ou simplemente elixir unha ao chou &mdash; todas son amigables."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
