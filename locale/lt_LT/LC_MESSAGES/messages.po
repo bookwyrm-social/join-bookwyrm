@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2025-02-21 18:42\n"
+"PO-Revision-Date: 2025-02-21 20:00\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -49,11 +49,11 @@ msgstr "Jungtis prie serverio"
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
 msgid "Request Invite"
-msgstr "Prašyti pakvietimo"
+msgstr "Prašyti kvietimo"
 
 #: templates/instances/index.html:48 templates/instances/index.html:51
 msgid "users"
-msgstr "nariai"
+msgstr "naudotojai"
 
 #: templates/instances/index.html:49 templates/instances/index.html:52
 #: templates/instances/index.html:54
@@ -239,12 +239,12 @@ msgstr "Vertimai"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr "Padėkite <a href='https://translate.joinbookwyrm.com/' target='_blank'>išversti</a> „BookWyrm“ į kitas kalbas! Apie vertimo procesą galite sužinoti mūsų <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>dokumentacijoje</a>."
+msgstr "Padėkite <a href='https://translate.joinbookwyrm.com/' target='_blank'>išversti</a> „BookWyrm“ į kitas kalbas! Galite sužinoti daugiau apie vertimo eigą <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>mūsų dokumentacijoje</a>."
 
 #: templates/instances/index.html:62 templates/instances/index.html:64
 #: templates/instances/index.html:63 templates/instances/index.html:72
 msgid "Is your instance missing from this list?"
-msgstr "Trūksta serverio sąraše?"
+msgstr "Ar trūksta jūsų serverio iš šio sąrašo?"
 
 #: templates/instances/index.html:66 templates/instances/index.html:68
 #: templates/instances/index.html:67 templates/instances/index.html:76
@@ -254,7 +254,7 @@ msgstr "Atidaryti problemą GitHub"
 #: templates/instances/index.html:71 templates/instances/index.html:73
 #: templates/instances/index.html:72 templates/instances/index.html:81
 msgid "Not finding what you want?"
-msgstr "Nepavyksta rasti ko nori?"
+msgstr "Nerandate to, ko norite?"
 
 #: templates/instances/index.html:75 templates/instances/index.html:77
 #: templates/instances/index.html:76 templates/instances/index.html:85
@@ -264,7 +264,7 @@ msgstr "Organizuoti savo BookWyrm bendruomenę"
 #: templates/instances/index.html:78 templates/instances/index.html:80
 #: templates/instances/index.html:79 templates/instances/index.html:88
 msgid "Or skip the technical work and get managed hosting"
-msgstr "Arba praleisti techninę dalį ir naudoti valdomą talpinimą"
+msgstr "Arba praleisti techninį darbą ir gauti valdomą talpinimą"
 
 #: templates/instances/index.html:43 templates/instances/index.html:52
 msgid "Registration closed"
@@ -272,25 +272,25 @@ msgstr "Registracija uždaryta"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr "Rūšiuoti pagal"
+msgstr "Rikiuoti pagal"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr "Nariai"
+msgstr "Naudotojus"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr "Versija"
+msgstr "Versiją"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr "Registracijos būsena"
+msgstr "Registracijos būseną"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "Susitikti su palaikytoju"
+msgstr "Susipažinkite su prižiūrėtoju"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr "Padėkite <a href='https://translate.joinbookwyrm.com/' target='_blank'>išversti</a> „BookWyrm“ į kitas kalbas! Apie vertimo procesą galite sužinoti mūsų <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentacijoje</a>."
+msgstr "Padėkite <a href='https://translate.joinbookwyrm.com/' target='_blank'>išversti</a> „BookWyrm“ į kitas kalbas! Galite sužinoti daugiau apie vertimo eigą <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>mūsų dokumentacijoje</a>."
 
