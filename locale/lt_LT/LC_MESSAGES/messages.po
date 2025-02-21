@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-09-24 12:26\n"
+"PO-Revision-Date: 2025-02-21 18:42\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Language: lt_LT\n"
@@ -23,7 +23,7 @@ msgstr "Sveiki atvykę į „BookWyrm“"
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
-msgstr "Socializuotas skaitymas ir apžvalgos, decentralizuotai"
+msgstr "Decentralizuotas socialinis skaitymas ir apžvalgos"
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
@@ -31,20 +31,20 @@ msgstr "Prisijunkite prie „BookWyrm“"
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr "Mažų ir savivaldos bendruomenių tinklas"
+msgstr "Mažų, savarankiškai veikiančių bendruomenių tinklas"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr "Be didelės „BookWyrm“ svetainės yra daug „BookWyrm“ serverių, galinčių lengvai sąveikauti vienas su kitu. Maža bendruomenė gali turėti privalumų, tuo tarpu dideliame tinkle galite rasti daug naujų žmonių (jei tik norite)."
+msgstr "Vietoj vienos didžiulės „BookWyrm“ svetainės yra daug „BookWyrm“ serverių, kurie gali sklandžiai sąveikauti tarpusavyje. Galite turėti nedidelės bendruomenės privalumus, kuria pasitikite, ir tuo pat metu bendrauti su dideliu įdomių naujų asmenų tinklu (kai to norite)."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr "Tai reiškia, kad prisijungti galite ne vienoje vietoje. Galite pasirinkti jus sudominusį serverį arba išbandyti bet kurį iš jų, nes bet kuris jų gali sudominti."
+msgstr "Tai reiškia, kad nėra vienos vietos, kurioje galima registruotis! Galite pasirinkti jūsų pomėgius atitinkantį serverį arba tiesiog atsitiktinai išbandyti vieną iš jų – visi jie labai malonūs."
 
 #: templates/instances/index.html:38 templates/instances/index.html:41
 #: templates/instances/index.html:50
 msgid "Join instance"
-msgstr "Prisijungti prie serverio"
+msgstr "Jungtis prie serverio"
 
 #: templates/instances/index.html:40 templates/instances/index.html:43
 #: templates/instances/index.html:45 templates/instances/index.html:54
