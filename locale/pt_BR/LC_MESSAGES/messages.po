@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2022-12-21 19:52\n"
+"PO-Revision-Date: 2025-03-10 18:52\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -189,19 +189,19 @@ msgstr "Software em escala humana"
 
 #: templates/get-involved/index.html:13
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
-msgstr "A BookWyrm foi projetada pra permanecer pequena e pessoal; se você quiser solicitar recursos, reportar bugs ou tiver grandes sonhos para o projeto, adoraríamos que você participasse."
+msgstr "A BookWyrm foi projetada pra permanecer pequena e pessoal; se você quiser solicitar recursos, reportar erros ou tiver grandes sonhos para o projeto, adoraríamos que você participasse."
 
 #: templates/get-involved/index.html:30
 msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr "A BookWyrm é mantida por <a href='https://mousereeve.com/'>Mouse Reeve</a> - que dirige o projeto, organiza a comunidade de desenvolvedores e tenta consertar os bugs antes deles aparecerem. Seu objetivo primário é fazer da BookWyrm um ambiente gentil e acolhedor enquanto comunidade de desenvolvedores e enquanto software."
+msgstr "A BookWyrm é mantida por <a href='https://mousereeve.com/'>Mouse Reeve</a> - que dirige o projeto, organiza a comunidade de desenvolvedores e tenta consertar os erros antes deles aparecerem. Seu objetivo primário é fazer da BookWyrm um ambiente gentil e acolhedor enquanto comunidade de desenvolvedores e enquanto software."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr "Bugs e sugestões"
+msgstr "Erros e sugestões"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr "O código e o sistema de acompanhamento de bugs da BookWyrm estão no <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; ele é o melhor lugar para reportar bugs e sugerir novas funcionalidades."
+msgstr "O código e o sistema de acompanhamento de erros da BookWyrm estão no <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; ele é o melhor lugar para reportar erros e sugerir novas funcionalidades."
 
 #: templates/get-involved/index.html:47 templates/get-involved/index.html:56
 msgid "Social Media"
@@ -272,25 +272,25 @@ msgstr "O registro está fechado"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
-msgstr ""
+msgstr "Ordenado por"
 
 #: templates/instances/index.html:23
 msgid "Users"
-msgstr ""
+msgstr "Usuários"
 
 #: templates/instances/index.html:24
 msgid "Version"
-msgstr ""
+msgstr "Versão"
 
 #: templates/instances/index.html:25
 msgid "Registration Status"
-msgstr ""
+msgstr "Status do registro"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr ""
+msgstr "Conheça o administrador(a)"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr ""
+msgstr "Ajude a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduzir</a> BookWyrm a outros idiomas! Você pode aprender mais sobre o processo de tradução na nossa <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentação</a>."
 

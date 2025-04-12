@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-01-08 13:10\n"
+"PO-Revision-Date: 2024-01-10 21:09\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
@@ -288,7 +288,7 @@ msgstr "Estat del registre"
 
 #: templates/get-involved/index.html:27
 msgid "Meet the maintainer"
-msgstr "Coneix li mantenidori"
+msgstr "Coneix al mantenidor"
 
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
