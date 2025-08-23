@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bookwyrm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-21 10:41-0800\n"
+"PO-Revision-Date: 2025-02-06 00:12\n"
+"Last-Translator: \n"
+"Language-Team: Faroese\n"
+"Language: fo_FO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: bookwyrm\n"
+"X-Crowdin-Project-ID: 479239\n"
+"X-Crowdin-Language: fo\n"
+"X-Crowdin-File: /[bookwyrm-social.join-bookwyrm] main/locale/en_US/LC_MESSAGES/messages.po\n"
+"X-Crowdin-File-ID: 1581\n"
+
+#: templates/index.html:5
+msgid "Welcome to BookWyrm"
+msgstr ""
+
+#: templates/index.html:6
+msgid "Social Reading and Reviewing, Decentralized"
+msgstr ""
+
+#: templates/instances/index.html:5 templates/index.html:38
+msgid "Join BookWyrm"
+msgstr ""
+
+#: templates/instances/index.html:6
+msgid "A Network of Small, Self-Directed Communities"
+msgstr ""
+
+#: templates/instances/index.html:13
+msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
+msgstr ""
+
+#: templates/instances/index.html:16
+msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
+msgstr ""
+
+#: templates/instances/index.html:38 templates/instances/index.html:41
+#: templates/instances/index.html:50
+msgid "Join instance"
+msgstr ""
+
+#: templates/instances/index.html:40 templates/instances/index.html:43
+#: templates/instances/index.html:45 templates/instances/index.html:54
+msgid "Request Invite"
+msgstr ""
+
+#: templates/instances/index.html:48 templates/instances/index.html:51
+msgid "users"
+msgstr ""
+
+#: templates/instances/index.html:49 templates/instances/index.html:52
+#: templates/instances/index.html:54
+msgid "Open registration"
+msgstr ""
+
+#: templates/instances/index.html:49 templates/instances/index.html:52
+#: templates/instances/index.html:54
+msgid "Registration by request"
+msgstr ""
+
+#: templates/instances/index.html:50 templates/instances/index.html:53
+#: templates/instances/index.html:54 templates/instances/index.html:56
+#: templates/instances/index.html:55 templates/instances/index.html:64
+msgid "Learn More"
+msgstr ""
+
+#: templates/index.html:10
+msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
+msgstr ""
+
+#: templates/index.html:18
+msgid "Decentralized"
+msgstr ""
+
+#: templates/index.html:24
+msgid "Friendly"
+msgstr ""
+
+#: templates/index.html:30
+msgid "Anti-Corporate"
+msgstr ""
+
+#: templates/index.html:53
+msgid "Track your reading"
+msgstr ""
+
+#: templates/index.html:54
+msgid "And what your friends are reading"
+msgstr ""
+
+#: templates/index.html:56
+msgid "Update your reading status as you start and finish books, post status updates as you go, and set an annual reading goal."
+msgstr ""
+
+#: templates/index.html:74
+msgid "Discover books"
+msgstr ""
+
+#: templates/index.html:75
+msgid "Recommendations from people, not algorithms"
+msgstr ""
+
+#: templates/index.html:77
+msgid "See what your friends are reading, and get opinions from your community."
+msgstr ""
+
+#: templates/index.html:95
+msgid "Share your thoughts"
+msgstr ""
+
+#: templates/index.html:96
+msgid "The way you want to"
+msgstr ""
+
+#: templates/index.html:98
+msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
+msgstr ""
+
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr ""
+
+#: templates/layout.html:35
+msgid "Join"
+msgstr ""
+
+#: templates/layout.html:38 templates/layout.html:41
+msgid "Support"
+msgstr ""
+
+#: templates/layout.html:41 templates/layout.html:44
+msgid "Code"
+msgstr ""
+
+#: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
+#: templates/layout.html:102
+msgid "Documentation"
+msgstr ""
+
+#: templates/layout.html:70 templates/layout.html:73
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr ""
+
+#: templates/layout.html:73 templates/layout.html:76
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr ""
+
+#: templates/layout.html:77 templates/get-involved/index.html:5
+#: templates/layout.html:80
+msgid "Get Involved"
+msgstr ""
+
+#: templates/layout.html:79 templates/layout.html:82
+msgid "BookWyrm on GitHub"
+msgstr ""
+
+#: templates/layout.html:82 templates/layout.html:85
+msgid "Contribute to this page"
+msgstr ""
+
+#: templates/layout.html:97 templates/layout.html:100
+msgid "Learn more"
+msgstr ""
+
+#: templates/layout.html:102 templates/layout.html:105
+msgid "Contact maintainer"
+msgstr ""
+
+#: templates/layout.html:105 templates/layout.html:108
+msgid "License"
+msgstr ""
+
+#: templates/instances/index.html:51 templates/instances/index.html:53
+#: templates/instances/index.html:62
+#, c-format
+msgid "%s users"
+msgstr ""
+
+#: templates/get-involved/index.html:6
+msgid "Human-scale software"
+msgstr ""
+
+#: templates/get-involved/index.html:13
+msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
+msgstr ""
+
+#: templates/get-involved/index.html:30
+msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
+msgstr ""
+
+#: templates/get-involved/index.html:38
+msgid "Bugs and Feature Requests"
+msgstr ""
+
+#: templates/get-involved/index.html:41
+msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
+msgstr ""
+
+#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
+msgid "Social Media"
+msgstr ""
+
+#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
+msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
+msgstr ""
+
+#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
+msgid "Developer Chat"
+msgstr ""
+
+#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
+msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
+msgstr ""
+
+#: templates/layout.html:38
+msgid "Get involved"
+msgstr ""
+
+#: templates/get-involved/index.html:30
+msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
+msgstr ""
+
+#: templates/instances/index.html:53 templates/instances/index.html:55
+#: templates/instances/index.html:54 templates/instances/index.html:63
+#, c-format
+msgid "Version %s"
+msgstr ""
+
+#: templates/get-involved/index.html:47
+msgid "Translations"
+msgstr ""
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
+msgstr ""
+
+#: templates/instances/index.html:62 templates/instances/index.html:64
+#: templates/instances/index.html:63 templates/instances/index.html:72
+msgid "Is your instance missing from this list?"
+msgstr ""
+
+#: templates/instances/index.html:66 templates/instances/index.html:68
+#: templates/instances/index.html:67 templates/instances/index.html:76
+msgid "Open a GitHub issue"
+msgstr ""
+
+#: templates/instances/index.html:71 templates/instances/index.html:73
+#: templates/instances/index.html:72 templates/instances/index.html:81
+msgid "Not finding what you want?"
+msgstr ""
+
+#: templates/instances/index.html:75 templates/instances/index.html:77
+#: templates/instances/index.html:76 templates/instances/index.html:85
+msgid "Run your own BookWyrm community"
+msgstr ""
+
+#: templates/instances/index.html:78 templates/instances/index.html:80
+#: templates/instances/index.html:79 templates/instances/index.html:88
+msgid "Or skip the technical work and get managed hosting"
+msgstr ""
+
+#: templates/instances/index.html:43 templates/instances/index.html:52
+msgid "Registration closed"
+msgstr ""
+
+#: templates/instances/index.html:21
+msgid "Sort By"
+msgstr ""
+
+#: templates/instances/index.html:23
+msgid "Users"
+msgstr ""
+
+#: templates/instances/index.html:24
+msgid "Version"
+msgstr ""
+
+#: templates/instances/index.html:25
+msgid "Registration Status"
+msgstr ""
+
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr ""
+
+#: templates/get-involved/index.html:50
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr ""
+
