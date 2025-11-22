@@ -37,9 +37,23 @@
             <a href="/ro/get-involved" class="navbar-item">
                 Implicați-vă
             </a>
-            <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Asistență
-            </a>
+            <div class="dropdown is-hoverable navbar-item">
+                <div class="dropdown-trigger">
+                    <button class="button is-white has-text-grey-dark" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span>Asistență</span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://www.patreon.com/bookwyrm" target="_blank" class="dropdown-item">
+                            Patreon
+                        </a>
+                        <a href="https://opencollective.com/bookwyrm" target="_blank" class="dropdown-item">
+                            Open Collective
+                        </a>
+                    </div>
+                </div>
+            </div>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
                 Cod
             </a>
@@ -209,6 +223,8 @@
                 </p>
                 <p>
                     Susțineți BookWyrm cu <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                <br/>
+                    Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>.
                 </p>
             </div>
             <div class="column">
@@ -220,14 +236,14 @@
                     <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribuiți la această pagină</a>
                 </p>
                 <p>
-                    <a href="https://twitter.com/BookWyrmSocial" target="_blank">
-                        <span class="icon icon-twitter"><span class="is-sr-only">Twitter</span></span>
-                    </a>
                     <a href="https://tech.lgbt/@bookwyrm" target="_blank" rel="me">
                         <span class="icon icon-mastodon"><span class="is-sr-only">Mastodon</span></span>
                     </a>
                     <a href="https://www.patreon.com/bookwyrm" target="_blank">
                         <span class="icon icon-patreon"><span class="is-sr-only">Patreon</span></span>
+                    </a>
+                    <a href="https://opencollective.com/bookwyrm" target="_blank">
+                        <span class="icon icon-opencollective"><span class="is-sr-only">Open Collective</span></span>
                     </a>
                 </p>
             </div>
@@ -252,10 +268,10 @@
     languageSelector.onchange = function(event) {
         const current_locale = "ro/";
         const current_location = window.location.pathname;
-        
+
         const locale_index = current_location.indexOf(current_locale);
         let new_location = "/" + event.target.value;
-        
+
         if (locale_index) {
             new_location += current_location.slice(locale_index + current_locale.length);
         } else {

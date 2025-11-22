@@ -37,9 +37,23 @@
             <a href="/pt-br/get-involved" class="navbar-item">
                 Participe
             </a>
-            <a href="https://www.patreon.com/bookwyrm" class="navbar-item">
-                Apoie
-            </a>
+            <div class="dropdown is-hoverable navbar-item">
+                <div class="dropdown-trigger">
+                    <button class="button is-white has-text-grey-dark" aria-haspopup="true" aria-controls="dropdown-menu">
+                        <span>Apoie</span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://www.patreon.com/bookwyrm" target="_blank" class="dropdown-item">
+                            Patreon
+                        </a>
+                        <a href="https://opencollective.com/bookwyrm" target="_blank" class="dropdown-item">
+                            Open Collective
+                        </a>
+                    </div>
+                </div>
+            </div>
             <a href="https://github.com/bookwyrm-social/bookwyrm" class="navbar-item">
                 Código
             </a>
@@ -105,7 +119,7 @@
 <section class="section p-5">
     <div class="block content">
         <p>
-            A BookWyrm foi projetada pra permanecer pequena e pessoal; se você quiser solicitar recursos, reportar bugs ou tiver grandes sonhos para o projeto, adoraríamos que você participasse.
+            A BookWyrm foi projetada pra permanecer pequena e pessoal; se você quiser solicitar recursos, reportar erros ou tiver grandes sonhos para o projeto, adoraríamos que você participasse.
         </p>
     </div>
 
@@ -119,7 +133,7 @@
                 </div>
                 <div class="column content">
                     <h2 class="title is-5">
-                        Meet the maintainer
+                        Conheça o administrador(a)
                     </h2>
                     <p>
                     A BookWyrm é mantida por <a href='https://mousereeve.com/'>Mouse Reeve</a> - que dirige o projeto, organiza a comunidade de desenvolvedores e tenta consertar os bugs antes deles aparecerem. Seu objetivo primário é fazer da BookWyrm um ambiente gentil e acolhedor.
@@ -130,10 +144,10 @@
 
         <div class="notification has-background-primary-light" id="github">
             <h2 class="title is-5">
-                Bugs e sugestões
+                Erros e sugestões
             </h2>
             <p>
-            O código e o sistema de acompanhamento de bugs da BookWyrm estão no <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; ele é o melhor lugar para reportar bugs e sugerir novas funcionalidades.
+            O código e o sistema de acompanhamento de erros da BookWyrm estão no <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; ele é o melhor lugar para reportar erros e sugerir novas funcionalidades.
             </p>
         </div>
 
@@ -142,7 +156,7 @@
                 Traduções
             </h2>
             <p>
-            Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>.
+            Ajude a <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduzir</a> BookWyrm a outros idiomas! Você pode aprender mais sobre o processo de tradução na nossa <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentação</a>.
             </p>
         </div>
 
@@ -151,7 +165,7 @@
                 Redes sociais
             </h2>
             <p>
-            Você pode seguir a BookWyrm no <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> e no <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> para se manter atualizado/a sobre as novidades. Sinta-se à vontade para mencionar a conta ou enviar mensagens diretas se quiser entrar em contato.
+            You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.
             </p>
         </div>
 
@@ -177,6 +191,8 @@
                 </p>
                 <p>
                     Apoie a BookWyrm no <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>.
+                <br/>
+                    Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>.
                 </p>
             </div>
             <div class="column">
@@ -188,14 +204,14 @@
                     <a href="https://github.com/bookwyrm-social/join-bookwyrm">Contribua para esta página</a>
                 </p>
                 <p>
-                    <a href="https://twitter.com/BookWyrmSocial" target="_blank">
-                        <span class="icon icon-twitter"><span class="is-sr-only">Twitter</span></span>
-                    </a>
                     <a href="https://tech.lgbt/@bookwyrm" target="_blank" rel="me">
                         <span class="icon icon-mastodon"><span class="is-sr-only">Mastodon</span></span>
                     </a>
                     <a href="https://www.patreon.com/bookwyrm" target="_blank">
                         <span class="icon icon-patreon"><span class="is-sr-only">Patreon</span></span>
+                    </a>
+                    <a href="https://opencollective.com/bookwyrm" target="_blank">
+                        <span class="icon icon-opencollective"><span class="is-sr-only">Open Collective</span></span>
                     </a>
                 </p>
             </div>
@@ -220,10 +236,10 @@
     languageSelector.onchange = function(event) {
         const current_locale = "pt-br/";
         const current_location = window.location.pathname;
-        
+
         const locale_index = current_location.indexOf(current_locale);
         let new_location = "/" + event.target.value;
-        
+
         if (locale_index) {
             new_location += current_location.slice(locale_index + current_locale.length);
         } else {

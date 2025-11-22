@@ -39,9 +39,12 @@ for dirpath, dirnames, filenames in os.walk(localedir):
 
 all_translations = {}
 for locale_name in locales:
-    all_translations[locale_name] = gettextlib.translation(
-        DOMAIN, localedir, [locale_name]
-    )
+    try:
+        all_translations[locale_name] = gettextlib.translation(
+            DOMAIN, localedir, [locale_name]
+        )
+    except FileNotFoundError:
+        print("Translate file not found for locale:", locale_name)
 
 
 def gettext(message):
