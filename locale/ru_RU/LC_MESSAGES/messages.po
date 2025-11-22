@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 10:41-0800\n"
-"PO-Revision-Date: 2023-03-17 07:14\n"
+"POT-Creation-Date: 2025-11-21 19:16-0800\n"
+"PO-Revision-Date: 2025-11-22 17:27\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -131,49 +131,51 @@ msgstr "BookWyrm: читаем и обсуждаем вместе"
 msgid "Join"
 msgstr "Присоединиться"
 
-#: templates/layout.html:38 templates/layout.html:41
+#: templates/layout.html:38 templates/layout.html:41 templates/layout.html:43
 msgid "Support"
 msgstr "Поддержать"
 
-#: templates/layout.html:41 templates/layout.html:44
+#: templates/layout.html:41 templates/layout.html:44 templates/layout.html:58
 msgid "Code"
 msgstr "Код"
 
 #: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
-#: templates/layout.html:102
+#: templates/layout.html:102 templates/layout.html:61 templates/layout.html:118
 msgid "Documentation"
 msgstr "Документация"
 
-#: templates/layout.html:70 templates/layout.html:73
+#: templates/layout.html:70 templates/layout.html:73 templates/layout.html:87
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 msgstr "<strong>BookWyrm</strong> это совместное, антикорпоративное программное обеспечение, поддерживаемое <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
-#: templates/layout.html:73 templates/layout.html:76
+#: templates/layout.html:73 templates/layout.html:76 templates/layout.html:90
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 msgstr "Поддержите BookWyrm на <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
 
 #: templates/layout.html:77 templates/get-involved/index.html:5
-#: templates/layout.html:80
+#: templates/layout.html:80 templates/layout.html:96
 msgid "Get Involved"
 msgstr "Принять участие"
 
-#: templates/layout.html:79 templates/layout.html:82
+#: templates/layout.html:79 templates/layout.html:82 templates/layout.html:98
 msgid "BookWyrm on GitHub"
 msgstr "BookWyrm на GitHub"
 
-#: templates/layout.html:82 templates/layout.html:85
+#: templates/layout.html:82 templates/layout.html:85 templates/layout.html:101
 msgid "Contribute to this page"
 msgstr "Внести свой вклад в эту страницу"
 
-#: templates/layout.html:97 templates/layout.html:100
+#: templates/layout.html:97 templates/layout.html:100 templates/layout.html:116
 msgid "Learn more"
 msgstr "Подробнее"
 
 #: templates/layout.html:102 templates/layout.html:105
+#: templates/layout.html:121
 msgid "Contact maintainer"
 msgstr "Связаться с сопровождающим"
 
 #: templates/layout.html:105 templates/layout.html:108
+#: templates/layout.html:124
 msgid "License"
 msgstr "Лицензия"
 
@@ -293,4 +295,12 @@ msgstr "Пообщаться с разработчиками"
 #: templates/get-involved/index.html:50
 msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
 msgstr "Помогите <a href='https://translate.joinbookwyrm.com/' target='_blank'>перевести</a> BookWyrm на другие языки! Узнать, как переводить, можно <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>тут</a>."
+
+#: templates/get-involved/index.html:59
+msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
+msgstr ""
+
+#: templates/layout.html:92
+msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
+msgstr ""
 
