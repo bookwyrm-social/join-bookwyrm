@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 19:16-0800\n"
-"PO-Revision-Date: 2025-11-22 17:26\n"
+"POT-Creation-Date: 2025-11-22 09:37-0800\n"
+"PO-Revision-Date: 2025-11-22 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -41,33 +41,27 @@ msgstr "În loc de un site BookWyrm uriaș, în BookWyrm există mai multe insta
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
 msgstr "Asta înseamnă că nu există doar un singur loc căruia să vă alăturați! Puteți alege o instanță care se potrivește intereselor voastre sau să încercați una aleatoriu &mdash; toate sunt foarte bune."
 
-#: templates/instances/index.html:38 templates/instances/index.html:41
-#: templates/instances/index.html:50
+#: templates/instances/index.html:38 templates/instances/index.html:50
 msgid "Join instance"
 msgstr "Alăturați-vă instanței"
 
-#: templates/instances/index.html:40 templates/instances/index.html:43
-#: templates/instances/index.html:45 templates/instances/index.html:54
+#: templates/instances/index.html:40 templates/instances/index.html:54
 msgid "Request Invite"
 msgstr "Solicitați o invitație"
 
-#: templates/instances/index.html:48 templates/instances/index.html:51
+#: templates/instances/index.html:48
 msgid "users"
 msgstr "utilizatori"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Open registration"
 msgstr "Înscriere liberă"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Registration by request"
 msgstr "Înscriere la cerere"
 
-#: templates/instances/index.html:50 templates/instances/index.html:53
-#: templates/instances/index.html:54 templates/instances/index.html:56
-#: templates/instances/index.html:55 templates/instances/index.html:64
+#: templates/instances/index.html:50 templates/instances/index.html:64
 msgid "Learn More"
 msgstr "Aflați mai multe"
 
@@ -123,67 +117,9 @@ msgstr "În modul vostru"
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
 msgstr "Scrieți recenzii sau publicați comentarii obișnuite de-a lungul timpului și controlați cine poate vedea publicațiile dumneavoastră cu setări de confidențialitate granulate."
 
-#: templates/layout.html:4
-msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: citit social și recenzii"
-
-#: templates/layout.html:35
-msgid "Join"
-msgstr "Alăturați-vă"
-
-#: templates/layout.html:38 templates/layout.html:41 templates/layout.html:43
-msgid "Support"
-msgstr "Asistență"
-
-#: templates/layout.html:41 templates/layout.html:44 templates/layout.html:58
-msgid "Code"
-msgstr "Cod"
-
-#: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
-#: templates/layout.html:102 templates/layout.html:61 templates/layout.html:118
-msgid "Documentation"
-msgstr "Documentație"
-
-#: templates/layout.html:70 templates/layout.html:73 templates/layout.html:87
-msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> este un program colaborativ, anti-corporație menținut de <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-
-#: templates/layout.html:73 templates/layout.html:76 templates/layout.html:90
-msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr "Susțineți BookWyrm cu <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-
-#: templates/layout.html:77 templates/get-involved/index.html:5
-#: templates/layout.html:80 templates/layout.html:96
+#: templates/get-involved/index.html:5 templates/layout.html:96
 msgid "Get Involved"
 msgstr "Implicați-vă"
-
-#: templates/layout.html:79 templates/layout.html:82 templates/layout.html:98
-msgid "BookWyrm on GitHub"
-msgstr "BookWyrm pe GitHub"
-
-#: templates/layout.html:82 templates/layout.html:85 templates/layout.html:101
-msgid "Contribute to this page"
-msgstr "Contribuiți la această pagină"
-
-#: templates/layout.html:97 templates/layout.html:100 templates/layout.html:116
-msgid "Learn more"
-msgstr "Aflați mai multe"
-
-#: templates/layout.html:102 templates/layout.html:105
-#: templates/layout.html:121
-msgid "Contact maintainer"
-msgstr "Contactați responsabilul"
-
-#: templates/layout.html:105 templates/layout.html:108
-#: templates/layout.html:124
-msgid "License"
-msgstr "Licență"
-
-#: templates/instances/index.html:51 templates/instances/index.html:53
-#: templates/instances/index.html:62
-#, c-format
-msgid "%s users"
-msgstr "%s utilizatori"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -193,9 +129,13 @@ msgstr "Program la scară umană"
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
 msgstr "BookWyrm este conceput pentru a rămâne mic și personal. Dacă aveți cereri de funcționalități, raporturi de buguri sau vise mărețe, ne-ar plăcea să vă alăturați conversației."
 
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr "Faceți cunoștință cu întreținătorul"
+
 #: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr "BookWyrm este întreținut de <a href='https://mousereeve.com/'>Mouse Reeve</a> care dirijează proiectul, gestionează comunitatea de dezvoltatori și încearcă să repare bugurile mai repede decât le introduce. Scopul primar pentru BookWyrm este să-l facă prietenos și ospitalier, în calitate de comunitate de dezvoltatori și program."
+msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
+msgstr "BookWyrm este menținut de <a href='https://mousereeve.com/'>Mouse Reeve</a> care dirijează proiectul, gestionează comunitatea de dezvoltatori și încearcă să repare bugurile mai repede decât le introduce. Scopul primar este de a face BookWyrm un loc amabil și ospitalier."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -205,72 +145,85 @@ msgstr "Buguri și cereri de funcționalități"
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
 msgstr "Gestionarul de buguri BookWyrm și codul sunt găzduite de <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; este cel mai bun loc pentru a raporta buguri și a face cereri de funcționalități."
 
-#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
-msgid "Social Media"
-msgstr "Rețele sociale"
-
-#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "Puteți urmări BookWyrm pe <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> și <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> pentru a fi la curent cu noile funcționalități. Nu ezitați să menționați contul sau să trimiteți un mesaj direct dacă doriți să intrați în contact."
-
-#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
-msgid "Developer Chat"
-msgstr "Chatul dezvoltatorilor"
-
-#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
-msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr "Folosim <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pentru chatul de dezvoltare BookWyrm &mdash; este un loc minunat pentru a pune întrebări și a obține ajutor. Se concentrează pe dezvoltarea programului BookWyrm și a funcționării instanțelor de BookWyrm, dar orice tip de discuție BookWyrm este binevenit."
-
-#: templates/layout.html:38
-msgid "Get involved"
-msgstr "Implicați-vă"
-
-#: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr "BookWyrm este menținut de <a href='https://mousereeve.com/'>Mouse Reeve</a> care dirijează proiectul, gestionează comunitatea de dezvoltatori și încearcă să repare bugurile mai repede decât le introduce. Scopul primar este de a face BookWyrm un loc amabil și ospitalier."
-
-#: templates/instances/index.html:53 templates/instances/index.html:55
-#: templates/instances/index.html:54 templates/instances/index.html:63
-#, c-format
-msgid "Version %s"
-msgstr "Versiune %s"
-
 #: templates/get-involved/index.html:47
 msgid "Translations"
 msgstr "Traduceri"
 
 #: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr "Ajutați la <a href='https://translate.joinbookwyrm.com/' target='_blank'>traducerea</a> BookWyrm în alte limbi! Puteți afla mai multe despre procesul de traducere în <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentația</a> noastră."
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr ""
 
-#: templates/instances/index.html:62 templates/instances/index.html:64
-#: templates/instances/index.html:63 templates/instances/index.html:72
-msgid "Is your instance missing from this list?"
-msgstr "Instanța dvs. lipsește de pe această listă?"
+#: templates/get-involved/index.html:56
+msgid "Social Media"
+msgstr "Rețele sociale"
 
-#: templates/instances/index.html:66 templates/instances/index.html:68
-#: templates/instances/index.html:67 templates/instances/index.html:76
-msgid "Open a GitHub issue"
-msgstr "Deschideți un tichet GitHub"
+#: templates/get-involved/index.html:59
+msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
+msgstr ""
 
-#: templates/instances/index.html:71 templates/instances/index.html:73
-#: templates/instances/index.html:72 templates/instances/index.html:81
-msgid "Not finding what you want?"
-msgstr "Nu găsiți ceea ce căutați?"
+#: templates/get-involved/index.html:65
+msgid "Developer Chat"
+msgstr "Chatul dezvoltatorilor"
 
-#: templates/instances/index.html:75 templates/instances/index.html:77
-#: templates/instances/index.html:76 templates/instances/index.html:85
-msgid "Run your own BookWyrm community"
-msgstr "Rulați propria comunitate BookWyrm"
+#: templates/get-involved/index.html:68
+msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
+msgstr "Folosim <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pentru chatul de dezvoltare BookWyrm &mdash; este un loc minunat pentru a pune întrebări și a obține ajutor. Se concentrează pe dezvoltarea programului BookWyrm și a funcționării instanțelor de BookWyrm, dar orice tip de discuție BookWyrm este binevenit."
 
-#: templates/instances/index.html:78 templates/instances/index.html:80
-#: templates/instances/index.html:79 templates/instances/index.html:88
-msgid "Or skip the technical work and get managed hosting"
-msgstr "Sau săriți peste munca tehnică și obțineți găzduire gestionată"
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr "BookWyrm: citit social și recenzii"
 
-#: templates/instances/index.html:43 templates/instances/index.html:52
-msgid "Registration closed"
-msgstr "Înscrierile sunt închise"
+#: templates/layout.html:35
+msgid "Join"
+msgstr "Alăturați-vă"
+
+#: templates/layout.html:38
+msgid "Get involved"
+msgstr "Implicați-vă"
+
+#: templates/layout.html:43
+msgid "Support"
+msgstr "Asistență"
+
+#: templates/layout.html:58
+msgid "Code"
+msgstr "Cod"
+
+#: templates/layout.html:61 templates/layout.html:118
+msgid "Documentation"
+msgstr "Documentație"
+
+#: templates/layout.html:87
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> este un program colaborativ, anti-corporație menținut de <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+
+#: templates/layout.html:90
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr "Susțineți BookWyrm cu <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+
+#: templates/layout.html:92
+msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
+msgstr ""
+
+#: templates/layout.html:98
+msgid "BookWyrm on GitHub"
+msgstr "BookWyrm pe GitHub"
+
+#: templates/layout.html:101
+msgid "Contribute to this page"
+msgstr "Contribuiți la această pagină"
+
+#: templates/layout.html:116
+msgid "Learn more"
+msgstr "Aflați mai multe"
+
+#: templates/layout.html:121
+msgid "Contact maintainer"
+msgstr "Contactați responsabilul"
+
+#: templates/layout.html:124
+msgid "License"
+msgstr "Licență"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -288,19 +241,37 @@ msgstr "Versiune"
 msgid "Registration Status"
 msgstr "Starea înregistrării"
 
-#: templates/get-involved/index.html:27
-msgid "Meet the maintainer"
-msgstr "Faceți cunoștință cu întreținătorul"
+#: templates/instances/index.html:52
+msgid "Registration closed"
+msgstr "Înscrierile sunt închise"
 
-#: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr ""
+#: templates/instances/index.html:62
+#, c-format
+msgid "%s users"
+msgstr "%s utilizatori"
 
-#: templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+#: templates/instances/index.html:63
+#, c-format
+msgid "Version %s"
+msgstr "Versiune %s"
 
-#: templates/layout.html:92
-msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
-msgstr ""
+#: templates/instances/index.html:72
+msgid "Is your instance missing from this list?"
+msgstr "Instanța dvs. lipsește de pe această listă?"
+
+#: templates/instances/index.html:76
+msgid "Open a GitHub issue"
+msgstr "Deschideți un tichet GitHub"
+
+#: templates/instances/index.html:81
+msgid "Not finding what you want?"
+msgstr "Nu găsiți ceea ce căutați?"
+
+#: templates/instances/index.html:85
+msgid "Run your own BookWyrm community"
+msgstr "Rulați propria comunitate BookWyrm"
+
+#: templates/instances/index.html:88
+msgid "Or skip the technical work and get managed hosting"
+msgstr "Sau săriți peste munca tehnică și obțineți găzduire gestionată"
 
