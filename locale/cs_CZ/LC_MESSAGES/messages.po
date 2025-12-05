@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 19:16-0800\n"
-"PO-Revision-Date: 2025-11-22 17:26\n"
+"POT-Creation-Date: 2025-11-22 09:37-0800\n"
+"PO-Revision-Date: 2025-11-22 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -41,33 +41,27 @@ msgstr "Namísto jedné obrovské BookWyrm stránky existuje mnoho instancí Boo
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
 msgstr "To znamená, že není jen jedno místo kde se můžete registrovat! Můžete si vybrat instanci, která zní jako vhodná pro vaše zájmy, nebo vyzkoušet nějakou náhodně &mdash; všechny jsou velmi milé."
 
-#: templates/instances/index.html:38 templates/instances/index.html:41
-#: templates/instances/index.html:50
+#: templates/instances/index.html:38 templates/instances/index.html:50
 msgid "Join instance"
 msgstr "Připojit se k instance"
 
-#: templates/instances/index.html:40 templates/instances/index.html:43
-#: templates/instances/index.html:45 templates/instances/index.html:54
+#: templates/instances/index.html:40 templates/instances/index.html:54
 msgid "Request Invite"
 msgstr "Požádat o pozvánku"
 
-#: templates/instances/index.html:48 templates/instances/index.html:51
+#: templates/instances/index.html:48
 msgid "users"
 msgstr "uživatelů"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Open registration"
 msgstr "Otevřené registrace"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Registration by request"
 msgstr "Registrace na žádost"
 
-#: templates/instances/index.html:50 templates/instances/index.html:53
-#: templates/instances/index.html:54 templates/instances/index.html:56
-#: templates/instances/index.html:55 templates/instances/index.html:64
+#: templates/instances/index.html:50 templates/instances/index.html:64
 msgid "Learn More"
 msgstr "Více informací"
 
@@ -123,67 +117,9 @@ msgstr "Způsobem, kterým chcete"
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
 msgstr "Napište recenze nebo přidejte neformální komentář při svém čtení a kontrolujte, kdo uvidí vaše příspěvky s podrobným nastavením soukromý."
 
-#: templates/layout.html:4
-msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: Sociální čtení a recenze"
-
-#: templates/layout.html:35
-msgid "Join"
-msgstr "Zapojit se"
-
-#: templates/layout.html:38 templates/layout.html:41 templates/layout.html:43
-msgid "Support"
-msgstr "Podpořit"
-
-#: templates/layout.html:41 templates/layout.html:44 templates/layout.html:58
-msgid "Code"
-msgstr "Kód"
-
-#: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
-#: templates/layout.html:102 templates/layout.html:61 templates/layout.html:118
-msgid "Documentation"
-msgstr "Dokumentace"
-
-#: templates/layout.html:70 templates/layout.html:73 templates/layout.html:87
-msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> je kooperativní, protikorporátní software spravovaný <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-
-#: templates/layout.html:73 templates/layout.html:76 templates/layout.html:90
-msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr "Podpořte BookWyrm na <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-
-#: templates/layout.html:77 templates/get-involved/index.html:5
-#: templates/layout.html:80 templates/layout.html:96
+#: templates/get-involved/index.html:5 templates/layout.html:96
 msgid "Get Involved"
 msgstr "Zapojte se"
-
-#: templates/layout.html:79 templates/layout.html:82 templates/layout.html:98
-msgid "BookWyrm on GitHub"
-msgstr "BookWyrm na GitHub"
-
-#: templates/layout.html:82 templates/layout.html:85 templates/layout.html:101
-msgid "Contribute to this page"
-msgstr "Přispějte na tuto stránku"
-
-#: templates/layout.html:97 templates/layout.html:100 templates/layout.html:116
-msgid "Learn more"
-msgstr "Další informace"
-
-#: templates/layout.html:102 templates/layout.html:105
-#: templates/layout.html:121
-msgid "Contact maintainer"
-msgstr "Kontaktovat správce"
-
-#: templates/layout.html:105 templates/layout.html:108
-#: templates/layout.html:124
-msgid "License"
-msgstr "Licence"
-
-#: templates/instances/index.html:51 templates/instances/index.html:53
-#: templates/instances/index.html:62
-#, c-format
-msgid "%s users"
-msgstr "%s uživatelů"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -193,9 +129,13 @@ msgstr "Software v lidských rozměrech"
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
 msgstr "BookWyrm je navržen tak, aby zůstal malý a osobní; pokud máte žádosti o funkci, hlášení chyb nebo velké sny, rádi bychom aby jste se připojili ke konverzaci."
 
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr "Poznejte správce"
+
 #: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr "BookWyrm spravuje <a href='https://mousereeve.com/'>Mouse Reeve</a> - řídí projekt, spravuje vývojářskou komunitu a snaží se opravovat chyby rychleji než je představí. Jejich prvořadým cílem je učinit BookWyrm laskavou a vítanou komunitou vývojářů a jako laskavý a vítavý kus softwaru."
+msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
+msgstr "BookWyrm spravuje <a href='https://mousereeve.com/'>Mouse Reeve</a> - řídí projekt, spravuje vývojářskou komunitu a snaží se opravovat chyby rychleji než je představí. Jejich hlavním cílem je učinit BookWyrm laskavým a příjemným místem."
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -205,72 +145,85 @@ msgstr "Chyby a požadavky na funkce"
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
 msgstr "Bug tracker a kód BookWyrmu jsou hostovány na <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; je to nejlepší místo pro nahlášení chyb a požadavky na funkce."
 
-#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
-msgid "Social Media"
-msgstr "Sociální sítě"
-
-#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "BookWyrm můžete sledovat na <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> a <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a>, abyste získali informace o nových funkcích. Neváhejte označit nás nebo nám poslat přímou zprávu."
-
-#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
-msgid "Developer Chat"
-msgstr "Vývojářský chat"
-
-#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
-msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr "Používáme <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pro vývojářský chat BookWyrm &mdash; je skvělé místo klást otázky a získat pomoc. Zaměřuje se na vývoj BookWyrmového softwaru a běh instancí BookWyrm, ale diskuse o čemkoliv BookWyrm je vítána."
-
-#: templates/layout.html:38
-msgid "Get involved"
-msgstr "Zapojte se"
-
-#: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr "BookWyrm spravuje <a href='https://mousereeve.com/'>Mouse Reeve</a> - řídí projekt, spravuje vývojářskou komunitu a snaží se opravovat chyby rychleji než je představí. Jejich hlavním cílem je učinit BookWyrm laskavým a příjemným místem."
-
-#: templates/instances/index.html:53 templates/instances/index.html:55
-#: templates/instances/index.html:54 templates/instances/index.html:63
-#, c-format
-msgid "Version %s"
-msgstr "Verze %s"
-
 #: templates/get-involved/index.html:47
 msgid "Translations"
 msgstr "Překlady"
 
 #: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr "Pomozte <a href='https://translate.joinbookwyrm.com/' target='_blank'>přeložit</a> BookWyrm do jiných jazyků! O procesu překladu se můžete dozvědět více v naší <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>dokumentaci</a>."
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "Pomozte <a href='https://translate.joinbookwyrm.com/' target='_blank'>přeložit</a> BookWyrm do jiných jazyků! O vytváření překladu se můžete dozvědět více v naší <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentaci</a>."
 
-#: templates/instances/index.html:62 templates/instances/index.html:64
-#: templates/instances/index.html:63 templates/instances/index.html:72
-msgid "Is your instance missing from this list?"
-msgstr "Chybí vaše instance v tomto seznamu?"
+#: templates/get-involved/index.html:56
+msgid "Social Media"
+msgstr "Sociální sítě"
 
-#: templates/instances/index.html:66 templates/instances/index.html:68
-#: templates/instances/index.html:67 templates/instances/index.html:76
-msgid "Open a GitHub issue"
-msgstr "Otevřít problém na GitHub"
+#: templates/get-involved/index.html:59
+msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
+msgstr ""
 
-#: templates/instances/index.html:71 templates/instances/index.html:73
-#: templates/instances/index.html:72 templates/instances/index.html:81
-msgid "Not finding what you want?"
-msgstr "Nenašli jste, co jste chtěli?"
+#: templates/get-involved/index.html:65
+msgid "Developer Chat"
+msgstr "Vývojářský chat"
 
-#: templates/instances/index.html:75 templates/instances/index.html:77
-#: templates/instances/index.html:76 templates/instances/index.html:85
-msgid "Run your own BookWyrm community"
-msgstr "Spravujte vlastní BookWyrm komunitu"
+#: templates/get-involved/index.html:68
+msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
+msgstr "Používáme <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pro vývojářský chat BookWyrm &mdash; je skvělé místo klást otázky a získat pomoc. Zaměřuje se na vývoj BookWyrmového softwaru a běh instancí BookWyrm, ale diskuse o čemkoliv BookWyrm je vítána."
 
-#: templates/instances/index.html:78 templates/instances/index.html:80
-#: templates/instances/index.html:79 templates/instances/index.html:88
-msgid "Or skip the technical work and get managed hosting"
-msgstr "Nebo přeskočte technickou práci a získejte spravovaný hosting"
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr "BookWyrm: Sociální čtení a recenze"
 
-#: templates/instances/index.html:43 templates/instances/index.html:52
-msgid "Registration closed"
-msgstr "Registrace jsou uzavřeny"
+#: templates/layout.html:35
+msgid "Join"
+msgstr "Zapojit se"
+
+#: templates/layout.html:38
+msgid "Get involved"
+msgstr "Zapojte se"
+
+#: templates/layout.html:43
+msgid "Support"
+msgstr "Podpořit"
+
+#: templates/layout.html:58
+msgid "Code"
+msgstr "Kód"
+
+#: templates/layout.html:61 templates/layout.html:118
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: templates/layout.html:87
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> je kooperativní, protikorporátní software spravovaný <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+
+#: templates/layout.html:90
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr "Podpořte BookWyrm na <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+
+#: templates/layout.html:92
+msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
+msgstr ""
+
+#: templates/layout.html:98
+msgid "BookWyrm on GitHub"
+msgstr "BookWyrm na GitHub"
+
+#: templates/layout.html:101
+msgid "Contribute to this page"
+msgstr "Přispějte na tuto stránku"
+
+#: templates/layout.html:116
+msgid "Learn more"
+msgstr "Další informace"
+
+#: templates/layout.html:121
+msgid "Contact maintainer"
+msgstr "Kontaktovat správce"
+
+#: templates/layout.html:124
+msgid "License"
+msgstr "Licence"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -288,19 +241,37 @@ msgstr "Verze"
 msgid "Registration Status"
 msgstr "Stav registrací"
 
-#: templates/get-involved/index.html:27
-msgid "Meet the maintainer"
-msgstr "Poznejte správce"
+#: templates/instances/index.html:52
+msgid "Registration closed"
+msgstr "Registrace jsou uzavřeny"
 
-#: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr "Pomozte <a href='https://translate.joinbookwyrm.com/' target='_blank'>přeložit</a> BookWyrm do jiných jazyků! O vytváření překladu se můžete dozvědět více v naší <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>dokumentaci</a>."
+#: templates/instances/index.html:62
+#, c-format
+msgid "%s users"
+msgstr "%s uživatelů"
 
-#: templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+#: templates/instances/index.html:63
+#, c-format
+msgid "Version %s"
+msgstr "Verze %s"
 
-#: templates/layout.html:92
-msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
-msgstr ""
+#: templates/instances/index.html:72
+msgid "Is your instance missing from this list?"
+msgstr "Chybí vaše instance v tomto seznamu?"
+
+#: templates/instances/index.html:76
+msgid "Open a GitHub issue"
+msgstr "Otevřít problém na GitHub"
+
+#: templates/instances/index.html:81
+msgid "Not finding what you want?"
+msgstr "Nenašli jste, co jste chtěli?"
+
+#: templates/instances/index.html:85
+msgid "Run your own BookWyrm community"
+msgstr "Spravujte vlastní BookWyrm komunitu"
+
+#: templates/instances/index.html:88
+msgid "Or skip the technical work and get managed hosting"
+msgstr "Nebo přeskočte technickou práci a získejte spravovaný hosting"
 
