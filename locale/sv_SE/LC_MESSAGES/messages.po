@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-22 09:37-0800\n"
-"PO-Revision-Date: 2025-11-22 18:25\n"
+"PO-Revision-Date: 2026-01-19 14:58\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -79,7 +79,7 @@ msgstr "Vänlig"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
-msgstr "Anti-företag"
+msgstr "Företagsoberoende"
 
 #: templates/index.html:53
 msgid "Track your reading"
@@ -195,7 +195,7 @@ msgstr "Dokumentation"
 
 #: templates/layout.html:87
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> är samarbetsvillig, företagsfientlig programvara som underhålls av <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> är samarbetsvillig, företagsoberoende programvara som underhålls av <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:90
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
