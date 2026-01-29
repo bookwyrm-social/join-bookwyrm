@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-22 09:37-0800\n"
-"PO-Revision-Date: 2025-11-22 18:25\n"
+"PO-Revision-Date: 2026-01-29 20:39\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -159,7 +159,7 @@ msgstr "Sociale media"
 
 #: templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+msgstr "Je kan BookWyrm volgen op <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> voor informatie over nieuwe functionaliteiten. Voel je vrij het account te taggen of een privébericht te sturen als je contact wilt hebben."
 
 #: templates/get-involved/index.html:65
 msgid "Developer Chat"
@@ -203,7 +203,7 @@ msgstr "Steun BookWyrm op <a href='https://www.patreon.com/bookwyrm' target='_bl
 
 #: templates/layout.html:92
 msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
-msgstr ""
+msgstr "Ondersteun BookWyrm op <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
 
 #: templates/layout.html:98
 msgid "BookWyrm on GitHub"
