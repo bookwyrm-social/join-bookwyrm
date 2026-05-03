@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-22 09:37-0800\n"
-"PO-Revision-Date: 2025-11-22 18:25\n"
+"PO-Revision-Date: 2026-05-03 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -35,27 +35,27 @@ msgstr "Küçük, Kendi Kendini Yöneten Topluluklar Ağı"
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr ""
+msgstr "Tek bir devasa BookWyrm sitesi yerine, birbiriyle sorunsuz bir şekilde etkileşime girebilen pek çok BookWyrm sunucusu vardır. Güvendiğiniz küçük bir topluluğun avantajlarından yararlanırken, aynı zamanda (istediğiniz zaman) ilginç yeni insanlardan oluşan geniş bir ağla etkileşim kurmaya devam edebilirsiniz."
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
-msgstr ""
+msgstr "Bu, kayıt olmak için tek bir yer olmadığı anlamına gelir! İlgi alanlarınıza uygun görünen bir sunucu seçebilir veya rastgele birini deneyebilirsiniz &mdash; hepsi çok nezih yerlerdir."
 
 #: templates/instances/index.html:38 templates/instances/index.html:50
 msgid "Join instance"
-msgstr ""
+msgstr "Sunucuya katıl"
 
 #: templates/instances/index.html:40 templates/instances/index.html:54
 msgid "Request Invite"
-msgstr ""
+msgstr "Davet isteyin"
 
 #: templates/instances/index.html:48
 msgid "users"
-msgstr ""
+msgstr "kullanıcılar"
 
 #: templates/instances/index.html:49
 msgid "Open registration"
-msgstr ""
+msgstr "Kayıt sayfasını aç"
 
 #: templates/instances/index.html:49
 msgid "Registration by request"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: templates/instances/index.html:50 templates/instances/index.html:64
 msgid "Learn More"
-msgstr ""
+msgstr "Daha Fazla Öğren"
 
 #: templates/index.html:10
 msgid "BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other <a href='http://activitypub.rocks/' target='_blank'>ActivityPub</a> services like <a href='https://joinmastodon.org/' target='_blank'>Mastodon</a> and <a href='http://pleroma.social/' target='_blank'>Pleroma</a>."
@@ -71,11 +71,11 @@ msgstr ""
 
 #: templates/index.html:18
 msgid "Decentralized"
-msgstr ""
+msgstr "Merkeziyetsiz"
 
 #: templates/index.html:24
 msgid "Friendly"
-msgstr ""
+msgstr "Dostça"
 
 #: templates/index.html:30
 msgid "Anti-Corporate"
