@@ -3,23 +3,23 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-22 09:37-0800\n"
-"PO-Revision-Date: 2025-11-22 18:25\n"
+"PO-Revision-Date: 2026-04-13 23:13\n"
 "Last-Translator: \n"
-"Language-Team: Bengali, India\n"
-"Language: bn_IN\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: bookwyrm\n"
 "X-Crowdin-Project-ID: 479239\n"
-"X-Crowdin-Language: bn-IN\n"
+"X-Crowdin-Language: fa\n"
 "X-Crowdin-File: /[bookwyrm-social.join-bookwyrm] main/locale/en_US/LC_MESSAGES/messages.po\n"
 "X-Crowdin-File-ID: 1581\n"
 
 #: templates/index.html:5
 msgid "Welcome to BookWyrm"
-msgstr "BookWyrm-এ স্বাগতম"
+msgstr ""
 
 #: templates/index.html:6
 msgid "Social Reading and Reviewing, Decentralized"
@@ -27,15 +27,15 @@ msgstr ""
 
 #: templates/instances/index.html:5 templates/index.html:38
 msgid "Join BookWyrm"
-msgstr "BookWyrm-এ যুক্ত হোন"
+msgstr ""
 
 #: templates/instances/index.html:6
 msgid "A Network of Small, Self-Directed Communities"
-msgstr "ছোটো এবং স্ব-পরিচালিত কমিউনিটি"
+msgstr ""
 
 #: templates/instances/index.html:13
 msgid "Instead of one huge BookWyrm site, there are many instances of BookWyrm which can interact seamlessly with one another. You can have the benefits of small community you trust, while still interacting with a large network of interesting new people (when you want to)."
-msgstr "একটি বড়সর BookWyrm সাইটের বদলে অনেকগুলো BookWyrm ইন্সট্যান্স রয়েছে যা একে অপরের সাথে নিরবিচ্ছিন্নভাবে যোগাযোগ করতে পারে। আপনি বিশ্বাসযোগ্য ছোটো কমিউনিটিতে থাকার সুবিধার পাশাপাশি বড় একটি নেটওয়ার্কের নতুন মানুষদের সাথে যোগাযোগ করতে পারবেন (যখন আপনি চান)।"
+msgstr ""
 
 #: templates/instances/index.html:16
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."

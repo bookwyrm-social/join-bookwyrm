@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 19:16-0800\n"
-"PO-Revision-Date: 2025-11-22 17:26\n"
+"POT-Creation-Date: 2025-11-22 09:37-0800\n"
+"PO-Revision-Date: 2025-11-22 18:25\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -41,33 +41,27 @@ msgstr "一つの巨大なBookWyrmサイトの代わりに、互いにシーム�
 msgid "This means there isn't just one place to sign up! You can select an instance that sounds like a good fit for your interests, or just try one at random &mdash; they're all very nice."
 msgstr "つまり、新規登録するだけのBookWyrmインスタンスは一つだけではありません！ あなたの興味によく合った印象を与えるような、インスタンスを選ぶことができます。 または単にランダムにインスタンスを選んで試してみてください。 &mdash; 全てのインスタンスは、みんなとても素敵です。"
 
-#: templates/instances/index.html:38 templates/instances/index.html:41
-#: templates/instances/index.html:50
+#: templates/instances/index.html:38 templates/instances/index.html:50
 msgid "Join instance"
 msgstr "インスタンスに参加"
 
-#: templates/instances/index.html:40 templates/instances/index.html:43
-#: templates/instances/index.html:45 templates/instances/index.html:54
+#: templates/instances/index.html:40 templates/instances/index.html:54
 msgid "Request Invite"
 msgstr "招待をリクエスト"
 
-#: templates/instances/index.html:48 templates/instances/index.html:51
+#: templates/instances/index.html:48
 msgid "users"
 msgstr "ユーザー"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Open registration"
 msgstr "許可なしで新規登録可能"
 
-#: templates/instances/index.html:49 templates/instances/index.html:52
-#: templates/instances/index.html:54
+#: templates/instances/index.html:49
 msgid "Registration by request"
 msgstr "招待リクエストによる新規登録"
 
-#: templates/instances/index.html:50 templates/instances/index.html:53
-#: templates/instances/index.html:54 templates/instances/index.html:56
-#: templates/instances/index.html:55 templates/instances/index.html:64
+#: templates/instances/index.html:50 templates/instances/index.html:64
 msgid "Learn More"
 msgstr "詳しく見る"
 
@@ -123,67 +117,9 @@ msgstr "あなたがしたい方法で"
 msgid "Write reviews or post casual commentary as you go, and control who gets to see your posts with granular privacy settings."
 msgstr "本へのレビューを書く、または気楽にコメントを投稿しましょう。そして、細かい公開設定で誰があなたの投稿を見ることができるか、コントロールしましょう。"
 
-#: templates/layout.html:4
-msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: ソーシャルリーディングとレビュー"
-
-#: templates/layout.html:35
-msgid "Join"
-msgstr "参加する"
-
-#: templates/layout.html:38 templates/layout.html:41 templates/layout.html:43
-msgid "Support"
-msgstr "サポート"
-
-#: templates/layout.html:41 templates/layout.html:44 templates/layout.html:58
-msgid "Code"
-msgstr "ソースコード"
-
-#: templates/layout.html:44 templates/layout.html:99 templates/layout.html:47
-#: templates/layout.html:102 templates/layout.html:61 templates/layout.html:118
-msgid "Documentation"
-msgstr "ドキュメント"
-
-#: templates/layout.html:70 templates/layout.html:73 templates/layout.html:87
-msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> は、<a href='https://www.mousereeve.com/'>Mouse Reeve</a> によってメンテナンスされている、協調型のアンチ・コーポレートなソフトウェアです。"
-
-#: templates/layout.html:73 templates/layout.html:76 templates/layout.html:90
-msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
-msgstr "BookWyrmを<a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>で支援する"
-
-#: templates/layout.html:77 templates/get-involved/index.html:5
-#: templates/layout.html:80 templates/layout.html:96
+#: templates/get-involved/index.html:5 templates/layout.html:96
 msgid "Get Involved"
 msgstr "参加する"
-
-#: templates/layout.html:79 templates/layout.html:82 templates/layout.html:98
-msgid "BookWyrm on GitHub"
-msgstr "BookWyrmのGithubリポジトリ"
-
-#: templates/layout.html:82 templates/layout.html:85 templates/layout.html:101
-msgid "Contribute to this page"
-msgstr "このサイトにコントリビュート"
-
-#: templates/layout.html:97 templates/layout.html:100 templates/layout.html:116
-msgid "Learn more"
-msgstr "さらに詳しく"
-
-#: templates/layout.html:102 templates/layout.html:105
-#: templates/layout.html:121
-msgid "Contact maintainer"
-msgstr "メンテナーにお問い合わせ"
-
-#: templates/layout.html:105 templates/layout.html:108
-#: templates/layout.html:124
-msgid "License"
-msgstr "ライセンス"
-
-#: templates/instances/index.html:51 templates/instances/index.html:53
-#: templates/instances/index.html:62
-#, c-format
-msgid "%s users"
-msgstr "%sユーザー"
 
 #: templates/get-involved/index.html:6
 msgid "Human-scale software"
@@ -193,9 +129,13 @@ msgstr "ヒューマンスケールなソフトウェア"
 msgid "BookWyrm is designed to stay small and personal; if you have feature requests, bug reports, or grand dreams, we'd love for you to join the conversation."
 msgstr "BookWyrmは小規模でパーソナルな存在でありたいと考えています。機能リクエストやバグレポートや壮大な夢があれば、ぜひ会話に参加してください。"
 
+#: templates/get-involved/index.html:27
+msgid "Meet the maintainer"
+msgstr "メンテナーの紹介"
+
 #: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal for BookWyrm is to make it kind and welcoming, as a developer community and as a piece of software."
-msgstr "BookWyrm は <a href='https://mousereeve.com/'>Mouse Reeve</a> によってメンテナンスされています。彼はプロジェクトの舵を切る人であり、 開発者コミュニティの管理を行い、そしてバグを組み込んでしまうよりも早く修正する努力をしています。BookWyrmの主な目標は、開発者コミュニティとして、そしてソフトウェアの一部として、人々を温かく歓迎する場にすることです。"
+msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
+msgstr "BookWyrmは<a href='https://mousereeve.com/'>Mouse Reeve</a>によってメンテナンスされています。彼がプロジェクトの舵を取り、開発コミュニティの管理を行い、そしてバグを組み込んでしまうよりも早く直そうと努力しています。第一目標は、BookWyrmを人々を温かく迎え入れる場所にすることです。"
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
@@ -205,72 +145,85 @@ msgstr "バグや機能リクエスト"
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
 msgstr "BookWyrmのバグトラッカーやコードは<a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a>でホストされています。 &mdash; GitHubはバグ報告や新機能のリクエストを行うための最適な場です。"
 
-#: templates/get-involved/index.html:47 templates/get-involved/index.html:56
-msgid "Social Media"
-msgstr "ソーシャルメディア"
-
-#: templates/get-involved/index.html:50 templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> and <a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "BookWyrmの<a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a>と<a href='https://twitter.com/BookWyrmSocial' target='_blank'>Twitter</a>をフォローすることができ、Bookwyrmの新機能について知ることができます。気兼ねなくあなたの投稿にBookWyrmのアカウントを含めたり、また連絡を取りたい場合はダイレクト・メッセージを送信してください。"
-
-#: templates/get-involved/index.html:56 templates/get-involved/index.html:65
-msgid "Developer Chat"
-msgstr "開発者向けチャット"
-
-#: templates/get-involved/index.html:59 templates/get-involved/index.html:68
-msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr "私たちは<a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a>をBookWyrmの開発用チャット向けに利用しています。 &mdash; 質問をしたり、ヘルプを得るには素晴らしい場です。主な話題はBookWyrmのソフトウェアの開発やBookWyrmのインスタンスを動かすことについてですが、BookWyrmに関するあらゆる議論を歓迎しています。"
-
-#: templates/layout.html:38
-msgid "Get involved"
-msgstr "参加する"
-
-#: templates/get-involved/index.html:30
-msgid "BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place."
-msgstr "BookWyrmは<a href='https://mousereeve.com/'>Mouse Reeve</a>によってメンテナンスされています。彼がプロジェクトの舵を取り、開発コミュニティの管理を行い、そしてバグを組み込んでしまうよりも早く直そうと努力しています。第一目標は、BookWyrmを人々を温かく迎え入れる場所にすることです。"
-
-#: templates/instances/index.html:53 templates/instances/index.html:55
-#: templates/instances/index.html:54 templates/instances/index.html:63
-#, c-format
-msgid "Version %s"
-msgstr "バージョン %s"
-
 #: templates/get-involved/index.html:47
 msgid "Translations"
 msgstr "翻訳"
 
 #: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>documentation</a>."
-msgstr "BookWyrmを他の言語に<a href='https://translate.joinbookwyrm.com/' target='_blank'>翻訳する</a>お手伝いをお願いします！翻訳プロセスについては、詳しくは私たちの<a href='https://docs.joinbookwyrm.com/translations.html' target='_blank'>ドキュメント</a>で知ることができます。"
+msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
+msgstr "BookWyrmを他の言語に<a href='https://translate.joinbookwyrm.com/' target='_blank'>翻訳する</a>お手伝いをお願いします！翻訳プロセスについては、私たちの<a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>ドキュメント</a>でその詳細を知ることができます。"
 
-#: templates/instances/index.html:62 templates/instances/index.html:64
-#: templates/instances/index.html:63 templates/instances/index.html:72
-msgid "Is your instance missing from this list?"
-msgstr "あなたのインスタンスが上記のリストにありませんでしたか？"
+#: templates/get-involved/index.html:56
+msgid "Social Media"
+msgstr "ソーシャルメディア"
 
-#: templates/instances/index.html:66 templates/instances/index.html:68
-#: templates/instances/index.html:67 templates/instances/index.html:76
-msgid "Open a GitHub issue"
-msgstr "GitHubでissueを開く"
+#: templates/get-involved/index.html:59
+msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
+msgstr ""
 
-#: templates/instances/index.html:71 templates/instances/index.html:73
-#: templates/instances/index.html:72 templates/instances/index.html:81
-msgid "Not finding what you want?"
-msgstr "お探しのものが見つかりませんか？"
+#: templates/get-involved/index.html:65
+msgid "Developer Chat"
+msgstr "開発者向けチャット"
 
-#: templates/instances/index.html:75 templates/instances/index.html:77
-#: templates/instances/index.html:76 templates/instances/index.html:85
-msgid "Run your own BookWyrm community"
-msgstr "あなただけのBookWyrmコミュニティを作る"
+#: templates/get-involved/index.html:68
+msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
+msgstr "私たちは<a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a>をBookWyrmの開発用チャット向けに利用しています。 &mdash; 質問をしたり、ヘルプを得るには素晴らしい場です。主な話題はBookWyrmのソフトウェアの開発やBookWyrmのインスタンスを動かすことについてですが、BookWyrmに関するあらゆる議論を歓迎しています。"
 
-#: templates/instances/index.html:78 templates/instances/index.html:80
-#: templates/instances/index.html:79 templates/instances/index.html:88
-msgid "Or skip the technical work and get managed hosting"
-msgstr "または、技術的な作業を省いてホスティング管理を依頼する"
+#: templates/layout.html:4
+msgid "BookWyrm: Social Reading and Reviewing"
+msgstr "BookWyrm: ソーシャルリーディングとレビュー"
 
-#: templates/instances/index.html:43 templates/instances/index.html:52
-msgid "Registration closed"
-msgstr "新規登録が閉じられています"
+#: templates/layout.html:35
+msgid "Join"
+msgstr "参加する"
+
+#: templates/layout.html:38
+msgid "Get involved"
+msgstr "参加する"
+
+#: templates/layout.html:43
+msgid "Support"
+msgstr "サポート"
+
+#: templates/layout.html:58
+msgid "Code"
+msgstr "ソースコード"
+
+#: templates/layout.html:61 templates/layout.html:118
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: templates/layout.html:87
+msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> は、<a href='https://www.mousereeve.com/'>Mouse Reeve</a> によってメンテナンスされている、協調型のアンチ・コーポレートなソフトウェアです。"
+
+#: templates/layout.html:90
+msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
+msgstr "BookWyrmを<a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>で支援する"
+
+#: templates/layout.html:92
+msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
+msgstr ""
+
+#: templates/layout.html:98
+msgid "BookWyrm on GitHub"
+msgstr "BookWyrmのGithubリポジトリ"
+
+#: templates/layout.html:101
+msgid "Contribute to this page"
+msgstr "このサイトにコントリビュート"
+
+#: templates/layout.html:116
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: templates/layout.html:121
+msgid "Contact maintainer"
+msgstr "メンテナーにお問い合わせ"
+
+#: templates/layout.html:124
+msgid "License"
+msgstr "ライセンス"
 
 #: templates/instances/index.html:21
 msgid "Sort By"
@@ -288,19 +241,37 @@ msgstr "バージョン"
 msgid "Registration Status"
 msgstr "新規登録の可否"
 
-#: templates/get-involved/index.html:27
-msgid "Meet the maintainer"
-msgstr "メンテナーの紹介"
+#: templates/instances/index.html:52
+msgid "Registration closed"
+msgstr "新規登録が閉じられています"
 
-#: templates/get-involved/index.html:50
-msgid "Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>."
-msgstr "BookWyrmを他の言語に<a href='https://translate.joinbookwyrm.com/' target='_blank'>翻訳する</a>お手伝いをお願いします！翻訳プロセスについては、私たちの<a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>ドキュメント</a>でその詳細を知ることができます。"
+#: templates/instances/index.html:62
+#, c-format
+msgid "%s users"
+msgstr "%sユーザー"
 
-#: templates/get-involved/index.html:59
-msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr ""
+#: templates/instances/index.html:63
+#, c-format
+msgid "Version %s"
+msgstr "バージョン %s"
 
-#: templates/layout.html:92
-msgid "Support BookWyrm on <a href='https://opencollective.com/bookwyrm' target='_blank'>Open Collective</a>."
-msgstr ""
+#: templates/instances/index.html:72
+msgid "Is your instance missing from this list?"
+msgstr "あなたのインスタンスが上記のリストにありませんでしたか？"
+
+#: templates/instances/index.html:76
+msgid "Open a GitHub issue"
+msgstr "GitHubでissueを開く"
+
+#: templates/instances/index.html:81
+msgid "Not finding what you want?"
+msgstr "お探しのものが見つかりませんか？"
+
+#: templates/instances/index.html:85
+msgid "Run your own BookWyrm community"
+msgstr "あなただけのBookWyrmコミュニティを作る"
+
+#: templates/instances/index.html:88
+msgid "Or skip the technical work and get managed hosting"
+msgstr "または、技術的な作業を省いてホスティング管理を依頼する"
 
