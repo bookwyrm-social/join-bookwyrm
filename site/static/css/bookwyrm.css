@@ -10,3 +10,11 @@
   height: auto;
   flex-direction: column;
 }
+
+.is-stretchable {
+    height: 100%;
+}
+
+h2 a {
+    text-decoration: none !important;
+}

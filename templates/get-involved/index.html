@@ -14,59 +14,85 @@
         </p>
     </div>
 
-    <div class="block">
-        <div class="notification has-background-white-bis" id="maintainer">
-            <div class="columns">
-                <div class="column is-2">
-                    <figure class="image is-128x128 is-64x64-mobile">
-                        <img src="/static/images/maintainer-headshot.png" alt="{{ _('Headshot of the maintainer') }}">
-                    </figure>
-                </div>
-                <div class="column content">
-                    <h2 class="title is-5">
-                        {{ _("Meet the maintainer") }}
-                    </h2>
-                    <p>
-                    {{ _("BookWyrm is maintained by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, manage the developer community, and try to fix bugs faster than they introduce them. Their primary goal is to make BookWyrm a kind and welcoming place.") }}
-                    </p>
-                </div>
+    <div class="block columns is-multiline">
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-warning-light" id="github">
+                <h2 class="title is-5">
+                    <a href="https://github.com/bookwyrm-social/bookwyrm/issues">
+                        <span class="icon icon-github"><span class="is-sr-only">Github</span></span>
+                        {{ _("Bugs and Feature Requests") }}
+                    </a>
+                </h2>
+                <p>
+                {{ _("BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests.") }}
+                </p>
             </div>
         </div>
 
-        <div class="notification has-background-primary-light" id="github">
-            <h2 class="title is-5">
-                {{ _("Bugs and Feature Requests") }}
-            </h2>
-            <p>
-            {{ _("BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests.") }}
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-primary-light" id="github">
+                <h2 class="title is-5">
+                    <a href="https://decisions.joinbookwyrm.com/">
+                        <span class="icon icon-loomio"><span class="is-sr-only">Loomio</span></span>
+                        {{ _("Decision-making") }}
+                    </a>
+                </h2>
+                <p>
+                {{ _("Bigger-picture and non-technical decision-making is coordinated on our <a href='https://decisions.joinbookwyrm.com/'>Loomio</a> group. Everyone who uses BookWyrm is encouraged to take part.") }}
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-success-light" id="translate">
-            <h2 class="title is-5">
-                {{ _("Translations") }}
-            </h2>
-            <p>
-            {{ _("Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>.") }}
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-success-light" id="translate">
+                <h2 class="title is-5">
+                    <a href="https://translate.joinbookwyrm.com/">
+                        <span class="icon icon-crowdin"><span class="is-sr-only">Crowdin</span></span>
+                        {{ _("Translations") }}
+                    </a>
+                </h2>
+                <p>
+                {{ _("Help <a href='https://translate.joinbookwyrm.com/' target='_blank'>translate</a> BookWyrm into other languages! You can learn more about the translation process in our <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>.") }}
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-link-light" id="social">
-            <h2 class="title is-5">
-                {{ _("Social Media") }}
-            </h2>
-            <p>
-            {{ _("You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.") }}
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-link-light" id="social">
+                <h2 class="title is-5">
+                    <a href="https://tech.lgbt/@bookwyrm">
+                        <span class="icon icon-mastodon"><span class="is-sr-only">Mastodon</span></span>
+                        {{ _("Social Media") }}
+                    </a>
+                </h2>
+                <p>
+                {{ _("You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.") }}
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-info-light" id="dev-chat">
-            <h2 class="title is-5">
-                {{ _("Developer Chat") }}
-            </h2>
-            <p>
-                {{ _("We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome.") }}
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-info-light" id="dev-chat">
+                <h2 class="title is-5">
+                    <a href="https://matrix.to/#/#bookwyrm:matrix.org">
+                        <span class="icon icon-matrix"><span class="is-sr-only">Matrix</span></span>
+                        {{ _("Developer Chat") }}
+                    </a>
+                </h2>
+                <p>
+                    {{ _("We use <a href='https://matrix.to/#/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome.") }}
+                </p>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="notification is-stretchable" id="maintainer">
+                <h2 class="title is-5">
+                    {{ _("Who maintains BookWyrm?") }}
+                </h2>
+                <p>
+                {{ _("BookWyrm was started by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, run the flagship instance, and manage the developer community. The project is community run and strives for a welcoming, non-heirarchical environment.") }}
+                </p>
+            </div>
         </div>
     </div>
 </section>

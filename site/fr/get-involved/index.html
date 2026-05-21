@@ -123,59 +123,85 @@
         </p>
     </div>
 
-    <div class="block">
-        <div class="notification has-background-white-bis" id="maintainer">
-            <div class="columns">
-                <div class="column is-2">
-                    <figure class="image is-128x128 is-64x64-mobile">
-                        <img src="/static/images/maintainer-headshot.png" alt="Headshot of the maintainer">
-                    </figure>
-                </div>
-                <div class="column content">
-                    <h2 class="title is-5">
-                        Rencontrez le responsable
-                    </h2>
-                    <p>
-                    BookWyrm est maintenu par <a href='https://mousereeve.com/'>Mouse Reeve</a> qui dirige le projet, gère la communauté des développeurs et essaie de corriger les bogues plus rapidement qu'ils ne sont introduits. Son premier objectif est de faire de BookWyrm un endroit accueillant et sympa.
-                    </p>
-                </div>
+    <div class="block columns is-multiline">
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-warning-light" id="github">
+                <h2 class="title is-5">
+                    <a href="https://github.com/bookwyrm-social/bookwyrm/issues">
+                        <span class="icon icon-github"><span class="is-sr-only">Github</span></span>
+                        Bogues et demandes de fonctionnalités
+                    </a>
+                </h2>
+                <p>
+                Le suivi de bogues et le code de BookWyrm sont hébergés sur <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; c'est le meilleur endroit pour rapporter des bogues et faire des demandes de fonctionnalités.
+                </p>
             </div>
         </div>
 
-        <div class="notification has-background-primary-light" id="github">
-            <h2 class="title is-5">
-                Bogues et demandes de fonctionnalités
-            </h2>
-            <p>
-            Le suivi de bogues et le code de BookWyrm sont hébergés sur <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; c'est le meilleur endroit pour rapporter des bogues et faire des demandes de fonctionnalités.
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-primary-light" id="github">
+                <h2 class="title is-5">
+                    <a href="https://decisions.joinbookwyrm.com/">
+                        <span class="icon icon-loomio"><span class="is-sr-only">Loomio</span></span>
+                        Decision-making
+                    </a>
+                </h2>
+                <p>
+                Bigger-picture and non-technical decision-making is coordinated on our <a href='https://decisions.joinbookwyrm.com/'>Loomio</a> group. Everyone who uses BookWyrm is encouraged to take part.
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-success-light" id="translate">
-            <h2 class="title is-5">
-                Traductions
-            </h2>
-            <p>
-            Aidez à <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduire</a> BookWyrm dans d'autres langues ! Vous pouvez en apprendre plus sur le processus de traduction dans notre <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>.
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-success-light" id="translate">
+                <h2 class="title is-5">
+                    <a href="https://translate.joinbookwyrm.com/">
+                        <span class="icon icon-crowdin"><span class="is-sr-only">Crowdin</span></span>
+                        Traductions
+                    </a>
+                </h2>
+                <p>
+                Aidez à <a href='https://translate.joinbookwyrm.com/' target='_blank'>traduire</a> BookWyrm dans d'autres langues ! Vous pouvez en apprendre plus sur le processus de traduction dans notre <a href='https://docs.joinbookwyrm.com/translation.html' target='_blank'>documentation</a>.
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-link-light" id="social">
-            <h2 class="title is-5">
-                Réseaux sociaux
-            </h2>
-            <p>
-            You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-link-light" id="social">
+                <h2 class="title is-5">
+                    <a href="https://tech.lgbt/@bookwyrm">
+                        <span class="icon icon-mastodon"><span class="is-sr-only">Mastodon</span></span>
+                        Réseaux sociaux
+                    </a>
+                </h2>
+                <p>
+                You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch.
+                </p>
+            </div>
         </div>
 
-        <div class="notification has-background-info-light" id="dev-chat">
-            <h2 class="title is-5">
-                Chat de développement
-            </h2>
-            <p>
-                Nous utilisons <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> pour le chat de développement BookWyrm &mdash; c'est un endroit idéal pour poser des questions et obtenir de l'aide. Il est centré sur le développement du logiciel BookWyrm et sur la gestion des instances de BookWyrm, mais toutes sortes de discussions autour de BookWyrm sont les bienvenues.
-            </p>
+        <div class="column is-6">
+            <div class="notification is-stretchable has-background-info-light" id="dev-chat">
+                <h2 class="title is-5">
+                    <a href="https://matrix.to/#/#bookwyrm:matrix.org">
+                        <span class="icon icon-matrix"><span class="is-sr-only">Matrix</span></span>
+                        Chat de développement
+                    </a>
+                </h2>
+                <p>
+                    We use <a href='https://matrix.to/#/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome.
+                </p>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="notification is-stretchable" id="maintainer">
+                <h2 class="title is-5">
+                    Who maintains BookWyrm?
+                </h2>
+                <p>
+                BookWyrm was started by <a href='https://mousereeve.com/'>Mouse Reeve</a> - they steer the project, run the flagship instance, and manage the developer community. The project is community run and strives for a welcoming, non-heirarchical environment.
+                </p>
+            </div>
         </div>
     </div>
 </section>
