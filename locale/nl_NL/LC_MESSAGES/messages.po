@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-22 09:37-0800\n"
-"PO-Revision-Date: 2026-08-08 20:30\n"
+"PO-Revision-Date: 2026-08-08 21:26\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -139,11 +139,11 @@ msgstr "BookWyrm wordt onderhouden door <a href='https://mousereeve.com/'>Mouse 
 
 #: templates/get-involved/index.html:38
 msgid "Bugs and Feature Requests"
-msgstr "Bugs en functie-aanvragen"
+msgstr "Bugrapportages en nieuwe functionaliteit-verzoeken"
 
 #: templates/get-involved/index.html:41
 msgid "BookWyrm's bug tracker and code are hosted on <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; it's the best place to report bugs and make feature requests."
-msgstr "BookWyrm's bug volger en broncode worden gehost op <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; het is de beste plek om bugs te melden en functie verzoeken te doen."
+msgstr "BookWyrm's bugtracker en broncode worden gehost op <a href='https://github.com/bookwyrm-social/bookwyrm/issues' target='_blank'>GitHub</a> &mdash; het is de beste plek om bugs te melden en verzoeken voor nieuwe functionaliteiten te doen."
 
 #: templates/get-involved/index.html:47
 msgid "Translations"
@@ -159,31 +159,31 @@ msgstr "Sociale media"
 
 #: templates/get-involved/index.html:59
 msgid "You can follow BookWyrm on <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> to get updates about new features. Feel free to tag the account or send a direct message if you'd like to get in touch."
-msgstr "Je kan BookWyrm volgen op <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> voor informatie over nieuwe functionaliteiten. Voel je vrij het account te taggen of een privébericht te sturen als je contact wilt hebben."
+msgstr "Je kan BookWyrm volgen op <a href='https://tech.lgbt/@bookwyrm' target='_blank'>Mastodon</a> voor informatie over nieuwe functionaliteiten. Voel je vrij het account te taggen of een privébericht te sturen als je contact wilt opnemen."
 
 #: templates/get-involved/index.html:65
 msgid "Developer Chat"
-msgstr "Ontwikkelaar Chat"
+msgstr "Ontwikkelaarskanaal"
 
 #: templates/get-involved/index.html:68
 msgid "We use <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> for BookWyrm development chat &mdash; it's a great place to ask questions and get help. It's focused on development of BookWyrm software and running BookWyrm instances, but all kinds of BookWyrm discussion is welcome."
-msgstr "We gebruiken <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> voor de BookWyrm ontwikkeling chat &mdash; Het is een geweldige plek om vragen te stellen en hulp te krijgen. Het is gericht op de ontwikkeling van BookWyrm software en het beheren van BookWyrm instanties, maar allerlei soorten discussie rondom BoekenWyrm zijn welkom."
+msgstr "We gebruiken <a href='https://app.element.io/#/room/#bookwyrm:matrix.org' target='_blank'>Matrix</a> als BookWyrm-ontwikkelaarskanaal &mdash; Het is een geweldige plek om vragen te stellen en hulp te krijgen. Het is gericht op de ontwikkeling van de BookWyrm-software en het beheren van BookWyrm-instanties, maar alle discussies rondom BookWyrm zijn welkom."
 
 #: templates/layout.html:4
 msgid "BookWyrm: Social Reading and Reviewing"
-msgstr "BookWyrm: Sociaal Lezen en Beoordelen"
+msgstr "BookWyrm: Samen lezen en beoordelen"
 
 #: templates/layout.html:35
 msgid "Join"
-msgstr "Wordt lid"
+msgstr "Lid worden"
 
 #: templates/layout.html:38
 msgid "Get involved"
-msgstr "Word betrokken"
+msgstr "Draag actief bij"
 
 #: templates/layout.html:43
 msgid "Support"
-msgstr "Ondersteuning"
+msgstr "Support"
 
 #: templates/layout.html:58
 msgid "Code"
@@ -195,7 +195,7 @@ msgstr "Documentatie"
 
 #: templates/layout.html:87
 msgid "<strong>BookWyrm</strong> is collaborative, anti-corporate software maintained by <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
-msgstr "<strong>BookWyrm</strong> is collaboratieve, anti-bedrijf software onderhouden door <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
+msgstr "<strong>BookWyrm</strong> is collaboratieve, anti-corporatieve software onderhouden door <a href='https://www.mousereeve.com/'>Mouse Reeve</a>."
 
 #: templates/layout.html:90
 msgid "Support BookWyrm on <a href='https://www.patreon.com/bookwyrm' target='_blank'>Patreon</a>."
@@ -207,7 +207,7 @@ msgstr "Ondersteun BookWyrm op <a href='https://opencollective.com/bookwyrm' tar
 
 #: templates/layout.html:98
 msgid "BookWyrm on GitHub"
-msgstr "BookWyrm on GitHub"
+msgstr "BookWyrm op GitHub"
 
 #: templates/layout.html:101
 msgid "Contribute to this page"
