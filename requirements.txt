@@ -1,5 +1,5 @@
 black==24.3.0
-pylint==2.15.10
+pylint==4.0.9
 Jinja2==3.1.6
 requests==2.32.4
 lxml==6.1.0
